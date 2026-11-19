@@ -1,0 +1,374 @@
+{
+  "title": "A slower evening",
+  "subtitle": "A six-round story about saying what you want and changing your mind.",
+  "setting": "You are Morgan, spending an evening with Alex at their apartment. You are both adult college students. You have been kissing, but the pace feels faster than you want. You pull back and take a moment to talk.",
+  "characters": [
+    {
+      "name": "Morgan",
+      "description": "You play Morgan, who likes Alex but is unsure how to ask for a slower pace."
+    },
+    {
+      "name": "Alex",
+      "description": "Morgan's partner, who has different expectations for the evening and needs clear information."
+    }
+  ],
+  "goal": "Express a present boundary, clarify a misunderstanding, and find a next step both people freely choose.",
+  "entry": "start",
+  "nodes": {
+    "start": {
+      "round": 1,
+      "phase": "Opening",
+      "title": "Finding the first words",
+      "situation": "You enjoy Alex's company, but the pace feels faster than you want. You pull back and decide to say something.",
+      "partner": "How are you feeling?",
+      "prompt": "How do you begin?",
+      "choices": [
+        {
+          "label": "I like being close to you, but I want to stop and check in.",
+          "response": "Okay, we've stopped. Did something feel wrong?",
+          "explanation": "You state what needs to happen now and leave room to explain later. Alex may still need help understanding what the pause means.",
+          "next": "clear_checkin"
+        },
+        {
+          "label": "Maybe we should take it easy or something.",
+          "response": "Do you mean a quick break, or do you want to stop for tonight?",
+          "explanation": "This sounds natural when you feel shy, but 'take it easy' can mean different things. You will have a chance to make your boundary more specific.",
+          "next": "vague_checkin"
+        }
+      ]
+    },
+    "clear_checkin": {
+      "round": 2,
+      "phase": "Clarifying",
+      "title": "A pause is not an accusation",
+      "situation": "Alex has stopped and moved back. They sound concerned that they have upset you.",
+      "partner": "Okay, we've stopped. Did something feel wrong?",
+      "prompt": "What do you want Alex to understand?",
+      "choices": [
+        {
+          "label": "I'm figuring out what I want. I don't want to go further tonight.",
+          "response": "Thanks for telling me. I thought you wanted to earlier, so I'm catching up.",
+          "explanation": "You describe your present decision without needing to prove that anything went wrong. A partner can need clarification while still respecting the stop.",
+          "next": "earlier_yes"
+        },
+        {
+          "label": "No, you're fine. I'm probably just overthinking it.",
+          "response": "So you still want to continue, but you're nervous?",
+          "explanation": "Reassurance may feel easier than stating a limit, but it can hide what you need. Alex has interpreted your words as uncertainty about continuing, which you can now correct.",
+          "next": "reassurance_misread"
+        }
+      ]
+    },
+    "vague_checkin": {
+      "round": 2,
+      "phase": "Clarifying",
+      "title": "What does slower mean?",
+      "situation": "Alex has paused but cannot tell whether you mean a different pace or an end to physical intimacy tonight.",
+      "partner": "Do you mean a quick break, or do you want to stop for tonight?",
+      "prompt": "How do you clarify?",
+      "choices": [
+        {
+          "label": "I mean I don't want to go further tonight. I should have said that more clearly.",
+          "response": "Thanks for telling me. I thought you wanted to earlier, so I'm catching up.",
+          "explanation": "You make the boundary clear and acknowledge the earlier ambiguity. Being clearer now does not make you responsible for someone ignoring a boundary.",
+          "next": "earlier_yes"
+        },
+        {
+          "label": "I don't know. You should be able to tell what I mean.",
+          "response": "I'm listening, but I can't tell what you want me to understand.",
+          "explanation": "Frustration is understandable, but asking someone to guess can prolong confusion. You can repair the wording while keeping your boundary intact.",
+          "next": "guessing_repair"
+        }
+      ]
+    },
+    "earlier_yes": {
+      "round": 3,
+      "phase": "Misunderstanding",
+      "title": "An earlier yes is not today's whole answer",
+      "situation": "Alex is thinking about what you said earlier in the evening. Physical contact remains paused as you explain your current choice.",
+      "partner": "Thanks for telling me. I thought you wanted to earlier, so I'm catching up.",
+      "prompt": "How do you explain the difference?",
+      "choices": [
+        {
+          "label": "I did want to kiss earlier, and now I want to stop. Both of those things can be true.",
+          "response": "Okay. I respect that. I'm disappointed because I had a different evening in mind.",
+          "explanation": "You distinguish a previous choice from your present one. Your partner's feelings do not create an obligation to continue.",
+          "next": "different_expectations"
+        },
+        {
+          "label": "I want to stay and talk, but I don't want any more physical contact tonight.",
+          "response": "I was hoping to stay physically close. Talking without that would be different from what I expected.",
+          "explanation": "You name both an invitation and a limit. Alex can decide whether the invitation works for them, without negotiating away the limit.",
+          "next": "different_company"
+        }
+      ]
+    },
+    "reassurance_misread": {
+      "round": 3,
+      "phase": "Misunderstanding",
+      "title": "Correcting the reassurance",
+      "situation": "Your attempt to make Alex feel better has left your own boundary unclear. You can revise your words.",
+      "partner": "So you still want to continue, but you're nervous?",
+      "prompt": "What do you say now?",
+      "choices": [
+        {
+          "label": "I made that sound unclear. I want to stop tonight, even though I like you.",
+          "response": "Okay. I respect that. I'm disappointed because I had a different evening in mind.",
+          "explanation": "You correct the interpretation without apologizing for the boundary. Liking someone and choosing to stop can coexist.",
+          "next": "different_expectations"
+        },
+        {
+          "label": "I'm uncertain, and I don't want to continue while I feel that way.",
+          "response": "Okay, we can leave it paused. Would you rather have some space or some company?",
+          "explanation": "You do not need to turn uncertainty into a yes or a detailed explanation. Alex's next question offers choices that you can also decline.",
+          "next": "uncertain_needs"
+        }
+      ]
+    },
+    "guessing_repair": {
+      "round": 3,
+      "phase": "Misunderstanding",
+      "title": "Repairing the tone",
+      "situation": "The conversation feels tense after your frustrated response. You still get to decide what happens to your body.",
+      "partner": "I'm listening, but I can't tell what you want me to understand.",
+      "prompt": "How do you return to the point?",
+      "choices": [
+        {
+          "label": "Sorry for expecting you to guess. What I mean is that I want to stop tonight.",
+          "response": "Okay. I respect that. I'm disappointed because I had a different evening in mind.",
+          "explanation": "You take responsibility for the unclear wording, not for having a limit. Repair can improve understanding without changing your decision.",
+          "next": "different_expectations"
+        },
+        {
+          "label": "I don't have a full explanation yet. I need us to stay paused while I figure it out.",
+          "response": "Okay, we can leave it paused. Would you rather have some space or some company?",
+          "explanation": "This gives Alex an actionable boundary even when you cannot explain every feeling. A pause does not require you to reach a decision on a deadline.",
+          "next": "uncertain_needs"
+        }
+      ]
+    },
+    "different_expectations": {
+      "round": 4,
+      "phase": "Different needs",
+      "title": "Disappointment does not decide for you",
+      "situation": "Alex has accepted the boundary and shared a feeling. You can acknowledge that feeling without fixing it through physical intimacy.",
+      "partner": "Okay. I respect that. I'm disappointed because I had a different evening in mind.",
+      "prompt": "What next step fits your needs?",
+      "choices": [
+        {
+          "label": "I understand. I still want to stop, and I think some space would help me.",
+          "response": "I can respect that. How would you like to wrap up the evening?",
+          "explanation": "You acknowledge Alex while maintaining your decision. Asking for space is an option even when nobody has done anything wrong.",
+          "next": "plan_space"
+        },
+        {
+          "label": "I hear you. I'd like to talk for a little while, with physical contact still off the table.",
+          "response": "I'm okay with talking. What would help us make that comfortable?",
+          "explanation": "You offer a specific kind of company while keeping the boundary explicit. Alex's agreement is about talking, not about resuming physical intimacy.",
+          "next": "plan_talk"
+        }
+      ]
+    },
+    "different_company": {
+      "round": 4,
+      "phase": "Different needs",
+      "title": "Company can mean different things",
+      "situation": "You want conversation; Alex had hoped for physical closeness. Neither preference has to override the other person's limits.",
+      "partner": "I was hoping to stay physically close. Talking without that would be different from what I expected.",
+      "prompt": "How do you make room for both people?",
+      "choices": [
+        {
+          "label": "You don't have to keep hanging out. We can call it a night and have some space.",
+          "response": "I can respect that. How would you like to wrap up the evening?",
+          "explanation": "You leave room for Alex to decline company while keeping your own limit. Ending an evening can be a mutually respectful choice.",
+          "next": "plan_space"
+        },
+        {
+          "label": "I'd enjoy talking if you would too. I don't want either of us to treat it as a way to restart anything.",
+          "response": "I'm okay with talking. What would help us make that comfortable?",
+          "explanation": "You clarify what the invitation means and what it does not promise. The shared activity should be something both people actually want.",
+          "next": "plan_talk"
+        }
+      ]
+    },
+    "uncertain_needs": {
+      "round": 4,
+      "phase": "Different needs",
+      "title": "You can be unsure and still choose a pause",
+      "situation": "Alex is offering space or company. You do not have to decide what you want from the relationship tonight.",
+      "partner": "Okay, we can leave it paused. Would you rather have some space or some company?",
+      "prompt": "Which need do you name?",
+      "choices": [
+        {
+          "label": "Some space would help. I want to head home and think without rushing.",
+          "response": "I can respect that. How would you like to wrap up the evening?",
+          "explanation": "You choose an immediate next step without making a promise about later. Taking time can help you hear your own preferences.",
+          "next": "plan_space"
+        },
+        {
+          "label": "I'd like some company while we talk, but I still don't want physical contact.",
+          "response": "I'm okay with talking. What would help us make that comfortable?",
+          "explanation": "You separate wanting company from consenting to touch. Naming that distinction reduces the need for either person to guess.",
+          "next": "plan_talk"
+        }
+      ]
+    },
+    "plan_space": {
+      "round": 5,
+      "phase": "Next steps",
+      "title": "Ending the evening deliberately",
+      "situation": "The physical boundary is settled. The remaining question is how you want to leave the conversation.",
+      "partner": "I can respect that. How would you like to wrap up the evening?",
+      "prompt": "What would be useful now?",
+      "choices": [
+        {
+          "label": "I'd like to head out. I don't want to make plans about next time tonight.",
+          "response": "Okay. We can finish here without deciding anything about next time.",
+          "explanation": "You make the immediate plan concrete and leave the future open. There is no need to promise another encounter to make a pause easier to accept.",
+          "next": "decision_space"
+        },
+        {
+          "label": "I'd like to leave now. Could we check in tomorrow about how we communicate?",
+          "response": "Yes, we can check in tomorrow. What would you want that conversation to cover?",
+          "explanation": "You propose a future conversation rather than a future sexual activity. Either person can revisit whether and when that conversation works.",
+          "next": "decision_later"
+        }
+      ]
+    },
+    "plan_talk": {
+      "round": 5,
+      "phase": "Next steps",
+      "title": "Giving the conversation a boundary too",
+      "situation": "You both want to talk with physical contact still paused. You can decide whether to do that now or after some time apart.",
+      "partner": "I'm okay with talking. What would help us make that comfortable?",
+      "prompt": "How do you shape the check-in?",
+      "choices": [
+        {
+          "label": "Let's sit separately and talk for a few minutes. We can stop the conversation too if either of us needs a break.",
+          "response": "That works for me. We can just talk, with no expectation that anything else happens.",
+          "explanation": "You make the shared plan specific and keep it voluntary. Choosing to talk does not commit either person to staying indefinitely.",
+          "next": "decision_talk"
+        },
+        {
+          "label": "Actually, I think tomorrow would be easier. I'd rather end the evening now.",
+          "response": "Yes, we can check in tomorrow. What would you want that conversation to cover?",
+          "explanation": "You can change your mind about talking now, just as you can about physical contact. Naming a new preference is part of the conversation.",
+          "next": "decision_later"
+        }
+      ]
+    },
+    "decision_space": {
+      "round": 6,
+      "phase": "Decision",
+      "title": "Leaving the future open",
+      "situation": "You are ready to leave, and Alex is respecting that. Choose how you want to close the exchange.",
+      "partner": "Okay. We can finish here without deciding anything about next time.",
+      "prompt": "What closing words fit?",
+      "choices": [
+        {
+          "label": "Thanks for listening. I'm heading home, and I'll take the time I need.",
+          "response": "Okay. Take care of yourself, and there's no pressure to decide anything tonight.",
+          "explanation": "You close with the immediate decision already made. An open future does not weaken the boundary you set tonight.",
+          "next": "ending_space"
+        },
+        {
+          "label": "I'd like to check in another day about what helps us speak up. We can find a time when we're both ready.",
+          "response": "I'd like that. We can choose a time without making assumptions about anything else.",
+          "explanation": "You turn the experience into an invitation for a later conversation. The invitation stays separate from any expectation of physical intimacy.",
+          "next": "ending_later"
+        }
+      ]
+    },
+    "decision_later": {
+      "round": 6,
+      "phase": "Decision",
+      "title": "A future check-in is not a future yes",
+      "situation": "Alex is open to another conversation. You can name its purpose or decide that you need an open-ended break.",
+      "partner": "Yes, we can check in tomorrow. What would you want that conversation to cover?",
+      "prompt": "How do you finish the plan?",
+      "choices": [
+        {
+          "label": "How we can ask and answer clearly, including when either of us wants to stop. It isn't a plan to resume anything.",
+          "response": "Understood. We can talk about communication and see how we both feel.",
+          "explanation": "You define a useful purpose without committing to an activity. Both people retain the choice to change plans.",
+          "next": "ending_later"
+        },
+        {
+          "label": "I think I need more time than that. Let's leave the timing open for now.",
+          "response": "Okay. We don't need to schedule anything tonight.",
+          "explanation": "You notice that the proposed timing does not fit and revise it. You can accept an invitation in principle without accepting a deadline.",
+          "next": "ending_space"
+        }
+      ]
+    },
+    "decision_talk": {
+      "round": 6,
+      "phase": "Decision",
+      "title": "A shared next step",
+      "situation": "You have agreed to talk without physical contact. You can begin that conversation or choose to finish for tonight.",
+      "partner": "That works for me. We can just talk, with no expectation that anything else happens.",
+      "prompt": "What do you choose?",
+      "choices": [
+        {
+          "label": "I'd like that. Let's start with what helps each of us feel comfortable saying yes, no, or not sure.",
+          "response": "Okay. I'll listen, and I'd like to share what helps me too.",
+          "explanation": "You begin with a topic that gives both people a voice. Continuing to talk still leaves room for a pause or an end to the evening.",
+          "next": "ending_talk"
+        },
+        {
+          "label": "I appreciate that. I'm feeling tired now, so I'd rather head home and leave it here.",
+          "response": "That's okay. We can end here.",
+          "explanation": "A mutually acceptable option is still optional. You do not have to follow through with a plan that no longer fits your needs.",
+          "next": "ending_space"
+        }
+      ]
+    }
+  },
+  "endings": {
+    "ending_space": {
+      "title": "An evening ends with a clear boundary",
+      "summary": "Morgan ends the evening without making promises about what happens next. Alex respects the pause. The conversation does not need to produce agreement about future intimacy to have reached a useful stopping point.",
+      "takeaways": [
+        "A previous yes does not decide what you want now.",
+        "You can acknowledge another person's feelings without changing your boundary.",
+        "Taking space can be the complete next step."
+      ],
+      "reflection": "Which sentence made Morgan's present choice clearest? How would you say it in your own voice?",
+      "resourceKeys": [
+        "care",
+        "uhs",
+        "shep"
+      ]
+    },
+    "ending_later": {
+      "title": "A conversation for another day",
+      "summary": "Morgan and Alex plan to revisit how they communicate when they both feel ready. They separate that invitation from any expectation of physical intimacy. Tonight's stop remains in place.",
+      "takeaways": [
+        "You can plan a check-in without promising a sexual activity.",
+        "Clear timing and purpose can reduce assumptions.",
+        "Either person can change their mind about a later plan."
+      ],
+      "reflection": "What would you want a later check-in to accomplish, and what would you want to leave undecided?",
+      "resourceKeys": [
+        "care",
+        "uhs",
+        "shep"
+      ]
+    },
+    "ending_talk": {
+      "title": "Company without an expectation",
+      "summary": "Morgan and Alex choose a short conversation with physical contact off the table. Each can describe what makes it easier to speak up, and either can pause or leave. Their shared choice is specific to this conversation.",
+      "takeaways": [
+        "Wanting company is separate from consenting to touch.",
+        "A useful check-in includes room for no and uncertainty.",
+        "A shared activity works only while both people freely want it."
+      ],
+      "reflection": "How did Morgan make the invitation to talk different from an invitation to resume physical intimacy?",
+      "resourceKeys": [
+        "care",
+        "uhs",
+        "shep"
+      ]
+    }
+  }
+}
