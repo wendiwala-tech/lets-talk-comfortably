@@ -60,19 +60,18 @@
     "provider": "Pexels"
   },
   "sexual-health": {
-    "file": "photo-priscilla-du-preez-cew-phwpgc.webp",
+    "file": "photo-jonathan-borba-15986555.webp",
     "width": 1400,
     "height": 933,
-    "position": "50% 50%",
-    "alt": "A coffee cup, notebook and pen on a wooden table.",
-    "photographer": "Priscilla Du Preez",
-    "provider": "Unsplash",
-    "source": "https://unsplash.com/photos/a-cup-of-coffee-and-a-notebook-on-a-table-CeW--PHwpGc",
-    "download": "https://images.unsplash.com/photo-1643148636637-58b3eb95cdad?fm=jpg&q=85&w=2000",
-    "license": "Unsplash License",
-    "licenseUrl": "https://unsplash.com/license",
+    "position": "50% 45%",
+    "alt": "A woman and a man sharing a conversation at a cafe table.",
+    "photographer": "Jonathan Borba",
+    "provider": "Pexels",
+    "source": "https://www.pexels.com/photo/couple-sitting-at-a-table-15986555/",
+    "download": "https://images.pexels.com/photos/15986555/pexels-photo-15986555.jpeg?cs=srgb&dl=pexels-jonathanborba-15986555.jpg&fm=jpg",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
     "checkedOn": "2026-11-19",
-    "publishedOn": "2022-01-25",
-    "camera": "Canon EOS 6D"
+    "cameraDate": "2023-02-04"
   }
 }
