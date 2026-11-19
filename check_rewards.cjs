@@ -11,7 +11,7 @@ const ROOT = __dirname;
 const sandbox = {window:{}};
 vm.createContext(sandbox);
 vm.runInContext(fs.readFileSync(path.join(ROOT,'dist/assets/rewards.js'),'utf8'), sandbox, {filename:'rewards.js'});
-const {summarize} = sandbox.window.ConversationReward;
+const {summarize,footprintRadii} = sandbox.window.ConversationReward;
 assert.equal(typeof summarize,'function','The reward module must expose summarize().');
 
 const dimensionIds = ['naming-needs','listening','boundaries','health-questions','clarifying','taking-time'];
@@ -61,6 +61,12 @@ function checkReferences(story,history,result) {
       }),'An example must be a selected, explicitly tagged line from this route.');
     });
   });
+  const radii = footprintRadii(result.counts);
+  assert.equal(radii.length,6);
+  assert.ok(radii.every(radius => radius >= 84 * .75 && radius < 84),
+    'Every direction must keep a generous foundation inside the outer hexagon.');
+  assert.ok(Math.max(...radii) - Math.min(...radii) <= 84 * .2,
+    'The completed shape must avoid a strongly low-looking direction.');
   if (result.keep) {
     assert.ok(actualChoices.some(choice => choice.label === result.keep.label && choice.moveTags.some(tag => validTags.has(tag))),
       'The keepsake must be a selected line with an explicit practice tag.');
@@ -103,6 +109,24 @@ for (const slug of slugs) {
 }
 
 test('All four original stories retain 256 complete routes',() => assert.equal(completePaths,256));
+
+test('The shared foundation is equal and does not invent practiced moves',() => {
+  const data = summarize({story:stories['sexual-health'],history:[]});
+  const radii = footprintRadii(data.counts);
+  assert.ok(radii.every(radius => radius === radii[0] && radius >= 84 * .75));
+  assertEmpty(data);
+  const larger = footprintRadii({'listening':4});
+  dimensionIds.forEach((id,index) => {
+    if (id === 'listening') assert.ok(larger[index] > radii[index]);
+    else assert.equal(larger[index],radii[index], 'One practiced move must not change other directions.');
+  });
+});
+
+test('Unexpected radius inputs still yield a complete, gentle keepsake',() => {
+  const radii = footprintRadii({'listening':Infinity,'boundaries':-5,'clarifying':'6','taking-time':999});
+  assert.ok(radii.every(radius => Number.isFinite(radius) && radius >= 84 * .75 && radius < 84));
+  assert.ok(Math.max(...radii)-Math.min(...radii) <= 84 * .2);
+});
 
 test('Pressure and guessing options do not earn positive move tags',() => {
   const cases = [

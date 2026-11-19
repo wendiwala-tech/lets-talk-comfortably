@@ -50,6 +50,15 @@
   function polygon(radius) {
     return dimensions.map((_, index) => point(index, radius).join(',')).join(' ');
   }
+  // A shared foundation keeps an unchosen move from looking like a low score.
+  // The small lift records this route's choices; it does not estimate ability.
+  function footprintRadii(counts = {}) {
+    return dimensions.map(d => {
+      const count = counts?.[d.id];
+      const moves = Number.isFinite(count) ? Math.max(0, count) : 0;
+      return 64 + Math.min(16, moves * 3);
+    });
+  }
   function render({story, history = [], slug = ''}) {
     const data = summarize({story, history});
     const uid = `conversation-reward-${++serial}`;
@@ -66,18 +75,18 @@
     const chart = svgEl('svg', {viewBox:'0 0 320 264', role:'img', 'aria-labelledby':`${uid}-chart-title ${uid}-chart-description`, class:'reward-chart'});
     const title = svgEl('title'); title.id = `${uid}-chart-title`; title.textContent = 'Your conversation constellation';
     const description = svgEl('desc'); description.id = `${uid}-chart-description`;
-    description.textContent = dimensions.map(d => `${d.label}: ${data.counts[d.id] ? `${data.counts[d.id]} selected communication moves` : 'not explored in these choices'}`).join('. ') + '. The shape summarizes this story, not personality or ability.';
+    description.textContent = 'Every direction begins with the same generous foundation. Your selected moves add a gentle outward lift. ' + dimensions.map(d => `${d.label}: ${data.counts[d.id] ? 'a move you practiced in this story' : 'room for another conversation'}`).join('. ') + '. This is a practice keepsake, not a score or a measure of personality or ability.';
     chart.append(title, description);
     [28, 56, 84].forEach(radius => chart.append(svgEl('polygon', {points:polygon(radius), class:'reward-grid'})));
     dimensions.forEach((d, index) => {
       const [x,y] = point(index,84);
       chart.append(svgEl('line',{x1:160,y1:129,x2:x,y2:y,class:'reward-axis'}));
     });
-    const radii = dimensions.map(d => data.counts[d.id] ? Math.min(80, 34 + data.counts[d.id] * 12) : 7);
+    const radii = footprintRadii(data.counts);
     chart.append(svgEl('polygon',{points:radii.map((radius,index) => point(index,radius).join(',')).join(' '),class:'reward-shape'}));
     dimensions.forEach((d,index) => {
       const [x,y] = point(index,radii[index]);
-      chart.append(svgEl('circle',{cx:x,cy:y,r:3.5,class:data.counts[d.id]?'reward-dot':'reward-dot reward-dot-empty'}));
+      chart.append(svgEl('circle',{cx:x,cy:y,r:3.5,class:'reward-dot'}));
     });
     const labelPositions = [[160,21,'middle'],[263,73,'middle'],[263,198,'middle'],[160,248,'middle'],[57,198,'middle'],[57,73,'middle']];
     dimensions.forEach((d,index) => {
@@ -85,7 +94,7 @@
       const text = svgEl('text',{x,y,'text-anchor':anchor,class:'reward-axis-label'}); text.textContent=d.short;
       chart.append(text);
     });
-    figure.append(chart, el('figcaption','Your conversation constellation','reward-caption'));
+    figure.append(chart, el('figcaption','Your conversation constellation','reward-caption'), el('p','Room to grow in every direction.','reward-chart-note'));
     const sparkle = el('span','✦','reward-sparkle'); sparkle.setAttribute('aria-hidden','true'); figure.append(sparkle);
     body.append(figure);
 
@@ -113,7 +122,7 @@
     } else {
       keepsake.append(el('p','More possibilities, whenever you want them','reward-small-label'),el('p','You can revisit a turn and try another way to say what matters to you.','reward-note'));
     }
-    keepsake.append(el('p','A snapshot of today’s choices, not a personality score.','reward-note'));
+    keepsake.append(el('p','A little keepsake from today’s practice. Every conversation leaves room to grow.','reward-note'));
     body.append(keepsake); section.append(body);
 
     const details = el('details',undefined,'reward-details');
@@ -128,17 +137,17 @@
       explanation.replaceChildren(el('h5',dim.label));
       if (examples.length) {
         const sample = examples[examples.length-1];
-        explanation.append(el('p',`You practiced this in ${examples.length} ${examples.length === 1 ? 'choice' : 'choices'}. One example, from round ${sample.round}:`),el('blockquote',`“${sample.label}”`));
-      } else explanation.append(el('p','Not explored in these choices. Every story and route is different; this does not mean a skill is missing.'));
+        explanation.append(el('p',`You made room for this move. A line you tried in round ${sample.round}:`),el('blockquote',`“${sample.label}”`));
+      } else explanation.append(el('p','Room to explore, whenever you feel ready. Another story may give you a chance to try this move in your own way.'));
     }
     dimensions.forEach((d,index) => {
       const button = el('button',d.label,'reward-dimension'); button.type='button'; button.setAttribute('aria-pressed',String(index === active));
       button.addEventListener('click',() => showDimension(index)); controls.append(button);
     });
     showDimension(active);
-    details.append(controls,explanation,el('p','Longer directions mean more of your selected lines used that communication move. They are not grades. Not every topic explores every direction.','reward-method'));
+    details.append(controls,explanation,el('p','Each direction starts with the same foundation. The moves you tried add a gentle outward lift. This shape celebrates your practice; it does not grade your skills.','reward-method'));
     section.append(details);
     return section;
   }
-  window.ConversationReward = {render,summarize,dimensions};
+  window.ConversationReward = {render,summarize,dimensions,footprintRadii};
 })();

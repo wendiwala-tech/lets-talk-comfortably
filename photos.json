@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "file": "photo-george-pak-7972533.webp",
+    "width": 1400,
+    "height": 933,
+    "position": "50% 58%",
+    "alt": "Three people with backpacks chatting outdoors beside a campus building.",
+    "photographer": "George Pak",
+    "source": "https://www.pexels.com/photo/photograph-of-a-group-of-friends-having-a-conversation-7972533/",
+    "download": "https://images.pexels.com/photos/7972533/pexels-photo-7972533.jpeg?cs=srgb&dl=pexels-george-pak-7972533.jpg&fm=jpg",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "checkedOn": "2026-11-19",
+    "cameraDate": "2021-04-19"
+  },
+  "consent-boundaries": {
+    "file": "photo-armin-rimoldi-5553035.webp",
+    "width": 1400,
+    "height": 933,
+    "position": "50% 55%",
+    "alt": "Two people with backpacks walking and talking on campus stairs.",
+    "photographer": "Armin Rimoldi",
+    "source": "https://www.pexels.com/photo/stylish-positive-diverse-friends-walking-downstairs-in-campus-5553035/",
+    "download": "https://images.pexels.com/photos/5553035/pexels-photo-5553035.jpeg?cs=srgb&dl=pexels-armin-rimoldi-5553035.jpg&fm=jpg",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "checkedOn": "2026-11-19",
+    "cameraDate": "2020-09-21"
+  },
+  "protection": {
+    "file": "photo-katerina-holmes-5910782.webp",
+    "width": 1400,
+    "height": 933,
+    "position": "50% 40%",
+    "alt": "Two adults chatting over takeaway coffee in a bakery.",
+    "photographer": "Katerina Holmes",
+    "source": "https://www.pexels.com/photo/smiling-young-couple-talking-in-cafe-drinking-coffee-together-5910782/",
+    "download": "https://images.pexels.com/photos/5910782/pexels-photo-5910782.jpeg?cs=srgb&dl=pexels-katerina-holmes-5910782.jpg&fm=jpg",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "checkedOn": "2026-11-19",
+    "cameraDate": "2020-11-02"
+  },
+  "preferences": {
+    "file": "photo-ivan-s-6436180.webp",
+    "width": 1400,
+    "height": 933,
+    "position": "50% 43%",
+    "alt": "Two women sharing a relaxed conversation at a cafe.",
+    "photographer": "Ivan S",
+    "source": "https://www.pexels.com/photo/women-sitting-near-the-table-while-having-conversation-6436180/",
+    "download": "https://images.pexels.com/photos/6436180/pexels-photo-6436180.jpeg?cs=srgb&dl=pexels-ivan-s-6436180.jpg&fm=jpg",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "checkedOn": "2026-11-19",
+    "cameraDate": "2020-11-09"
+  },
+  "sexual-health": {
+    "file": "photo-thirdman-8937480.webp",
+    "width": 933,
+    "height": 1400,
+    "position": "50% 30%",
+    "alt": "Two men talking over coffee in a sunlit cafe.",
+    "photographer": "Thirdman",
+    "source": "https://www.pexels.com/photo/two-men-drinking-coffee-while-talking-8937480/",
+    "download": "https://images.pexels.com/photos/8937480/pexels-photo-8937480.jpeg?cs=srgb&dl=pexels-thirdman-8937480.jpg&fm=jpg",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "checkedOn": "2026-11-19",
+    "cameraDate": "2021-07-15"
+  }
+}

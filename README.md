@@ -14,6 +14,7 @@ Live website: https://lets-talk-comfortably.netlify.app/
 - `stories/*.json`: the four branching, six-round conversations.
 - `practice-support.json`: hints, humor, and optional interactions.
 - `relationships.json`: character profiles and illustration mappings.
+- `photos.json`: editorial photography, credits, display positions, and source/license links.
 - `build.py`: page templates.
 - `dist/assets/`: CSS, JavaScript, and illustrations.
 - `dist/assets/compact.css`: compact practice presentation, using the existing reading styles.
@@ -49,5 +50,5 @@ For collaboration, create a branch, edit the source files, and open a pull reque
 ## Project notes
 
 
-Exercises use point-and-click choices. Practice settings stay in the browser tab; the website does not upload participants’ exercise answers. Actual usability-study results must come from real participants; the testing guide contains no fabricated results. Illustration generation records are included in the provenance files.
+Exercises use point-and-click choices. Practice settings stay in the browser tab; the website does not upload participants’ exercise answers. Actual usability-study results must come from real participants; the testing guide contains no fabricated results. Photography credits are on the Resources page; original source links and license notes are in `photos.json` and `photo-provenance.txt`. Illustration generation records are included in the provenance files. Editorial photos stay separate from the named comic characters.
 
