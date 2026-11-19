@@ -1,0 +1,35 @@
+.conversation-reward{margin:1.1rem 0 1rem;padding:1.2rem;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--text)}
+.reward-eyebrow{font-size:.76rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:650;margin:0 0 .4rem}
+.reward-heading{font-family:Georgia,"Times New Roman",serif;color:var(--ink);font-size:1.65rem;line-height:1.2;margin:0 0 .55rem;font-weight:500}
+.reward-encouragement{font-size:.95rem;line-height:1.5;margin:0 0 .8rem;max-width:42rem}
+.reward-body{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:1rem;align-items:center}
+.reward-figure{margin:0;position:relative;min-width:0}
+.reward-chart{width:100%;max-width:340px;height:auto;display:block;margin:auto;overflow:visible}
+.reward-grid,.reward-axis{fill:none;stroke:var(--line);stroke-width:1}
+.reward-axis{opacity:.8}
+.reward-shape{fill:var(--accent);fill-opacity:.17;stroke:var(--accent);stroke-width:2.2;transform-origin:160px 129px;animation:conversation-reward-bloom .55s cubic-bezier(.2,.7,.3,1) both}
+.reward-dot{fill:var(--accent)}.reward-dot-empty{fill:var(--paper);stroke:var(--muted);stroke-width:1.2}
+.reward-axis-label{fill:var(--text);font-family:inherit;font-size:16px;font-weight:500}
+.reward-caption{text-align:center;color:var(--ink);font-family:Georgia,"Times New Roman",serif;font-size:1rem;margin-top:-.15rem}
+.reward-sparkle{position:absolute;right:9%;top:4%;color:var(--accent);font-size:1.4rem;line-height:1;animation:conversation-reward-sparkle .6s ease-out both;pointer-events:none}
+.reward-keepsake{min-width:0;border-left:2px solid var(--line);padding-left:1rem}
+.reward-keepsake>summary{color:var(--accent);cursor:pointer;font-size:.875rem;line-height:1.5;min-height:40px;padding:.45rem 0}
+.reward-small-label{font-size:.8rem;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);font-weight:650;margin:0 0 .5rem}
+.reward-quote{font-family:Georgia,"Times New Roman",serif;font-size:1.18rem;line-height:1.4;color:var(--ink);margin:0 0 .25rem;overflow-wrap:anywhere}
+.reward-copy{min-height:44px;font-size:.88rem;padding:.45rem 0}
+.reward-copy-status:empty{display:none}.reward-copy-status{font-size:.82rem;line-height:1.45;color:var(--accent);margin:.2rem 0 .6rem}
+.reward-note{font-size:.82rem;line-height:1.45;color:var(--muted);margin:.55rem 0 0}
+.reward-details{border-top:1px solid var(--line);margin-top:1rem;padding-top:.65rem}
+.reward-details summary{font-size:.9rem;color:var(--accent);cursor:pointer;min-height:32px;padding:.2rem 0}
+.reward-dimensions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.45rem;margin:.7rem 0}
+.reward-dimension{font:inherit;font-size:.875rem;line-height:1.35;min-height:44px;padding:.5rem .55rem;text-align:left;background:var(--paper);color:var(--text);border:1px solid var(--line);border-radius:5px}
+.reward-dimension[aria-pressed="true"]{background:var(--soft);border-color:var(--accent);color:var(--ink)}
+.reward-dimension-detail{background:var(--tint);padding:.85rem 1rem;border-radius:5px;font-size:.9rem;line-height:1.5}
+.reward-dimension-detail h5{font-size:.95rem;color:var(--ink);margin:0 0 .35rem}
+.reward-dimension-detail p{margin:0 0 .45rem}
+.reward-dimension-detail blockquote{font-size:.95rem;line-height:1.5;margin:0;overflow-wrap:anywhere}
+.reward-method{font-size:.8rem;line-height:1.5;color:var(--muted);margin:.7rem 0 0}
+@keyframes conversation-reward-bloom{from{opacity:0;transform:scale(.5)}to{opacity:1;transform:scale(1)}}
+@keyframes conversation-reward-sparkle{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+@media(max-width:650px){.conversation-reward{padding:1rem;margin-top:.9rem}.reward-body{grid-template-columns:1fr;gap:.8rem}.reward-figure{max-width:290px;width:100%;margin:0 auto}.reward-chart{max-width:290px}.reward-keepsake{border-left:0;border-top:1px solid var(--line);padding: .8rem 0 0}.reward-heading{font-size:1.5rem}.reward-encouragement{font-size:.94rem;margin-bottom:.3rem}.reward-axis-label{font-size:17px}.reward-quote{font-size:1.1rem}.reward-dimensions{grid-template-columns:repeat(2,minmax(0,1fr))}.reward-dimension{font-size:.87rem}.reward-caption{font-size:.96rem}}
+@media(prefers-reduced-motion:reduce){.reward-shape,.reward-sparkle{animation:none}}

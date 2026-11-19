@@ -16,6 +16,8 @@ Live website: https://lets-talk-comfortably.netlify.app/
 - `relationships.json`: character profiles and illustration mappings.
 - `build.py`: page templates.
 - `dist/assets/`: CSS, JavaScript, and illustrations.
+- `dist/assets/compact.css`: compact practice presentation, using the existing reading styles.
+- `dist/assets/rewards.js` and `rewards.css`: a per-story conversation map based on optional choice `moveTags`.
 
 
 Edit the source JSON or templates rather than generated HTML. Run:
@@ -26,6 +28,7 @@ python3 build.py
 python3 check_site.py
 node check_path.cjs
 node check_relationships.cjs --assets
+node check_rewards.cjs
 ```
 
 

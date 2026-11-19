@@ -27,13 +27,18 @@
           "label": "I'd like to stay. Before we decide about sex, can we talk about protection?",
           "response": "Sure. Do you already have something in mind?",
           "explanation": "You separate staying together from deciding to have sex. Naming the topic now gives both people time to think.",
-          "next": "specific_question"
+          "next": "specific_question",
+          "moveTags": [
+            "naming-needs",
+            "health-questions"
+          ]
         },
         {
           "label": "Maybe. We should probably be careful, though.",
           "response": "When you say careful, what do you mean?",
           "explanation": "This can feel like an easier opening when you are shy. The word 'careful' leaves your actual condition unstated, so clarification matters.",
-          "next": "vague_question"
+          "next": "vague_question",
+          "moveTags": []
         }
       ]
     },
@@ -49,13 +54,18 @@
           "label": "I want us to use barriers if we have sex. That's something I need to feel comfortable.",
           "response": "Is this because you think I have an STI?",
           "explanation": "You make your condition specific and personal. Sam's response introduces a misunderstanding about your intention, rather than changing your right to that boundary.",
-          "next": "trust_misunderstanding"
+          "next": "trust_misunderstanding",
+          "moveTags": [
+            "naming-needs",
+            "health-questions"
+          ]
         },
         {
           "label": "Don't you already know what people are supposed to do?",
           "response": "That makes me feel judged. I'm trying to understand what you're asking.",
           "explanation": "This expresses frustration but does not clearly say what you need. You can repair the tone and still keep the same protection boundary.",
-          "next": "judgment_repair"
+          "next": "judgment_repair",
+          "moveTags": []
         }
       ]
     },
@@ -71,13 +81,18 @@
           "label": "I mean I want us to use barriers. I should have said that directly.",
           "response": "Is this because you think I have an STI?",
           "explanation": "You correct the ambiguity without making a claim about Sam's health. Clear language can still bring up feelings that need a separate response.",
-          "next": "trust_misunderstanding"
+          "next": "trust_misunderstanding",
+          "moveTags": [
+            "clarifying",
+            "naming-needs"
+          ]
         },
         {
           "label": "I don't know. It's probably fine.",
           "response": "Okay, so you're saying we don't need barrier protection?",
           "explanation": "Backing away may reduce awkwardness for a moment while leaving your needs hidden. Sam now thinks you have agreed to something you did not mean.",
-          "next": "agreement_assumed"
+          "next": "agreement_assumed",
+          "moveTags": []
         }
       ]
     },
@@ -93,13 +108,21 @@
           "label": "I'm not making an assumption about your health. Barrier protection is a condition I have for sex.",
           "response": "I understand what you're asking. I'd honestly rather not use barriers.",
           "explanation": "You explain your intention and make the boundary independent of an assumption about Sam. Understanding your request does not guarantee that your preferences will match.",
-          "next": "different_preference"
+          "next": "different_preference",
+          "moveTags": [
+            "naming-needs",
+            "boundaries"
+          ]
         },
         {
           "label": "This is about what I need to feel comfortable. We can talk about any questions, but I still want barrier protection.",
           "response": "I want to talk about protection too. I have questions about the options and don't feel ready to decide.",
           "explanation": "You make room for questions without making your condition optional. The next step can be getting information rather than reaching an immediate decision.",
-          "next": "different_information_needs"
+          "next": "different_information_needs",
+          "moveTags": [
+            "naming-needs",
+            "boundaries"
+          ]
         }
       ]
     },
@@ -115,13 +138,21 @@
           "label": "You're right, that came out badly. What I mean is that I only want to have sex with barrier protection.",
           "response": "I understand what you're asking. I'd honestly rather not use barriers.",
           "explanation": "You take responsibility for the tone and state the actual condition. A repaired conversation can still uncover a genuine disagreement.",
-          "next": "different_preference"
+          "next": "different_preference",
+          "moveTags": [
+            "clarifying",
+            "naming-needs"
+          ]
         },
         {
           "label": "I'm sorry for assuming. I want us to agree on barriers and check that we have what we need before deciding anything.",
           "response": "I'm open to using barriers, but I don't think we have the supplies we'd need here.",
           "explanation": "You move from a judgment to a specific request and practical question. Agreement about protection is different from having the supplies to follow through.",
-          "next": "missing_supplies"
+          "next": "missing_supplies",
+          "moveTags": [
+            "clarifying",
+            "boundaries"
+          ]
         }
       ]
     },
@@ -137,13 +168,21 @@
           "label": "No, that isn't what I meant. I was feeling awkward. I do want us to use barriers.",
           "response": "I understand what you're asking. I'd honestly rather not use barriers.",
           "explanation": "You name the misunderstanding and your present choice. You are allowed to correct an unclear answer rather than stay with someone else's interpretation.",
-          "next": "different_preference"
+          "next": "different_preference",
+          "moveTags": [
+            "clarifying",
+            "naming-needs"
+          ]
         },
         {
           "label": "I said that because I was nervous. I want barrier protection, so let's talk about what we'd need first.",
           "response": "I'm open to using barriers, but I don't think we have the supplies we'd need here.",
           "explanation": "You replace reassurance with a concrete condition and next step. Checking supplies does not commit you to having sex afterward.",
-          "next": "missing_supplies"
+          "next": "missing_supplies",
+          "moveTags": [
+            "naming-needs",
+            "health-questions"
+          ]
         }
       ]
     },
@@ -159,13 +198,21 @@
           "label": "I hear you. Barrier protection is a condition for me, so let's not have sex tonight.",
           "response": "Okay. We won't have sex tonight. Would you like some space?",
           "explanation": "You accept that the preferences differ and make a decision consistent with your condition. Neither person has to give in for the conversation to end respectfully.",
-          "next": "plan_no_sex"
+          "next": "plan_no_sex",
+          "moveTags": [
+            "listening",
+            "boundaries"
+          ]
         },
         {
           "label": "Then I don't want to have sex. We could just watch a movie if we'd both enjoy that, or call it a night.",
           "response": "I'd enjoy watching a movie. I don't want to assume that means anything else will happen.",
           "explanation": "You offer a separate activity without treating it as compensation or a route back to sex. Both people can also choose to end the evening.",
-          "next": "plan_company"
+          "next": "plan_company",
+          "moveTags": [
+            "naming-needs",
+            "boundaries"
+          ]
         }
       ]
     },
@@ -181,13 +228,21 @@
           "label": "Then let's not have sex tonight. I don't want the lack of supplies to decide my boundary for me.",
           "response": "Okay. We won't have sex tonight. Would you like some space?",
           "explanation": "You keep the practical obstacle separate from your willingness to change a condition. You can stop even when you both originally hoped to continue.",
-          "next": "plan_no_sex"
+          "next": "plan_no_sex",
+          "moveTags": [
+            "naming-needs",
+            "boundaries"
+          ]
         },
         {
           "label": "We can leave sex for another time. Would you like to watch a movie, with no expectation of anything else?",
           "response": "I'd enjoy watching a movie. I don't want to assume that means anything else will happen.",
           "explanation": "You suggest an alternative that does not depend on giving up your condition. A future possibility remains undecided rather than promised.",
-          "next": "plan_company"
+          "next": "plan_company",
+          "moveTags": [
+            "boundaries",
+            "taking-time"
+          ]
         }
       ]
     },
@@ -203,13 +258,21 @@
           "label": "Let's leave sex off the table tonight and look at UHS information when we're ready.",
           "response": "That sounds useful. We can get information without making a decision about sex tonight.",
           "explanation": "You propose an information step with no immediate sexual decision attached. Individual health questions can be directed to an appropriate professional.",
-          "next": "plan_information"
+          "next": "plan_information",
+          "moveTags": [
+            "health-questions",
+            "taking-time"
+          ]
         },
         {
           "label": "We don't have to solve this tonight. I'd rather take a break and think about my questions too.",
           "response": "Okay. We won't have sex tonight. Would you like some space?",
           "explanation": "You allow both people to be uncertain and choose time rather than a rushed answer. A pause can be useful even before you have a complete list of questions.",
-          "next": "plan_no_sex"
+          "next": "plan_no_sex",
+          "moveTags": [
+            "naming-needs",
+            "taking-time"
+          ]
         }
       ]
     },
@@ -225,13 +288,21 @@
           "label": "Yes. I'd like to head home and leave future plans open.",
           "response": "Okay. We can end the evening without deciding what happens next.",
           "explanation": "You specify what taking space means for tonight. There is no requirement to offer a later encounter in exchange for having your boundary respected.",
-          "next": "decision_space"
+          "next": "decision_space",
+          "moveTags": [
+            "naming-needs",
+            "taking-time"
+          ]
         },
         {
           "label": "I'd like some space now. Another day, we could talk about our needs before making any plans.",
           "response": "I'm open to that. What would you want us to talk about first?",
           "explanation": "You suggest a future discussion rather than a future yes. A later conversation can still reveal that your conditions differ.",
-          "next": "decision_plan"
+          "next": "decision_plan",
+          "moveTags": [
+            "naming-needs",
+            "taking-time"
+          ]
         }
       ]
     },
@@ -247,13 +318,21 @@
           "label": "That sounds good. Let's keep tonight to the movie, and either of us can call it a night whenever we want.",
           "response": "Agreed. Just the movie, and either of us can change our mind about staying.",
           "explanation": "You make the alternative specific and voluntary. Choosing company does not erase any earlier boundary.",
-          "next": "decision_company"
+          "next": "decision_company",
+          "moveTags": [
+            "listening",
+            "boundaries"
+          ]
         },
         {
           "label": "Actually, I feel ready to head home. Thanks for being willing to talk.",
           "response": "Okay. We can end the evening without deciding what happens next.",
           "explanation": "You can revise an invitation after thinking about it. Gratitude for the conversation does not require you to stay.",
-          "next": "decision_space"
+          "next": "decision_space",
+          "moveTags": [
+            "naming-needs",
+            "taking-time"
+          ]
         }
       ]
     },
@@ -269,13 +348,21 @@
           "label": "Let's each identify our questions and use UHS or SHEP to find reliable information before we talk again.",
           "response": "I'm open to that. What would you want us to talk about first?",
           "explanation": "You identify trustworthy starting points and give each person space to think. Information can support a choice without obligating either person to make the same choice.",
-          "next": "decision_plan"
+          "next": "decision_plan",
+          "moveTags": [
+            "health-questions",
+            "clarifying"
+          ]
         },
         {
           "label": "I'd rather look into my own questions first. Let's leave another conversation unscheduled for now.",
           "response": "Okay. We can end the evening without deciding what happens next.",
           "explanation": "You can seek information privately and decide later whether to share it. A joint activity is an invitation, not a requirement.",
-          "next": "decision_space"
+          "next": "decision_space",
+          "moveTags": [
+            "health-questions",
+            "taking-time"
+          ]
         }
       ]
     },
@@ -291,13 +378,21 @@
           "label": "Thanks for hearing me. I'm heading home, and I want to leave it here for now.",
           "response": "Understood. We can leave it here.",
           "explanation": "You finish with a clear present choice. A respectful ending does not require a solution to every difference between you.",
-          "next": "ending_pause"
+          "next": "ending_pause",
+          "moveTags": [
+            "naming-needs",
+            "taking-time"
+          ]
         },
         {
           "label": "I'd be open to another conversation about what we each need, when we're both ready.",
           "response": "Me too. We can talk without assuming what the outcome will be.",
           "explanation": "You leave room for learning more about each other's needs. The outcome of that conversation remains genuinely open.",
-          "next": "ending_plan"
+          "next": "ending_plan",
+          "moveTags": [
+            "listening",
+            "taking-time"
+          ]
         }
       ]
     },
@@ -313,13 +408,21 @@
           "label": "What conditions we each need, what questions we still have, and whether there is any plan we both freely want.",
           "response": "That sounds fair. If there isn't a shared plan, we can accept that too.",
           "explanation": "You make room for agreement and for continued disagreement. The goal is a voluntary choice, rather than persuading either person to drop a condition.",
-          "next": "ending_plan"
+          "next": "ending_plan",
+          "moveTags": [
+            "listening",
+            "clarifying"
+          ]
         },
         {
           "label": "I'm realizing I'd rather take more time first. I don't want to schedule another conversation yet.",
           "response": "Okay. We can leave the timing open.",
           "explanation": "You notice your own readiness and adjust the plan. You do not have to commit to another conversation simply because one was offered.",
-          "next": "ending_pause"
+          "next": "ending_pause",
+          "moveTags": [
+            "naming-needs",
+            "taking-time"
+          ]
         }
       ]
     },
@@ -335,13 +438,21 @@
           "label": "I'd like to stay for the movie. I'm glad we talked before making assumptions.",
           "response": "Me too. Let's pick something we both want to watch.",
           "explanation": "You choose a mutually wanted activity on its own terms. It does not serve as an implied promise about later in the evening.",
-          "next": "ending_company"
+          "next": "ending_company",
+          "moveTags": [
+            "naming-needs",
+            "boundaries"
+          ]
         },
         {
           "label": "I appreciate that, but I'd prefer to head home after all. Let's end the evening here.",
           "response": "Okay. Thanks for telling me what you want.",
           "explanation": "You can decide against even a considerate plan. Changing your mind is part of making a voluntary choice.",
-          "next": "ending_pause"
+          "next": "ending_pause",
+          "moveTags": [
+            "naming-needs",
+            "taking-time"
+          ]
         }
       ]
     }
