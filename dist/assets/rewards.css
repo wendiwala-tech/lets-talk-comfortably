@@ -8,9 +8,10 @@
 .reward-grid,.reward-axis{fill:none;stroke:var(--line);stroke-width:1}
 .reward-axis{opacity:.8}
 .reward-shape{fill:var(--accent);fill-opacity:.17;stroke:var(--accent);stroke-width:2.2;transform-origin:160px 129px;animation:conversation-reward-bloom .55s cubic-bezier(.2,.7,.3,1) both}
-.reward-dot{fill:var(--accent)}.reward-dot-empty{fill:var(--paper);stroke:var(--muted);stroke-width:1.2}
+.reward-dot{fill:var(--accent)}
 .reward-axis-label{fill:var(--text);font-family:inherit;font-size:16px;font-weight:500}
 .reward-caption{text-align:center;color:var(--ink);font-family:Georgia,"Times New Roman",serif;font-size:1rem;margin-top:-.15rem}
+.reward-chart-note{text-align:center;color:var(--muted);font-size:.875rem;line-height:1.45;margin:.3rem 0 0}
 .reward-sparkle{position:absolute;right:9%;top:4%;color:var(--accent);font-size:1.4rem;line-height:1;animation:conversation-reward-sparkle .6s ease-out both;pointer-events:none}
 .reward-keepsake{min-width:0;border-left:2px solid var(--line);padding-left:1rem}
 .reward-keepsake>summary{color:var(--accent);cursor:pointer;font-size:.875rem;line-height:1.5;min-height:40px;padding:.45rem 0}

@@ -1,0 +1,54 @@
+Editorial photography — Let’s Talk Comfortably
+Checked: 2026-11-19
+
+These are source photographs downloaded from the photographers’ Pexels and Unsplash pages, not AI-generated images. Production files have only been proportionally resized and encoded as WebP; no people, expressions, or backgrounds have been generated or changed. Cropping for the page layout uses CSS object-fit/object-position.
+
+Licenses: Pexels License (https://www.pexels.com/license/) and Unsplash License (https://unsplash.com/license).
+Both permit free website use and modification. Attribution is optional; we credit each photographer and source on the Resources page. Images are used as generic everyday-conversation context, without implied endorsement or health status. Pictured people are not named story characters or project participants. Campus locations are not represented as Berkeley. The sexual-health cover uses a quiet table scene without people.
+
+Original downloaded JPEGs are retained outside this repository in ../photo-candidates/. Public photos.json records production filenames, original source/download URLs, photographer credits, source dates when available, display positions, and verification date.
+
+PLACEMENT: hero
+ASSET: dist/assets/photo-george-pak-7972533.webp
+PHOTOGRAPHER: George Pak
+PROVIDER: Pexels
+SOURCE: https://www.pexels.com/photo/photograph-of-a-group-of-friends-having-a-conversation-7972533/
+DOWNLOAD: https://images.pexels.com/photos/7972533/pexels-photo-7972533.jpeg?cs=srgb&dl=pexels-george-pak-7972533.jpg&fm=jpg
+LICENSE: https://www.pexels.com/license/
+SOURCE CAMERA DATE: 2021-04-19
+
+PLACEMENT: consent-boundaries
+ASSET: dist/assets/photo-armin-rimoldi-5553035.webp
+PHOTOGRAPHER: Armin Rimoldi
+PROVIDER: Pexels
+SOURCE: https://www.pexels.com/photo/stylish-positive-diverse-friends-walking-downstairs-in-campus-5553035/
+DOWNLOAD: https://images.pexels.com/photos/5553035/pexels-photo-5553035.jpeg?cs=srgb&dl=pexels-armin-rimoldi-5553035.jpg&fm=jpg
+LICENSE: https://www.pexels.com/license/
+SOURCE CAMERA DATE: 2020-09-21
+
+PLACEMENT: protection
+ASSET: dist/assets/photo-katerina-holmes-5910782.webp
+PHOTOGRAPHER: Katerina Holmes
+PROVIDER: Pexels
+SOURCE: https://www.pexels.com/photo/smiling-young-couple-talking-in-cafe-drinking-coffee-together-5910782/
+DOWNLOAD: https://images.pexels.com/photos/5910782/pexels-photo-5910782.jpeg?cs=srgb&dl=pexels-katerina-holmes-5910782.jpg&fm=jpg
+LICENSE: https://www.pexels.com/license/
+SOURCE CAMERA DATE: 2020-11-02
+
+PLACEMENT: preferences
+ASSET: dist/assets/photo-ivan-s-6436180.webp
+PHOTOGRAPHER: Ivan S
+PROVIDER: Pexels
+SOURCE: https://www.pexels.com/photo/women-sitting-near-the-table-while-having-conversation-6436180/
+DOWNLOAD: https://images.pexels.com/photos/6436180/pexels-photo-6436180.jpeg?cs=srgb&dl=pexels-ivan-s-6436180.jpg&fm=jpg
+LICENSE: https://www.pexels.com/license/
+SOURCE CAMERA DATE: 2020-11-09
+
+PLACEMENT: sexual-health
+ASSET: dist/assets/photo-priscilla-du-preez-cew-phwpgc.webp
+PHOTOGRAPHER: Priscilla Du Preez
+PROVIDER: Unsplash
+SOURCE: https://unsplash.com/photos/a-cup-of-coffee-and-a-notebook-on-a-table-CeW--PHwpGc
+DOWNLOAD: https://images.unsplash.com/photo-1643148636637-58b3eb95cdad?fm=jpg&q=85&w=2000
+LICENSE: https://unsplash.com/license
+SOURCE PUBLISHED DATE: 2022-01-25
