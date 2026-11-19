@@ -1,0 +1,54 @@
+Comic reaction sprite sheets — Let’s Talk Comfortably
+Created: 2026-11-19
+Tool: built-in image_gen.imagegen (not CLI/API fallback)
+Purpose: AI-generated editorial comic frames for fictional adult conversation practice; not real students, participants, testimonials, or research results.
+
+The original website illustrations are preserved unchanged. New sheets derive the adult character designs from those existing AI-generated illustrations. They are strictly two columns by three rows, six square frames in row-major order:
+0 gentle nervous opening
+1 attentive listening
+2 puzzled / uncertain
+3 calm clarification
+4 respectful pause / space
+5 friendly acknowledgment / relief
+
+Production assets: dist/assets/comic-pair-mixed.webp, comic-pair-women.webp, comic-pair-men.webp.
+Source PNGs retained at ../comic-art-source/ outside the repository. WebP files are format-compressed versions only; no cropping, redrawing, compositing, or programmatic background removal was performed.
+All sheets: 1024 x 1536 pixels, RGBA. Transparency is generated alpha. No embedded text, labels, or dialogue; accessible labels and actual story dialogue are rendered by the website.
+
+ASSET: comic-pair-mixed.webp
+REFERENCE: dist/assets/health-woman-man.webp
+GENERATED SOURCE: ../comic-art-source/comic-pair-mixed.png
+PROMPT:
+Use case: illustration-story. Asset type: production CSS sprite contact sheet for a college sexual-health communication website.
+Primary request: transform the two fully clothed adult characters from the reference into a warm, soft stylized 3D comic sprite sheet with six distinct conversation expressions. Preserve their identities, hairstyles, skin tones and exact recognizable clothing from the reference. Keep a friendly, respectful editorial mood matching the warm original illustration.
+Composition: one transparent portrait canvas, exact 2:3 aspect ratio. STRICT mathematical grid of TWO COLUMNS and THREE ROWS; SIX EQUALLY SIZED SQUARE CELLS. No visible grid lines, borders, backgrounds, panels or tables. In EACH cell show the SAME TWO adults together, facing one another, waist-up, same scale, same left/right positions, same baseline and lighting. They are isolated cutout figures on real transparent alpha. Leave at least 6% transparent margin inside each square cell and a clear empty gap between cells. Never allow any hair, hand or body to cross cell boundaries.
+Six cells in row-major order: top-left = a gently nervous opening, speaker gathering their words, partner attentive; top-right = comfortable active listening, open posture and space; middle-left = puzzled and uncertain, slightly raised brows, not hostile; middle-right = calm clarification, modest open-palmed gesture; bottom-left = a respectful pause, both giving one another a little more space, one small open-hand pause gesture; bottom-right = friendly mutual acknowledgment and relief, subtle smiles, no touch and no romance.
+Constraints: exactly two adult people per cell, twelve character figures total. Every cell must be a usable separate animation frame. No text, letters, numbers, logos, speech balloons, icons, captions, props, furniture, scenery, shadows outside the character cutouts or watermark. No exaggerated anger, crying, celebration, hearts, sexual activity or nudity. Do not frame a boundary or pause as a bad outcome.
+Transparent background: genuine alpha, no checkerboard drawn into the image.
+Reference identity: woman on left with long dark wavy hair, gold hoop earrings, sage-green cardigan over cream shirt; man on right with curly dark hair, navy knit sweater over salmon collared shirt.
+
+
+ASSET: comic-pair-women.webp
+REFERENCE: dist/assets/health-woman-woman.webp
+GENERATED SOURCE: ../comic-art-source/comic-pair-women.png
+PROMPT:
+Use case: illustration-story. Asset type: production CSS sprite contact sheet for a college sexual-health communication website.
+Primary request: transform the two fully clothed adult characters from the reference into a warm, soft stylized 3D comic sprite sheet with six distinct conversation expressions. Preserve their identities, hairstyles, skin tones and exact recognizable clothing from the reference. Keep a friendly, respectful editorial mood matching the warm original illustration.
+Composition: one transparent portrait canvas, exact 2:3 aspect ratio. STRICT mathematical grid of TWO COLUMNS and THREE ROWS; SIX EQUALLY SIZED SQUARE CELLS. No visible grid lines, borders, backgrounds, panels or tables. In EACH cell show the SAME TWO adults together, facing one another, waist-up, same scale, same left/right positions, same baseline and lighting. They are isolated cutout figures on real transparent alpha. Leave at least 6% transparent margin inside each square cell and a clear empty gap between cells. Never allow any hair, hand or body to cross cell boundaries.
+Six cells in row-major order: top-left = a gently nervous opening, speaker gathering their words, partner attentive; top-right = comfortable active listening, open posture and space; middle-left = puzzled and uncertain, slightly raised brows, not hostile; middle-right = calm clarification, modest open-palmed gesture; bottom-left = a respectful pause, both giving one another a little more space, one small open-hand pause gesture; bottom-right = friendly mutual acknowledgment and relief, subtle smiles, no touch and no romance.
+Constraints: exactly two adult people per cell, twelve character figures total. Every cell must be a usable separate animation frame. No text, letters, numbers, logos, speech balloons, icons, captions, props, furniture, scenery, shadows outside the character cutouts or watermark. No exaggerated anger, crying, celebration, hearts, sexual activity or nudity. Do not frame a boundary or pause as a bad outcome.
+Transparent background: genuine alpha, no checkerboard drawn into the image.
+Reference identity: woman on left with short dense dark curls, gold hoops, olive overshirt over cream shirt; woman on right with shoulder-length brown waves, small gold hoops and coral knit sweater.
+
+
+ASSET: comic-pair-men.webp
+REFERENCE: dist/assets/health-3d.webp
+GENERATED SOURCE: ../comic-art-source/comic-pair-men.png
+PROMPT:
+Use case: illustration-story. Asset type: production CSS sprite contact sheet for a college sexual-health communication website.
+Primary request: transform the two fully clothed adult characters from the reference into a warm, soft stylized 3D comic sprite sheet with six distinct conversation expressions. Preserve their identities, hairstyles, skin tones and exact recognizable clothing from the reference. Keep a friendly, respectful editorial mood matching the warm original illustration.
+Composition: one transparent portrait canvas, exact 2:3 aspect ratio. STRICT mathematical grid of TWO COLUMNS and THREE ROWS; SIX EQUALLY SIZED SQUARE CELLS. No visible grid lines, borders, backgrounds, panels or tables. In EACH cell show the SAME TWO adults together, facing one another, waist-up, same scale, same left/right positions, same baseline and lighting. They are isolated cutout figures on real transparent alpha. Leave at least 6% transparent margin inside each square cell and a clear empty gap between cells. Never allow any hair, hand or body to cross cell boundaries.
+Six cells in row-major order: top-left = a gently nervous opening, speaker gathering their words, partner attentive; top-right = comfortable active listening, open posture and space; middle-left = puzzled and uncertain, slightly raised brows, not hostile; middle-right = calm clarification, modest open-palmed gesture; bottom-left = a respectful pause, both giving one another a little more space, one small open-hand pause gesture; bottom-right = friendly mutual acknowledgment and relief, subtle smiles, no touch and no romance.
+Constraints: exactly two adult people per cell, twelve character figures total. Every cell must be a usable separate animation frame. No text, letters, numbers, logos, speech balloons, icons, captions, props, furniture, scenery, shadows outside the character cutouts or watermark. No exaggerated anger, crying, celebration, hearts, sexual activity or nudity. Do not frame a boundary or pause as a bad outcome.
+Transparent background: genuine alpha, no checkerboard drawn into the image.
+Reference identity: man on left with medium wavy dark hair, round glasses, navy knit sweater and cream collar; man on right with short dense dark curls, salmon overshirt over cream shirt.

@@ -20,12 +20,12 @@
       "phase": "Opening",
       "title": "Bringing the question into the room",
       "situation": "Weekend plans are becoming more specific. You want to bring up testing now rather than rely on assumptions later.",
-      "partner": "I am looking forward to seeing you this weekend. What did you have in mind?",
+      "partner": "I'm really looking forward to this weekend. Any ideas for what we could do?",
       "prompt": "How do you introduce the health conversation?",
       "choices": [
         {
-          "label": "Can we talk about STI testing? I'm nervous bringing it up.",
-          "response": "Yes. What did you have in mind?",
+          "label": "There's something a little awkward I'd like to talk about—STI testing. Is now an okay time?",
+          "response": "Of course. What's on your mind?",
           "explanation": "You name the topic and acknowledge your nervousness without blaming Jordan. In this conversation, Jordan is willing to listen; you still need to explain what you are asking for.",
           "next": "willing",
           "moveTags": [
@@ -34,8 +34,8 @@
           ]
         },
         {
-          "label": "I'd like us to discuss STI testing before we have sex.",
-          "response": "Why? Don't you trust me?",
+          "label": "Before we have sex, could we talk about STI testing? I'd feel more comfortable if we did.",
+          "response": "We can. I'm a little surprised, though—are you worried I haven't been honest?",
           "explanation": "You clearly state when you need the conversation to happen. Jordan reacts defensively here; that reaction is something to respond to, not a reason your direct request was wrong.",
           "next": "trust",
           "moveTags": [
@@ -50,12 +50,12 @@
       "phase": "Clarifying",
       "title": "What are you asking to discuss?",
       "situation": "Jordan is open to talking, but has not agreed to share particular information or take a test.",
-      "partner": "What would you want us to talk about first?",
+      "partner": "What would you like to talk about first?",
       "prompt": "Where do you start?",
       "choices": [
         {
-          "label": "Could we talk about our testing histories and any questions we have?",
-          "response": "We can talk, but are you asking me to show you medical records?",
+          "label": "Maybe we could share what we're comfortable saying about past testing, and any questions we have?",
+          "response": "Sure. I'd just like to keep my medical records private.",
           "explanation": "You invite a two-way discussion rather than assume Jordan is ready to share particular details. Jordan hears a possible request for proof, so the next step is clarifying the scope rather than assuming permission to ask anything.",
           "next": "privacy",
           "moveTags": [
@@ -64,8 +64,8 @@
           ]
         },
         {
-          "label": "I have some questions about testing options. Could we look at the UHS information together?",
-          "response": "Maybe. Does looking at that mean I am agreeing to get a test?",
+          "label": "I'm not sure about the testing options. Would you want to look at the UHS page together?",
+          "response": "Maybe. Just to check, would we only be looking, or are you asking me to get tested?",
           "explanation": "You propose information as a starting point. Jordan wants to separate learning about services from agreeing to a health decision, which is a distinction you can make explicit.",
           "next": "uncertain_agreement",
           "moveTags": [
@@ -79,13 +79,13 @@
       "phase": "Clarifying",
       "title": "When a health question sounds personal",
       "situation": "Jordan heard the request as a statement about trust. You still want to explain why the conversation matters to you.",
-      "partner": "It feels like you think I am hiding something.",
+      "partner": "I'm a little worried you think I've been keeping something from you.",
       "prompt": "How do you respond without abandoning your own need?",
       "choices": [
         {
-          "label": "This is about my comfort and health. I'd like us to talk about testing.",
-          "response": "Okay, but I do not want this to turn into handing over records to prove myself.",
-          "explanation": "You bring the focus back to your own comfort and health. The concern now becomes more specific: what information you are asking Jordan to share.",
+          "label": "I can see why it landed that way. I'm nervous about my own health, and talking would help.",
+          "response": "I get that. I'd just like to keep my medical records private.",
+          "explanation": "You acknowledge how the question landed and explain your own nervousness. Jordan's concern now becomes more specific: which information they feel comfortable sharing.",
           "next": "privacy",
           "moveTags": [
             "naming-needs",
@@ -93,8 +93,8 @@
           ]
         },
         {
-          "label": "If you trusted me, you would just agree to it.",
-          "response": "I am not comfortable agreeing when I do not even know what you mean by \"it.\"",
+          "label": "Could you trust me on this and say yes? It would really put my mind at ease.",
+          "response": "I'd like to understand what you're asking before I agree.",
           "explanation": "This turns trust into a reason Jordan should comply, which increases the pressure. You can still repair that wording and clarify what talking, reading information, and deciding each mean.",
           "next": "uncertain_agreement",
           "moveTags": []
@@ -106,12 +106,12 @@
       "phase": "Misunderstanding",
       "title": "Conversation or proof?",
       "situation": "The conversation has reached a privacy concern. You need to explain what you want to know without treating access to records as something you are owed.",
-      "partner": "I do not want to hand over my medical records. Is that what you are asking for?",
+      "partner": "What did you have in mind for us to share?",
       "prompt": "How do you answer that specific concern?",
       "choices": [
         {
-          "label": "No, I am not asking for your records. We can choose what we share, and I can also decide what information I need before I feel comfortable having sex.",
-          "response": "I can talk about questions and look at information. I am not ready to decide about a test tonight.",
+          "label": "No, you don't need to show me records. We can choose what we share. I'd still like to wait on sex until I feel comfortable.",
+          "response": "I'd be okay talking and looking things up. I'm just not ready to decide about a test tonight.",
           "explanation": "You distinguish Jordan's choice about sharing from your choice about having sex. That leaves a real difference to work through without treating privacy as evidence of dishonesty.",
           "next": "different_choices",
           "moveTags": [
@@ -120,8 +120,8 @@
           ]
         },
         {
-          "label": "Just tell me everything so I can stop worrying.",
-          "response": "That feels like an interrogation. I do not want to keep answering questions to make the worry go away.",
+          "label": "Could you just tell me everything? I think I'd feel better if I knew.",
+          "response": "I want to help you feel more comfortable, but that's more than I'm ready to share.",
           "explanation": "You express anxiety, but \"everything\" gives Jordan no clear boundary around the request. Their response makes the pressure visible, and the next step is acknowledging it rather than asking for more detail.",
           "next": "repair_pressure",
           "moveTags": []
@@ -133,12 +133,12 @@
       "phase": "Misunderstanding",
       "title": "A conversation is not a commitment",
       "situation": "Jordan is not sure what agreement you are seeking. The word \"testing\" has started to stand for several decisions at once.",
-      "partner": "Does talking about testing mean promising to get a test or promising that we will have sex afterward?",
+      "partner": "Are we just talking for now? I don't want to promise a test—or sex afterward.",
       "prompt": "How do you separate those decisions?",
       "choices": [
         {
-          "label": "No. Talking, choosing a test, and deciding about sex are separate choices. I still want to wait until I am comfortable with our conversation.",
-          "response": "That helps. I can look at information, but I am not deciding about a test tonight.",
+          "label": "Just talking for now. Neither of us has to promise a test or sex. I'd still like to wait while I figure out my questions.",
+          "response": "That helps. I'd be okay looking things up, but I'm not deciding about a test tonight.",
           "explanation": "You clarify that one conversation does not commit either person to a health procedure or sexual activity. Your own choice to wait can remain in place while Jordan considers their separate decisions.",
           "next": "different_choices",
           "moveTags": [
@@ -147,8 +147,8 @@
           ]
         },
         {
-          "label": "We can work out the details later. Could you just say yes for now?",
-          "response": "I do not want to say yes to a plan I do not understand.",
+          "label": "Could we sort out the details later? I'd feel better if you could just say yes for now.",
+          "response": "I don't feel ready to say yes without knowing more. Could we slow down?",
           "explanation": "An early yes might feel reassuring, but it would not settle what either person has agreed to. Jordan's refusal creates a chance to stop seeking the word \"yes\" and return to a specific request.",
           "next": "repair_pressure",
           "moveTags": []
@@ -160,12 +160,12 @@
       "phase": "Different needs",
       "title": "Information now, decisions later",
       "situation": "Jordan is open to information but is not agreeing to a test. You are not ready to have sex while your questions remain unresolved.",
-      "partner": "I can read about it. I do not want to make a health decision tonight.",
+      "partner": "I'm happy to read a little about it. I'd rather leave any testing decisions for another day.",
       "prompt": "What next step respects both of those positions?",
       "choices": [
         {
-          "label": "We can read about the services without making a decision tonight. I want to keep sex off our plans while I work through my questions.",
-          "response": "Okay. I can look at the UHS page with you if it is only a first step.",
+          "label": "That's okay. We can just look for now. I'd like to wait on sex while I think things through.",
+          "response": "That works for me. Let's start with the UHS page and see what questions come up.",
           "explanation": "You propose a limited activity and state what is not planned. Reading information together does not need to end in the same decision for both people.",
           "next": "resource_step",
           "moveTags": [
@@ -174,8 +174,8 @@
           ]
         },
         {
-          "label": "We can each ask our own questions privately. I would rather wait than ask you to make a decision for my sake.",
-          "response": "I would prefer to ask my questions on my own, without having to report back by a deadline.",
+          "label": "Would you rather look into your questions on your own? I'm okay waiting instead of rushing you.",
+          "response": "I think I'd prefer that. I just don't know when I'll feel ready to talk again.",
           "explanation": "You allow separate information-seeking rather than making joint research a condition of cooperation. This also means you cannot assume a schedule or a later answer.",
           "next": "separate_step",
           "moveTags": [
@@ -190,13 +190,13 @@
       "phase": "Different needs",
       "title": "Taking the pressure out of the request",
       "situation": "Jordan has said no to an open-ended request or a premature agreement. You can acknowledge the wording while keeping your own boundary about sex.",
-      "partner": "I do not want to prove that I am trustworthy by agreeing to something.",
+      "partner": "I'm feeling a bit pushed. Could we slow down?",
       "prompt": "How do you repair the conversation?",
       "choices": [
         {
-          "label": "I made that sound like a test of trust, and I am sorry. Would you want to look at general information together, with no decision required?",
-          "response": "I could do that. I am agreeing to read information, not promising a test or sex.",
-          "explanation": "You identify the pressure instead of arguing that you meant well. Jordan accepts a narrower invitation, and their explicit limit needs to stay part of the plan.",
+          "label": "You're right, I was pushing for an answer. I'm sorry. Would just looking at some information together feel okay?",
+          "response": "I could do that, as long as we're only reading for now.",
+          "explanation": "You acknowledge pushing for an answer and apologize for that pressure. Jordan accepts a narrower invitation to read together, and that limit needs to stay part of the plan.",
           "next": "resource_step",
           "moveTags": [
             "clarifying",
@@ -204,8 +204,8 @@
           ]
         },
         {
-          "label": "I hear you. Let us stop the questions for now. I still want to wait on sex, and you can decide whether you want to seek information separately.",
-          "response": "I need some space. I might ask my own questions, but I do not want a deadline.",
+          "label": "I hear you. Let's take a break from the questions. I'll wait on sex, and you can take your own time.",
+          "response": "A little space would help. I might look into it myself, but I can't say when I'll be ready.",
           "explanation": "You stop pushing for an answer and describe what you will do rather than what Jordan must do. The conversation remains unresolved, with room for independent choices.",
           "next": "separate_step",
           "moveTags": [
@@ -220,12 +220,12 @@
       "phase": "Next steps",
       "title": "What a resource can and cannot answer",
       "situation": "You are considering the UHS Sexual Health Care page as a starting point. Neither of you has agreed to a test or a later activity.",
-      "partner": "Can the page tell us exactly what each of us needs? I still have questions.",
+      "partner": "Do you think this page will answer our questions? I'm still not sure where to start.",
       "prompt": "How do you approach information without pretending to know more than you do?",
       "choices": [
         {
-          "label": "We can use it to find services and questions to ask. A healthcare professional can help with individual testing questions; we do not have to settle them here.",
-          "response": "That sounds more useful than guessing. I can read the page and decide what I want to ask privately.",
+          "label": "It could help us find services and work out what to ask. A healthcare professional can help with our individual testing questions.",
+          "response": "That sounds like a good place to start. I'd like to keep some of my questions private, though.",
           "explanation": "You use the resource for access and preparation while leaving individual health decisions to an appropriate conversation. This keeps the website from becoming a promise of certainty or a substitute for personalized advice.",
           "next": "information_decision",
           "moveTags": [
@@ -234,8 +234,8 @@
           ]
         },
         {
-          "label": "Maybe one page will settle it, and then we can stop worrying about the whole thing.",
-          "response": "I do not think one page will answer everything for me. I am still not ready to make plans about sex.",
+          "label": "Maybe once we've read it, we'll have everything figured out and won't need to worry.",
+          "response": "I hope it helps, but I might still have questions. I'm not ready to make plans for sex.",
           "explanation": "You reach for a simple resolution, but Jordan does not share that confidence. Their answer gives you a chance to accept remaining uncertainty rather than treat reading a page as completion of the conversation.",
           "next": "unresolved_decision",
           "moveTags": []
@@ -247,12 +247,12 @@
       "phase": "Next steps",
       "title": "No agreed deadline",
       "situation": "Jordan prefers privacy and time. You still need to choose what happens to the weekend plans while there is no shared answer.",
-      "partner": "I cannot promise when I will want to discuss this again, or that my answer will change.",
+      "partner": "I don't know when I'll be ready to talk again, or if I'll feel differently. Is that something you're okay with?",
       "prompt": "What can you decide without setting a deadline for Jordan?",
       "choices": [
         {
-          "label": "There does not need to be a deadline. Let us keep sex off the plans, and only return to this conversation if we both want to.",
-          "response": "I would be comfortable with coffee only, if that is something you want too.",
+          "label": "There's no deadline. Let's wait on sex. We can talk again if we both feel like it.",
+          "response": "I'd still enjoy coffee together, if you'd like that too. Just coffee for now.",
           "explanation": "You define the immediate plan without attaching an expectation that Jordan will eventually change their answer. A nonsexual meeting is an option, not something either person owes the other.",
           "next": "waiting_decision",
           "moveTags": [
@@ -261,9 +261,9 @@
           ]
         },
         {
-          "label": "I respect that. I am not comfortable leaving our expectations undefined, so we may need to step back from dating.",
-          "response": "We may want different things right now. I do not want to promise an answer just to keep dating.",
-          "explanation": "You describe what an open-ended wait means for your own decision. Jordan's response leaves the mismatch visible rather than turning a deadline into pressure.",
+          "label": "I understand. I'm finding the uncertainty hard, so I think I need a little space from dating.",
+          "response": "That makes me sad, but I get it. I don't want to say I'll change my mind when I'm not sure.",
+          "explanation": "You describe how uncertainty affects your own wish to keep dating. Taking space can be an honest choice, without making it a deadline for Jordan to change their answer.",
           "next": "unresolved_decision",
           "moveTags": [
             "naming-needs",
@@ -277,12 +277,12 @@
       "phase": "Decision",
       "title": "A useful next step, not an all-clear",
       "situation": "You have agreed that information can help you identify services and questions. Important personal decisions are still open.",
-      "partner": "Looking at the resource does not settle everything between us, right?",
+      "partner": "So we'll just look at the page for now, and leave the rest for another day?",
       "prompt": "How do you close without overstating the agreement?",
       "choices": [
         {
-          "label": "Right. We can look at the resource, ask our own questions, and keep sex off our plans unless we both later want to discuss it again.",
-          "response": "That is an agreement I understand. Reading the page is the next step, and nothing else is promised.",
+          "label": "Yes, just that. We can ask our own questions and wait on sex. We don't have to plan anything else now.",
+          "response": "Okay. Looking at the page feels like a good next step. We can leave the rest open.",
           "explanation": "You end with a specific action and clear limits around it. Information-seeking supports a later decision without deciding that outcome in advance.",
           "next": "information_plan",
           "moveTags": [
@@ -291,8 +291,8 @@
           ]
         },
         {
-          "label": "Right, and I am realizing I want a break from the conversation and dating plans for now.",
-          "response": "Okay. We can leave the resource for another time, with no promise to revisit it together.",
+          "label": "Actually, I think I need a break from talking about this—and from dating for a little while.",
+          "response": "Okay. We can stop here. We don't have to look at the page together.",
           "explanation": "A useful resource does not require you to continue the interaction. You can recognize progress in the conversation and still choose a pause.",
           "next": "pause",
           "moveTags": [
@@ -307,13 +307,13 @@
       "phase": "Decision",
       "title": "What the weekend will mean",
       "situation": "Sex is off the plans, and neither person has committed to another testing conversation. Jordan has suggested a limited nonsexual meeting.",
-      "partner": "Would you still like coffee, without expecting us to resolve this afterward?",
+      "partner": "Would you still like to get coffee? I'd like to keep it to that for now.",
       "prompt": "Which answer reflects what you actually want?",
       "choices": [
         {
-          "label": "Yes, I would like coffee on those terms. Let us keep it to that, without expecting another answer afterward.",
-          "response": "Okay. Coffee is the plan, and we will not treat it as a promise about anything else.",
-          "explanation": "You agree to a specific activity while retaining the unresolved boundary. This works only because both people want that limited plan, not because coffee is a required compromise.",
+          "label": "I'd like that. Just coffee, and we don't have to talk about this again while we're there.",
+          "response": "That sounds nice. Let's just enjoy the coffee.",
+          "explanation": "You choose coffee because you want that time together, while keeping sex and another health discussion outside the plan. Neither person owes the other a different answer afterward.",
           "next": "pause",
           "moveTags": [
             "clarifying",
@@ -321,8 +321,8 @@
           ]
         },
         {
-          "label": "I do not want another date while this difference feels unresolved. I would rather step back.",
-          "response": "I am disappointed, but I understand. I will not promise a different answer to change your mind.",
+          "label": "I appreciate the invitation. I think I need some space from dating while I figure out how I feel.",
+          "response": "I'll miss spending time with you, but I understand. I still can't promise I'll feel differently.",
           "explanation": "You decline a plan without making the refusal a tactic for obtaining agreement. Both people can accept that there is no mutually wanted next date right now.",
           "next": "different_needs",
           "moveTags": [
@@ -337,12 +337,12 @@
       "phase": "Decision",
       "title": "When uncertainty remains",
       "situation": "There is no shared answer that makes both people comfortable. Jordan is not offering a promise about testing, timing, or sex.",
-      "partner": "I do not have a more certain answer, and I do not want us to keep pushing each other.",
+      "partner": "I wish I had a clearer answer. I don't want either of us to feel pushed into something.",
       "prompt": "What decision can you make about your own next step?",
       "choices": [
         {
-          "label": "Agreed. I want to pause dating and seek answers to my own questions. Neither of us needs to promise that this will lead to another conversation.",
-          "response": "I can respect that. I will take time to decide what I want too.",
+          "label": "Me neither. I'd like a break from dating while I think things through. We don't have to decide when we'll talk again.",
+          "response": "Okay. Some time to think would help me too.",
           "explanation": "You choose a pause with explicit limits instead of continuing the same negotiation. Separate information-seeking does not require sharing personal details or returning with a predetermined answer.",
           "next": "pause",
           "moveTags": [
@@ -351,8 +351,8 @@
           ]
         },
         {
-          "label": "Our conditions for continuing do not overlap right now. I want to step back from dating rather than keep asking you to change your answer.",
-          "response": "I hear you. It is difficult, but I would rather be clear than make a promise I do not mean.",
+          "label": "I like spending time with you, but I think we're looking for different things. I'd rather step back than keep asking you to change your mind.",
+          "response": "That's hard to hear, but I understand. I'd rather be honest than say yes when I'm unsure.",
           "explanation": "You acknowledge the mismatch and make a decision about your own participation. A conversation can be respectful without ending in a test, a date, or agreement.",
           "next": "different_needs",
           "moveTags": [

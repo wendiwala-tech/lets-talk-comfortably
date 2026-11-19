@@ -20,12 +20,12 @@
       "phase": "Opening",
       "title": "Finding the first sentence",
       "situation": "The conversation has turned to plans for another date. You would like to bring up pace and check-ins before agreeing to anything.",
-      "partner": "I had a good time with you. Want to make plans for Friday?",
+      "partner": "I really enjoyed spending time with you. Would you like to do something on Friday?",
       "prompt": "How do you open the conversation?",
       "choices": [
         {
-          "label": "I feel more comfortable when we go slowly and check in. Could we talk about what that looks like for each of us?",
-          "response": "Sure. I want to understand what you mean by checking in.",
+          "label": "I'd like that. I feel more at ease when we take things slowly. Could we talk about checking in with each other?",
+          "response": "Sure. I'd like to understand what would help you feel comfortable.",
           "explanation": "You describe your preference without claiming to know what Eli wants. In this conversation, Eli asks for details; the next step is making your request concrete.",
           "next": "clarify",
           "moveTags": [
@@ -34,8 +34,8 @@
           ]
         },
         {
-          "label": "We need to talk about how you act when we are close.",
-          "response": "That sounds serious. Have I been doing something wrong?",
+          "label": "Before we plan Friday, can we talk about the way you've been with me?",
+          "response": "Of course. Is something wrong? I'm not quite sure what you mean.",
           "explanation": "You bring up the topic, but the broad wording leaves Eli guessing what the concern is. You can still explain your own preference and repair the impression that this is an accusation.",
           "next": "repair_opening",
           "moveTags": []
@@ -47,12 +47,12 @@
       "phase": "Clarifying",
       "title": "Turning a preference into words",
       "situation": "Eli is listening, but the phrase \"check in\" could mean several things. You need to describe it without making a rule for every moment.",
-      "partner": "What would a check-in sound like to you?",
+      "partner": "When you say 'check in,' what would help you feel comfortable?",
       "prompt": "Which part do you explain first?",
       "choices": [
         {
-          "label": "Something like, \"Do you want to keep going, slow down, or stop?\" I find a spoken question helpful.",
-          "response": "I can see why. I also worry I will ask at the wrong time and make things awkward.",
+          "label": "A quick 'Does this feel okay, or would you like to slow down or stop?' would help. I like hearing the question out loud.",
+          "response": "That makes sense. I'm just a little worried I'll interrupt the moment or ask it awkwardly.",
           "explanation": "An example gives Eli something specific to respond to. It also reveals a concern about getting the wording wrong, which you have not resolved yet.",
           "next": "misread",
           "moveTags": [
@@ -61,8 +61,8 @@
           ]
         },
         {
-          "label": "Before I suggest a plan, what feels natural to you?",
-          "response": "I tend to be quiet when I am comfortable. I would not want us to talk through every moment.",
+          "label": "What would feel comfortable for you? I'd like to hear that too.",
+          "response": "I'm usually quiet when I feel close to someone. I'd rather not have to talk the whole time.",
           "explanation": "You make room for Eli's preference before proposing a shared plan. Their comfort with quiet does not tell you what silence would mean for you.",
           "next": "silence",
           "moveTags": [
@@ -76,12 +76,12 @@
       "phase": "Clarifying",
       "title": "Repairing a broad opening",
       "situation": "Eli has heard your opening as criticism. You still want to talk about what helps you feel comfortable.",
-      "partner": "I do not know which moment you mean, and now I am worried about getting this wrong.",
+      "partner": "I'm not sure which moment you mean. I'm a little worried I upset you.",
       "prompt": "How do you respond to that worry?",
       "choices": [
         {
-          "label": "I made that sound like an accusation. I am trying to explain that a slower pace and spoken check-ins help me feel comfortable.",
-          "response": "Thanks for explaining. I still worry I will turn it into a checklist and say the wrong thing.",
+          "label": "Sorry, that came out harsher than I meant. I feel more comfortable taking things slowly and checking in out loud.",
+          "response": "Okay, I understand. I'm just worried I'll make it feel like a checklist or say the wrong thing.",
           "explanation": "You acknowledge the effect of your opening and name the actual request. Eli is less defensive but still unsure about how a check-in would work.",
           "next": "misread",
           "moveTags": [
@@ -90,8 +90,8 @@
           ]
         },
         {
-          "label": "Maybe I am overthinking it. We can just keep things natural.",
-          "response": "Okay. I usually go quiet when things feel comfortable, so I thought that was working.",
+          "label": "Maybe I'm overthinking it. We can just let things happen naturally.",
+          "response": "Okay. I'm usually quiet when I'm comfortable, so I thought things were going well.",
           "explanation": "This reduces the tension for a moment, but it leaves your stated need unresolved. The conversation now needs to address whether quiet means the same thing to both of you.",
           "next": "silence",
           "moveTags": []
@@ -103,12 +103,12 @@
       "phase": "Misunderstanding",
       "title": "A check-in is not a performance",
       "situation": "The concern has shifted from what you prefer to whether Eli will be judged for using imperfect words.",
-      "partner": "What if I ask clumsily or interrupt a nice moment?",
+      "partner": "I want to get this right. What if I ask awkwardly or break the mood?",
       "prompt": "How do you explain what matters to you?",
       "choices": [
         {
-          "label": "It does not need to be polished. I want a real chance to answer, including saying I am unsure. What kind of question would feel natural to you?",
-          "response": "A short question feels possible. Constant questions would be hard for me.",
+          "label": "It doesn't have to sound perfect. I just want space to say how I feel, even if I'm unsure. What would feel natural to you?",
+          "response": "A quick question sounds doable. I might find it hard if we're talking the whole time.",
           "explanation": "You separate the purpose of a check-in from finding a perfect line. Eli can now describe a specific limit about frequency rather than guessing what will satisfy you.",
           "next": "rhythm",
           "moveTags": [
@@ -117,8 +117,8 @@
           ]
         },
         {
-          "label": "It is simple. Just ask every time and we will not have a problem.",
-          "response": "I do not think I can promise that without understanding what \"every time\" means.",
+          "label": "Could you just ask every time? Then we wouldn't have to worry.",
+          "response": "I'm happy to ask. I'm just not sure what 'every time' would mean.",
           "explanation": "This offers a clear-sounding rule, but it brushes past Eli's uncertainty. Their hesitation gives you a chance to replace an open-ended demand with a more honest conversation.",
           "next": "pressure",
           "moveTags": []
@@ -130,12 +130,12 @@
       "phase": "Misunderstanding",
       "title": "Quiet can mean different things",
       "situation": "Eli describes silence as comfortable. You notice that you have sometimes been quiet because you were still deciding what you wanted.",
-      "partner": "If neither of us says anything, would that mean we are both comfortable?",
+      "partner": "I thought being quiet meant we were both comfortable. Is that how it feels for you too?",
       "prompt": "How do you clarify your own silence?",
       "choices": [
         {
-          "label": "Not necessarily for me. Sometimes I am still figuring things out. I would like a brief spoken check-in instead of either of us guessing.",
-          "response": "That makes sense. I could ask a short question, but I do not want to narrate everything.",
+          "label": "Sometimes I'm quiet because I'm still figuring out how I feel. A quick question would help me say that.",
+          "response": "Oh, I didn't realize. A quick question sounds fine; I just wouldn't want to talk through everything.",
           "explanation": "You explain your experience without treating Eli's experience as wrong. Naming the difference gives you a practical issue to discuss: what a brief check-in could look like.",
           "next": "rhythm",
           "moveTags": [
@@ -144,8 +144,8 @@
           ]
         },
         {
-          "label": "I guess so. I will try to speak up if I need something different.",
-          "response": "You sound unsure. I would rather not make a plan that you are agreeing to just to end this conversation.",
+          "label": "I think so. I'll try to say something if I want to slow down.",
+          "response": "You sound a little unsure. We don't have to agree to something just to get through this conversation.",
           "explanation": "You offer a plan before you sound comfortable with it, and Eli notices the hesitation. You can revisit the answer rather than treat your first response as a commitment.",
           "next": "pressure",
           "moveTags": []
@@ -157,12 +157,12 @@
       "phase": "Different needs",
       "title": "Different communication rhythms",
       "situation": "You both understand the request better. Eli prefers fewer words; you need clear opportunities to answer and pause.",
-      "partner": "I like a clear question at the start and when something changes. I do not want a running conversation.",
+      "partner": "I could ask at the start and when something changes. I'd still like some quiet moments, too.",
       "prompt": "What can you honestly offer?",
       "choices": [
         {
-          "label": "That sounds like a starting point. Either of us can also ask for a pause whenever we need one, even if nothing obvious has changed.",
-          "response": "I could try that. What would happen if one of us answers, \"I do not know\"?",
+          "label": "That sounds good to try. And if either of us wants to pause, we can say so anytime.",
+          "response": "I'd like that. What if one of us isn't sure how we're feeling?",
           "explanation": "You suggest a flexible starting point without fixing a quota of questions. Eli's next question tests whether uncertainty would genuinely be welcome.",
           "next": "try_plan",
           "moveTags": [
@@ -171,8 +171,8 @@
           ]
         },
         {
-          "label": "I think I need more check-ins than that right now. I do not want either of us to agree just to please the other, so I would rather take time.",
-          "response": "I appreciate you saying that. I would rather take time than promise more than I can offer.",
+          "label": "I think I'd need to hear from you a little more often right now. Maybe we could take some time to think about it.",
+          "response": "Of course. I'd rather be honest with you than promise something I'm not sure I can do.",
           "explanation": "You identify a difference that matters instead of disguising it as agreement. Taking time preserves both preferences without requiring an immediate compromise.",
           "next": "take_space",
           "moveTags": [
@@ -187,12 +187,12 @@
       "phase": "Different needs",
       "title": "An answer can be revised",
       "situation": "The plan you were starting to make does not feel settled. Eli does not want an automatic promise, and you do not want to hide your need for check-ins.",
-      "partner": "I want us to be honest about what we can offer, even if our answers do not match.",
+      "partner": "I want us both to feel comfortable saying what we need, even if we want different things.",
       "prompt": "How do you reset the conversation?",
       "choices": [
         {
-          "label": "You are right; I rushed the answer. Could we start with brief spoken check-ins and leave room for either of us to pause at any point?",
-          "response": "That is easier to understand. I am still not sure what we would do if one of us does not know the answer.",
+          "label": "I think I rushed that. Could we try a quick spoken check-in, with room for either of us to pause?",
+          "response": "That feels clearer. What if one of us still isn't sure what we want?",
           "explanation": "You name the rushed answer and offer a narrower proposal. This does not erase the earlier tension, but it creates a concrete question you can work through.",
           "next": "try_plan",
           "moveTags": [
@@ -201,8 +201,8 @@
           ]
         },
         {
-          "label": "I do not think I can make a plan that feels comfortable yet. Let us leave it here rather than talk ourselves into a yes.",
-          "response": "I would prefer that too. I do not want either of us making promises tonight.",
+          "label": "I'm still not quite comfortable with a plan. Could we take a break from this for now?",
+          "response": "Yes, I'd like that too. We don't have to figure it all out tonight.",
           "explanation": "You acknowledge that the conversation has not produced a comfortable agreement. Stopping the negotiation keeps an uncertain answer from becoming a plan.",
           "next": "take_space",
           "moveTags": [
@@ -217,12 +217,12 @@
       "phase": "Next steps",
       "title": "What uncertainty would mean",
       "situation": "You have a tentative approach, not permission for a future activity. Eli wants to know what happens when a check-in produces an uncertain answer.",
-      "partner": "If I say, \"I do not know yet,\" will you need me to decide right away?",
+      "partner": "If I say, 'I'm not sure yet,' would it be okay to leave it there for a while?",
       "prompt": "What would you want the pause to look like?",
       "choices": [
         {
-          "label": "No. We can stop and take space. Neither of us needs to choose another activity or promise to continue later.",
-          "response": "That would help. I could try a short check-in if an uncertain answer really gives us time.",
+          "label": "Absolutely. We can stop and have some space. We don't have to make any other plans or decide when to try again.",
+          "response": "That helps. I'd feel better trying a short check-in if it's okay not to have an answer yet.",
           "explanation": "You connect the question to a practical response to uncertainty. Eli is open to a trial of this communication approach, while either person can still change their mind.",
           "next": "shared_decision",
           "moveTags": [
@@ -231,8 +231,8 @@
           ]
         },
         {
-          "label": "We could slow down, but I would need an answer fairly quickly so I know where I stand.",
-          "response": "I understand wanting clarity, but a quick deadline would make it hard for me to say I am unsure.",
+          "label": "We could slow down a bit, but I'd feel better if you could give me an answer soon.",
+          "response": "I get wanting to know. I think I'd find it harder to be honest if I felt I had to answer quickly.",
           "explanation": "You name a real wish for clarity, but the deadline conflicts with Eli's need for time. The next decision is whether to pause with that difference unresolved, not how to obtain a faster answer.",
           "next": "unresolved_decision",
           "moveTags": []
@@ -244,12 +244,12 @@
       "phase": "Next steps",
       "title": "Time without a promise",
       "situation": "You are both considering space rather than settling on a communication plan tonight.",
-      "partner": "I cannot promise that I will want more check-ins later. I do not want a pause to sound like a promise to change.",
+      "partner": "I'm happy to take some time. I just don't know if I'll feel differently about more check-ins later.",
       "prompt": "What does taking time mean to you?",
       "choices": [
         {
-          "label": "Understood. We can leave it here, and only return to it if we both want to. There does not need to be a deadline.",
-          "response": "I would like that. We can decide separately whether we want another conversation.",
+          "label": "I understand. Let's leave it here for now. We can talk again if we both feel like it. There's no rush.",
+          "response": "I'd like that. We can each take a little time and see whether we want to talk again.",
           "explanation": "You distinguish taking space from waiting for a different answer. This leaves room for another conversation without turning it into an obligation.",
           "next": "pause_decision",
           "moveTags": [
@@ -258,8 +258,8 @@
           ]
         },
         {
-          "label": "I hear that. Regular spoken check-ins are something I need in a relationship, so we may want different things.",
-          "response": "That may be true. I do not want you to give that up, and I do not want to promise a style I am not comfortable with.",
+          "label": "I hear you. Regular check-ins really matter to me, so I think we may be looking for different things.",
+          "response": "Maybe we are. I don't want you to set that aside for me, and I'm not sure I can promise what you need.",
           "explanation": "You describe an important preference without asking Eli to become someone else. Recognizing a possible mismatch can make the final decision more honest, even when it is disappointing.",
           "next": "unresolved_decision",
           "moveTags": [
@@ -274,12 +274,12 @@
       "phase": "Decision",
       "title": "A limited agreement",
       "situation": "You have found a possible communication approach and agreed that uncertainty can lead to a pause. You still need to decide what, if anything, to plan next.",
-      "partner": "Would you want to meet for coffee on Friday and see how we feel, without assuming anything else will happen?",
+      "partner": "Would you still like to get coffee on Friday? We could keep it to that and see how we feel.",
       "prompt": "What next step matches what you actually want?",
       "choices": [
         {
-          "label": "Yes, coffee sounds good. Let us keep that as the plan and ask again about anything else.",
-          "response": "Agreed. Coffee is the plan; there is no expectation beyond that.",
+          "label": "I'd like that. Just coffee for now, and we can check in before making any other plans.",
+          "response": "Sounds good. I'm happy with just coffee.",
           "explanation": "You make a specific, limited plan and leave later decisions open. A conversation about preferences does not automatically become agreement to act on them.",
           "next": "common_ground",
           "moveTags": [
@@ -288,8 +288,8 @@
           ]
         },
         {
-          "label": "I am glad we talked, and I still want some time before making another date.",
-          "response": "Okay. I will give you space, without expecting you to choose a date now.",
+          "label": "I'm glad we talked. I'd still like a little time before we make another date.",
+          "response": "Of course. Take the time you need. We don't have to pick a day now.",
           "explanation": "Feeling understood does not require you to make another plan immediately. You can appreciate the conversation and still choose space.",
           "next": "pause",
           "moveTags": [
@@ -304,12 +304,12 @@
       "phase": "Decision",
       "title": "Leaving the conversation open",
       "situation": "You have agreed that neither person must promise to change or return to the topic. You can choose how to close the evening.",
-      "partner": "We do not need to settle this today. Would you like to finish studying, or would you prefer to leave?",
+      "partner": "We can leave this for today. Would you like to keep studying together, or head home?",
       "prompt": "How do you close with a clear expectation?",
       "choices": [
         {
-          "label": "I would like to finish studying. Let us leave the relationship conversation here, without assuming we will revisit it.",
-          "response": "That works for me. We can focus on our work.",
+          "label": "I'd like to stay and study. Let's give this conversation a rest. We don't have to decide when to talk about it again.",
+          "response": "That works for me. Let's get back to our notes.",
           "explanation": "You name a present activity that you both want and avoid attaching a future promise. The unresolved preference difference remains unresolved, rather than disappearing because you ended calmly.",
           "next": "pause",
           "moveTags": [
@@ -318,8 +318,8 @@
           ]
         },
         {
-          "label": "I think we may want different things, and I would rather step back from dating than keep reopening this.",
-          "response": "I am disappointed, but I understand. I do not want us to keep asking for answers we cannot give.",
+          "label": "I've liked getting to know you, but I think we may want different things. I'd rather stop dating than keep trying to work this out.",
+          "response": "I'm sad to hear that, but I understand. I don't want either of us to keep trying to change the other's mind.",
           "explanation": "You choose a difficult but clear outcome rather than an indefinite negotiation. Ending the dating relationship does not mean either person had to be wrong about their preferences.",
           "next": "different_needs",
           "moveTags": [
@@ -334,12 +334,12 @@
       "phase": "Decision",
       "title": "When preferences do not align",
       "situation": "You have not found an arrangement that feels comfortable to both of you. Eli is not offering a different answer.",
-      "partner": "I cannot give you that promise. I am not sure what that means for us.",
+      "partner": "I want you to feel comfortable. I just don't think I can promise that, and I'm not sure where that leaves us.",
       "prompt": "What can you decide without asking Eli to change their answer?",
       "choices": [
         {
-          "label": "We do not have to decide the relationship tonight. I want to pause dating for now, with no promise about what comes next.",
-          "response": "Okay. I can respect that, and I will take some time too.",
+          "label": "I'd like a break from dating for now. I'm not sure whether I'd want to start again.",
+          "response": "Okay. I understand. I think some time would help me too.",
           "explanation": "You specify what is paused instead of leaving the other person to guess. A pause can be a complete decision for now, without predicting a future agreement.",
           "next": "pause",
           "moveTags": [
@@ -348,8 +348,8 @@
           ]
         },
         {
-          "label": "I need a different communication pattern, and I do not want either of us to override what feels comfortable. I want to step back from dating.",
-          "response": "I hear you. This is not the answer I hoped for, but I would rather be honest about the difference.",
+          "label": "I think we need different things to feel comfortable. I've enjoyed our time together, but I'd like to stop dating.",
+          "response": "That isn't what I hoped for, but I hear you. I'm glad we could be honest with each other.",
           "explanation": "You keep your stated need while accepting Eli's answer. The outcome is a mismatch rather than a failure to find persuasive enough wording.",
           "next": "different_needs",
           "moveTags": [
