@@ -11,7 +11,8 @@
     "license": "Pexels License",
     "licenseUrl": "https://www.pexels.com/license/",
     "checkedOn": "2026-11-19",
-    "cameraDate": "2021-04-19"
+    "cameraDate": "2021-04-19",
+    "provider": "Pexels"
   },
   "consent-boundaries": {
     "file": "photo-armin-rimoldi-5553035.webp",
@@ -25,7 +26,8 @@
     "license": "Pexels License",
     "licenseUrl": "https://www.pexels.com/license/",
     "checkedOn": "2026-11-19",
-    "cameraDate": "2020-09-21"
+    "cameraDate": "2020-09-21",
+    "provider": "Pexels"
   },
   "protection": {
     "file": "photo-katerina-holmes-5910782.webp",
@@ -39,7 +41,8 @@
     "license": "Pexels License",
     "licenseUrl": "https://www.pexels.com/license/",
     "checkedOn": "2026-11-19",
-    "cameraDate": "2020-11-02"
+    "cameraDate": "2020-11-02",
+    "provider": "Pexels"
   },
   "preferences": {
     "file": "photo-ivan-s-6436180.webp",
@@ -53,20 +56,23 @@
     "license": "Pexels License",
     "licenseUrl": "https://www.pexels.com/license/",
     "checkedOn": "2026-11-19",
-    "cameraDate": "2020-11-09"
+    "cameraDate": "2020-11-09",
+    "provider": "Pexels"
   },
   "sexual-health": {
-    "file": "photo-thirdman-8937480.webp",
-    "width": 933,
-    "height": 1400,
-    "position": "50% 30%",
-    "alt": "Two men talking over coffee in a sunlit cafe.",
-    "photographer": "Thirdman",
-    "source": "https://www.pexels.com/photo/two-men-drinking-coffee-while-talking-8937480/",
-    "download": "https://images.pexels.com/photos/8937480/pexels-photo-8937480.jpeg?cs=srgb&dl=pexels-thirdman-8937480.jpg&fm=jpg",
-    "license": "Pexels License",
-    "licenseUrl": "https://www.pexels.com/license/",
+    "file": "photo-priscilla-du-preez-cew-phwpgc.webp",
+    "width": 1400,
+    "height": 933,
+    "position": "50% 50%",
+    "alt": "A coffee cup, notebook and pen on a wooden table.",
+    "photographer": "Priscilla Du Preez",
+    "provider": "Unsplash",
+    "source": "https://unsplash.com/photos/a-cup-of-coffee-and-a-notebook-on-a-table-CeW--PHwpGc",
+    "download": "https://images.unsplash.com/photo-1643148636637-58b3eb95cdad?fm=jpg&q=85&w=2000",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
     "checkedOn": "2026-11-19",
-    "cameraDate": "2021-07-15"
+    "publishedOn": "2022-01-25",
+    "camera": "Canon EOS 6D"
   }
 }
