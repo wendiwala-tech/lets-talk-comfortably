@@ -1,0 +1,83 @@
+CONVERSATION PRACTICE: 3D ILLUSTRATION ASSET MANIFEST
+
+Creation method: Built-in ImageGen (no CLI/API fallback).
+These five images depict original fictional adult characters. They are educational illustrations, not photographs or evidence of actual student participants.
+PNG files are the unmodified generated originals. WebP files are web-optimized resized/compressed format conversions. Original generated files remain preserved.
+All module images use conversation-3d.png as the visual style reference; consent also keeps the hero cast for continuity.
+
+FINAL ASSETS
+
+HOMEPAGE HERO
+PNG: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/conversation-3d.png
+Dimensions: 1254 x 1254 px; bytes: 2659357
+WEBP: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/conversation-3d.webp
+Dimensions: 1254 x 1254 px; bytes: 243810
+
+CONSENT & BOUNDARIES
+PNG: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/consent-3d.png
+Dimensions: 1536 x 1024 px; bytes: 2703782
+WEBP: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/consent-3d.webp
+Dimensions: 1400 x 933 px; bytes: 217558
+
+PROTECTION
+PNG: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/protection-3d.png
+Dimensions: 1536 x 1024 px; bytes: 2355938
+WEBP: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/protection-3d.webp
+Dimensions: 1400 x 933 px; bytes: 140676
+
+SEXUAL PREFERENCES
+PNG: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/preferences-3d.png
+Dimensions: 1536 x 1024 px; bytes: 2631054
+WEBP: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/preferences-3d.webp
+Dimensions: 1400 x 933 px; bytes: 198070
+
+SEXUAL HEALTH
+PNG: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/health-3d.png
+Dimensions: 1536 x 1024 px; bytes: 2518579
+WEBP: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/health-3d.webp
+Dimensions: 1400 x 933 px; bytes: 185906
+
+EXACT GENERATION PROMPTS AND ORIGINAL PROVENANCE
+The following sections reproduce the full prompt records without paraphrasing.
+
+===== HOMEPAGE HERO AND CONSENT =====
+Source prompt record: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/cover-prompts.txt
+
+3D illustration provenance
+Generated using built-in ImageGen. These are fictional adult characters, not photographs of actual participants. PNG is the unmodified generated original; WEBP is a web-optimized format conversion.
+
+conversation-3d.png / conversation-3d.webp
+Use case: stylized-concept. Asset type: square hero image for a university communication-practice website. Create a premium fully THREE-DIMENSIONAL CGI illustration, like a contemporary high-budget animated feature film, with appealing but clearly adult characters aged 22–25. Strong sculpted facial volume: defined noses, cheekbones and jaws, natural adult head/body proportions, realistic voluminous hair, dimensional fabric folds, subtle skin subsurface scattering, grounded contact shadows and soft cinematic lighting. Two diverse college students are seated at comfortable conversational distance on a wooden campus bench: a young Black woman with a sculpted curly bob, cream T-shirt and sage overshirt, and an East Asian adult with short slightly tousled dark hair and a soft coral sweater. The woman speaks with a small open-hand gesture while the other listens with a warm, slightly awkward half-smile. Expressions are thoughtful, friendly, and nuanced, not broad mascot grins. Both fully clothed; this is a respectful everyday conversation, no romantic touching. People dominate the frame; their complete heads and full torsos are visible, natural hands unobscured, medium two-shot at eye level. Background is a softly blurred Berkeley-like university courtyard with warm cream architecture, trees, layered spatial depth, and late-afternoon light; no specific landmark or signage. Palette cream, sage, navy, warm coral; clean smooth rendering and subtly realistic materials. Square 1:1 composition suitable for a website hero. ABSOLUTELY NOT flat vector, gouache, watercolor, painted illustration, paper grain, collage, cut paper, line drawing, anime, chibi, toy figures, babies, childish faces, or exaggerated giant heads. No typography, symbols, labels, logos, watermark, speech bubbles, or clinical imagery. These are fictional adult illustrative characters, not photographs of actual participants.
+
+consent-3d.png / consent-3d.webp
+Reference: conversation-3d.png for visual style and adult cast continuity.
+Create a NEW landscape 3:2 image. Reference image is STYLE AND CHARACTER REFERENCE ONLY, not an edit target: preserve the premium dimensional CGI style and the same clearly adult pair, while changing the location, pose and composition completely. Asset for a university consent-and-boundaries conversation practice website. Morgan is the adult Black woman age24 with voluminous short dark curls; Alex is the East Asian adult age24 with short voluminous dark hair. Both fully clothed in everyday clothes. They sit at a comfortable distance on a modern warm cream sofa in an airy shared apartment living room. Morgan sits upright in a sage overshirt and cream shirt, one hand relaxed and lifted gently with an open palm to signal 'let us pause'; her expression is calm and thoughtfully serious, not fearful. Alex wears a coral knit sweater and navy trousers, sits respectfully on the other side of the sofa, listening with an attentive calm expression and relaxed hands. No physical contact. The scene conveys an ordinary moment of respecting a boundary and giving each other space, without any sexual activity. People dominant; entire heads and full torsos plus knees visible, medium eye-level two-shot. Warm sunlight through a window, subtle green houseplant and wooden side table with mug, soft depth of field. Premium full 3D animated-film rendering: natural adult proportions, defined sculpted noses, cheekbones and jaws, dimensional strands of hair, convincing fabric folds, soft subsurface scattering, ambient occlusion and grounded shadows, smooth clean rendering. Rich but calm cream/sage/navy/coral. NO flat vector, papergrain, gouache, watercolor, collage, painted textures, anime, chibi, toy figures, giant baby heads, speech bubbles, text, logos, brands, watermark, kissing, touching, nudity, underwear or clinical imagery. Fictional adult illustrative scene, not participant evidence.
+
+===== PROTECTION AND SEXUAL PREFERENCES =====
+Source prompt record: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/module-prompts.txt
+
+MODULE ILLUSTRATIONS: PROTECTION AND PREFERENCES
+Built-in ImageGen; generated November 18, 2026.
+Style reference: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/conversation-3d.png
+
+PROTECTION
+Use case: stylized-concept. Asset type: narrative image for an adult college communication practice website. Input image is ONLY a visual-style reference, not an edit target: create a new scene and new people, matching its premium dimensional animated-film CGI rendering, mature sculpted faces, natural adult body proportions, distinct noses and jawlines, realistic voluminous hair, convincing cloth and skin materials, soft cinematic lighting, ambient shadows and gently shallow depth of field. All people visibly age 22–25. Maintain a warm cream, muted sage, navy and coral palette. Clean, sophisticated three-dimensional rendering; not flat illustration, not painted, no paper grain, collage, anime, chibi, baby faces, oversized doll eyes or glossy plastic skin. Landscape 3:2 composition, ideally 1536x1024. People prominent in an eye-level two-shot, enough room around heads and naturally posed hands. No text, captions, speech bubbles, logos, watermarks, UI, or panels. Primary request: two adult college students having a calm, thoughtful conversation at a modern kitchen table with two ceramic mugs. A South Asian woman with medium-brown skin and long black hair with natural volume is speaking with a gentle open-handed gesture; a man with short dark curls listens with a relaxed, attentive expression. Both wear fully covering contemporary casual clothing, one in muted sage and cream, the other in navy with a subtle coral accent. Show them from about mid-torso up with the table and mugs in the lower foreground. The kitchen is uncluttered with pale cabinetry, warm daylight entering from a side window, and a softly blurred but spatially convincing interior behind them. Mood is comfortable, candid and respectful, neither staged romance nor medical scene. Render dimensional faces and hair like the reference, with clean high-end CGI polish and soft realistic material detail.
+Generated source: /Users/wendy/.codex/generated_images/01a1f16f-c650-78b1-bf6c-f1b141659c72/exec-f9abcaaf-edaa-4b5b-8a8d-03c68f914324.png
+Project original: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/protection-3d.png
+Web derivative: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/protection-3d.webp (1400x933, WebP quality 86)
+
+PREFERENCES
+Use case: stylized-concept. Asset type: narrative image for an adult college communication practice website. Input image is ONLY a visual-style reference, not an edit target: create a new scene and new people, matching its premium dimensional animated-film CGI rendering, mature sculpted faces, natural adult body proportions, distinct noses and jawlines, realistic voluminous hair, convincing cloth and skin materials, soft cinematic lighting, ambient shadows and gently shallow depth of field. All people visibly age 22–25. Maintain a warm cream, muted sage, navy and coral palette. Clean, sophisticated three-dimensional rendering; not flat illustration, not painted, no paper grain, collage, anime, chibi, baby faces, oversized doll eyes or glossy plastic skin. Landscape 3:2 composition, ideally 1536x1024. People prominent in an eye-level two-shot, enough room around heads and naturally posed hands. No text, captions, speech bubbles, logos, watermarks, UI, or panels. Primary request: two adult women with different skin tones sitting on a campus bench in friendly, open conversation. One is a dark-skinned Black woman with a voluminous natural curly hairstyle and a muted sage jacket over a cream shirt. The other has light-to-medium warm skin, shoulder-length softly wavy dark hair and a coral knit top with navy trousers. Both are unmistakably adult age 22–25, with mature facial proportions. One woman speaks with a small natural hand gesture and the other listens warmly; keep personal space, natural seated posture and fully covering clothing. Frame them prominently from roughly the waist up. Show a clean campus setting with a tree canopy and pale academic building set farther behind, sunlit paths and gently blurred background depth, without readable signage. Warm soft late-afternoon cinematic lighting. Match the reference's beautiful dimensional CGI faces, realistic hair volume and skin and fabric materials, not a photograph, painting or flat cartoon.
+Generated source: /Users/wendy/.codex/generated_images/01a1f16f-c650-78b1-bf6c-f1b141659c72/exec-6fb67abb-dff9-4f4e-b9f0-488f2b3f00f5.png
+Project original: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/preferences-3d.png
+Web derivative: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/preferences-3d.webp (1400x933, WebP quality 86)
+
+===== SEXUAL HEALTH =====
+Source prompt record: /Users/wendy/Documents/ChatGPT/pbh final project/output/assets/3d/health-prompts.txt
+
+3D illustration provenance
+Generated with the built-in ImageGen tool, using conversation-3d.png as a style reference. The characters are original illustrated adults, not actual study participants. The PNG is the generated original; the WEBP is a resized web-format conversion.
+
+health-3d.png / health-3d.webp
+Use case: stylized-concept. Asset type: landscape story image for a university communication-practice website. Input image 1 is a STYLE REFERENCE ONLY: match its premium dimensional CGI rendering, sculpted adult facial features, realistic hair volume, subtly realistic materials, warm cinematic light and shallow depth of field. Create a new scene and new characters in that same visual world. Scene: two fully clothed adult male college students, ages 22–25, having a thoughtful conversation at a small wooden table in a quiet campus library cafe. Noah is an East Asian man with short gently tousled dark hair, round eyeglasses, a navy knit sweater, defined adult cheekbones and jaw; he is a little nervous about starting a personal conversation, with a small expressive hand gesture and a tentative half-smile. Jordan is a Black man with warm brown skin, short textured curls, a coral shirt, adult facial structure and natural proportions; he listens attentively with a gentle, relaxed expression. Two plain ceramic mugs and one closed notebook on the table. Show both complete heads, shoulders, torsos and natural hands in a balanced eye-level medium two-shot; each person is visually distinct. Background: softly blurred campus window and a suggestion of library shelves, cream architecture and sage greenery outside, with layered spatial depth. Polished 3D animated-feature-film aesthetic, realistic voluminous hair, sculpted noses and jaws, subtle skin subsurface scattering, dimensional knit and fabric folds, grounded contact shadows, soft warm window light, clean smooth render. Palette cream, sage, navy and warm coral. Landscape 3:2 composition, subjects comfortably inside the frame with no awkward cropping. NO flat paint, vector illustration, paper grain, gouache, watercolor, collage, anime, chibi, baby faces, toy proportions, exaggerated heads or broad mascot grins. No text, typography, logo, watermark, speech bubbles, clinical setting, medical objects or explicit sexual content. These are original illustrated adult characters, not real participants.
+

@@ -1,0 +1,273 @@
+CONVERSATION PRACTICE: QA AND USABILITY SESSION GUIDE
+PBHLTH 182 | Group 103-3 | Internal organizer document
+
+中文组织提示
+这是一份待执行的测试计划，不是测试结果。目标约 5 名 Berkeley 学生，
+每人预留约 15-20 分钟；允许跳过或提前结束。只测试网站是否易懂、易用，
+不询问个人性经历、伴侣情况或健康信息。评分可以使用测试用的假设答案，
+不需要反映真实感受。所有网站交互都应点选，不要求输入文字。
+角色组合也只是练习设定，不询问或推断试用者的性别、性取向或实际关系。
+四个主题、角色组合和三级辅助程度应独立选择；切换角色不应重置当前轮次。
+以 P1-P5 匿名记录；所有结果栏留空，观察后再填。不录音、不录像，
+不把计划人数写成已测试人数。组员 QA 不计入学生试用人数。
+
+1. TEAM QA - COMPLETE BEFORE INVITING PARTICIPANTS
+
+Site and stories
+[ ] Four complete modules and all six public pages load for visitors who do
+    not have the group's account. Campus resources open the intended pages.
+[ ] Each story has six rounds. Choices affect subsequent exchanges; every
+    intended ending is reachable. Feedback matches the selected choice.
+[ ] Review, rewind, restart, and pause/resume work at every support level.
+    Rewinding replaces later choices on the abandoned route. Pause/resume
+    preserves the current round and any reply being reviewed.
+[ ] A story ending where characters stop is a valid completion, distinct from
+    the interface's Pause practice control. There is no required agreement.
+[ ] Authored examples do not claim to be interviews, measured outcomes, or
+    endorsements. Wording permits declining, pausing, and changing one's mind.
+
+Characters and topic independence
+[ ] Every topic supports all five practice profiles: woman + man with the
+    woman as the learner's character; woman + man with the man as the learner's
+    character; woman + woman; man + man; and gender-neutral roles.
+[ ] A pairing selects characters, not a topic or support level. All profiles
+    retain the same six-round choice graph and have access to every ending.
+    A learner does not have to identify personally with the example characters.
+[ ] Within each topic, check cast names/pronouns, setting, dialogue, feedback,
+    conversation history, and ending. Both mixed-pair viewpoints reverse the
+    learner/partner names correctly; same-gender roles work in every topic.
+[ ] Check hero and module illustrations for each pairing. Every topic must
+    depict the selected pair. Neutral roles use gender-neutral labels; artwork
+    should not be treated as proof of a person's gender identity.
+[ ] Change characters before starting, during a round, while reviewing a reply,
+    and at an ending. The current round, pending reply, earlier choice route,
+    support level, and completed-story count stay intact. Displayed character
+    names and story setting update without retaining the old cast's wording.
+[ ] Select a profile, visit another topic, and reload. The chosen pairing and
+    mixed-pair viewpoint persist with the practice path. Clear path restores
+    the default neutral roles and removes the saved practice settings.
+
+Team coverage matrix (leave blank until manually checked):
+Topic              | Mixed: woman | Mixed: man | Two women | Two men | Neutral
+Consent/boundaries |              |            |           |         |
+Protection        |              |            |           |         |
+Preferences       |              |            |           |         |
+Sexual health     |              |            |           |         |
+Record actual browser/device coverage; do not count automated checks as real
+participant sessions or claim that all profiles were tried by five students.
+
+Opening check-in and support levels
+[ ] With test values, verify all opening ratings: 4/5 recommends Level 1;
+    2/3 recommends Level 2; 1 recommends Level 3.
+[ ] The rating is a subjective check-in about the example conversation, not
+    a diagnosis or an ability test. Learners can choose any support level.
+[ ] Change levels before starting, during a round, while reviewing a reply,
+    after a rewind, and at an ending. Support changes should preserve the
+    story position and current route unless a clear reset was requested.
+[ ] Level 1 automatically shows coaching and offers an optional tap-to-choose
+    warm-up. Across all six rounds, open the activity, try every option, and
+    verify its response. The activity must not select a story branch by accident.
+[ ] Level 2 makes help optional and discoverable. Opening a nudge does not
+    advance a round, select dialogue, or reset the learner's progress.
+[ ] Level 3 shows actual dialogue choices before their reasoning. After a
+    choice, its reasoning is available; no writing or hidden grading occurs.
+[ ] All levels retain the same complete branching story and access to all
+    endings. Learners can always return to more support; nothing is locked.
+[ ] No screen asks for typed input: no textarea, text field, contenteditable
+    exercise, or forced sentence-writing step. All reflection is selectable.
+
+Ending, self-report, and progression
+[ ] Test lower, unchanged, and higher ending ratings, plus leaving it unanswered. Before/after
+    values match the inputs. No display claims that the site caused change,
+    diagnoses a problem, or treats a higher rating as a failure.
+[ ] Without a baseline, no invented before/after comparison appears. Changing
+    support does not overwrite a previous check-in value.
+[ ] Ending reflection lets learners tap a skill they want to practice next.
+    Trying every option gives appropriate feedback or a clear next step.
+[ ] Finishing marks the intended completion. Reopening an ending, replaying,
+    rewinding, or changing levels does not falsely add completed modules.
+[ ] Repeating, advancing, or choosing more support remains optional.
+    Celebration acknowledges practice or reflection, not persuading a partner
+    to agree, picking a supposed correct ending, or reporting a lower rating.
+
+Privacy and Clear path
+[ ] Inspect the practice-related sessionStorage with invented test values.
+    Only documented level, baseline, completed topics, relationship profile,
+    and mixed-pair viewpoint persist (level, baseline, completed, relationship,
+    mixedRole). These are practice settings, not a declaration of identity.
+    No full conversation history, personal free text, or dialogue is stored.
+[ ] Navigate across modules and reload. Only the promised path information
+    remains. Story choices do not reappear as if the route were saved.
+[ ] Clear path removes practice session data and resets the visible baseline,
+    support/path state, character settings, and completion markers as described. Revisit another
+    module and reload: old path data must not return.
+[ ] Clear path does not unexpectedly change the separate appearance setting.
+    Practice remains usable when browser storage is unavailable.
+[ ] Privacy wording matches the actual storage scope. Do not promise browser
+    erasure behavior that cannot be ensured.
+
+Accessibility and playful interactions
+[ ] Phone, desktop, and enlarged-text layouts have no clipped text, overlapping
+    controls, sideways scrolling, or hidden choices.
+[ ] Keyboard users can select pairings and viewpoints, ratings/levels, use warm-ups/help, select dialogue,
+    continue, rewind, pause, and reach all ending and reflection options.
+[ ] Focus moves predictably after changes. Selected pairings/viewpoints and ratings/levels have clear
+    accessible states; important information does not depend on color or emoji.
+[ ] Emoji have useful accompanying text or are decorative. Screen readers do
+    not repeatedly announce decorative symbols as essential instructions.
+[ ] Reduced-motion mode removes or reduces celebratory movement. Animation,
+    sound, hover, and rapid reactions are never required to continue.
+
+Reviewer: ________  Date: ________  Version/commit: ___________________
+Website URL: ______________________________________________________
+Browsers/devices actually checked: _________________________________
+Unresolved issues: _________________________________________________
+
+2. PARTICIPANT SCRIPT - USE THE SAME TASKS
+
+Opening (read aloud):
+"We are testing a class-project website, not your knowledge or communication
+ability. Please use the example conversations; you do not need to share
+personal experiences, relationships, or health information. You can use
+made-up test answers for the ratings, skip a question, or stop whenever you
+like. The character options are example settings, not questions about your
+identity or actual relationships. May we take anonymous notes about how the
+website works?"
+
+Proceed only with agreement. Record no names, contact details, or personal
+ratings. Do not explain navigation first. Record any assistance given.
+
+Task 1 - Find a starting point:
+"Choose a conversation you are comfortable viewing and any example character
+pairing. If you pick woman + man, try choosing either character's viewpoint.
+Explain whether the pairing changes which topics you can practice.
+Try the opening check-in
+with a test answer. Tell us what the recommended level means and whether you
+can choose a different one. Choose a level to try."
+Observe: Can the learner distinguish pairing, topic, viewpoint, and support
+level? Are all topics visibly available regardless of pairing? Does the cast
+and artwork match the selected example? Then check scale meaning,
+recommendation, level selection, and whether levels
+are interpreted as support options or a grade. Do not request a personal
+explanation for a rating or pairing; record no personal identity or score.
+
+Task 2 - Try support and complete a story:
+"Begin the example story. Try the help or warm-up offered at your level.
+After a couple of rounds, switch support levels and see what changes.
+Try changing the characters while staying in the same story. Pause and resume
+once. Continue to an ending if you feel comfortable."
+Observe: Can the learner distinguish a warm-up from a dialogue choice and
+Continue? Is feedback useful? Can they find optional help? Does Level 3 let
+them choose first and inspect reasoning afterward? Do level switching and
+character switching and pause/resume preserve the expected position? Does a
+pending reply remain visible under the newly selected character names? Record the last round reached
+and any help requested. Choosing a pause ending is not a task failure.
+
+Task 3 - Interpret the ending:
+"Try the optional ending check-in with a test answer, or skip it. Explain
+what the before/after display and next-step suggestion mean. Select a skill
+you might practice next, then choose whether to repeat or change level."
+Observe: Do learners recognize a subjective report rather than proof of
+improvement? Do they feel required to report less awkwardness, advance, or
+reach a particular ending? Are reflection and next-step choices clear?
+Record interpretations of the interface, not personal scores.
+
+Task 4 - Explore another route:
+"Review the conversation. Change an earlier choice and see what happens next.
+What do you expect the website to keep or reset? You may stop before finishing
+this second route."
+Observe: Can they find Review your conversation, Change this choice, and Try
+another ending? Does the later route get replaced as expected? Can they still
+change support? Record only the routes/endings actually observed.
+
+Task 5 - Find a resource:
+"Open a campus resource. Based on its label, what information or support would
+you expect to find there?"
+Observe: Resource discoverability, destination, and misleading or broken links.
+
+Task 6 - Understand and clear the path:
+"Visit another conversation or reload. What has the website remembered?
+Find Clear path, use it, and check what changed."
+Observe: Can they distinguish saved path settings from unsaved story choices?
+Does their chosen pairing/viewpoint remain available in the other topic?
+Is Clear path understandable, and do old markers and character settings stay
+cleared after navigation?
+
+Closing questions:
+1. Which instruction, level, activity, or control was hardest to understand?
+2. What happened differently from what you expected?
+3. What one change would make the practice easier or more useful?
+Optional: "Did you feel pushed to advance or report less awkwardness? Was it
+clear that you could choose more support or stop?"
+
+Keep notes about the interface. If private information is volunteered, do not
+record it; redirect to the example or controls. Thank the participant.
+
+3. OBSERVATION LOG - FILL AFTER ACTUAL SESSIONS ONLY
+
+Codes: I = independent; H = with help; N = not completed; S = skipped/stopped.
+Blank means not observed. Do not infer performance from team QA or others.
+
+ID | Date | Version/device | Scenario | T1 | T2 | T3 | T4 | T5 | T6 | Time
+P1 |      |                |          |    |    |    |    |    |    |
+P2 |      |                |          |    |    |    |    |    |    |
+P3 |      |                |          |    |    |    |    |    |    |
+P4 |      |                |          |    |    |    |    |    |    |
+P5 |      |                |          |    |    |    |    |    |    |
+
+ID | Levels tried | Last round | Help/warm-up used | Pause/resume | Rewind
+P1 |              |            |                  |              |
+P2 |              |            |                  |              |
+P3 |              |            |                  |              |
+P4 |              |            |                  |              |
+P5 |              |            |                  |              |
+
+ID | Example profiles tried | Mid-story cast switch | Round preserved | Art matches
+P1 |                        |                       |                 |
+P2 |                        |                       |                 |
+P3 |                        |                       |                 |
+P4 |                        |                       |                 |
+P5 |                        |                       |                 |
+Profiles here are clicked test settings, not participants' identities.
+
+ID | Ending understood | Reflection used | Resource opened | Clear path verified
+P1 |                   |                 |                 |
+P2 |                   |                 |                 |
+P3 |                   |                 |                 |
+P4 |                   |                 |                 |
+P5 |                   |                 |                 |
+
+Issue | Observed participant IDs | Help given | Revision | Owner | Recheck/date
+      |                          |            |          |       |
+      |                          |            |          |       |
+      |                          |            |          |       |
+
+4. EVIDENCE FOR THE PRESENTATION
+
+- Deployed URL, version, actual dates, and screenshots. Separate team QA from
+  external usability sessions. Actual distinct participants: ____.
+- Each task: independent ____ / observed ____; with help ____;
+  not completed ____; skipped/stopped ____. Leave unobserved tasks blank.
+- Actual coverage: topics ____, example profiles ____, mixed viewpoints ____,
+  character switches ____, matching artwork ____, levels ____, warm-ups ____, pause/resume ____, check-in ____,
+  selectable reflection ____, rewind ____, Clear path ____.
+- Whether learners understood support levels and subjective check-ins, based
+  on observed interface interpretations. Do not collect or report private scores.
+- Whether learners understood that character pairing is independent of topic
+  and level. Report only observed usability interpretations, not identities.
+- Two or three specific findings and resulting changes. State whether each
+  change was rechecked by teammates, participants, or neither.
+- Reach, if measured: metric ____, count ____, dates ____, method ____.
+  Keep page views, unique visitors, and usability participants separate.
+  If unavailable, say "not measured"; do not invent zero.
+- Limits: small convenience sample; optional before/after ratings do not
+  establish causation, durable skill gains, behavior change, or health outcomes.
+
+Reporting template (fill only with observed facts):
+"Between ____ and ____, ____ Berkeley students tried version ____.
+____ completed a story independently, ____ changed support levels without
+help, and ____ understood the ending display as a subjective check-in.
+We observed ____, so we changed ____. ____ remains to be tested."
+
+Update the deck's date/status before presenting. Do not retain "website not
+built" after launch or claim tests and findings in advance.

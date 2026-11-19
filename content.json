@@ -1,0 +1,268 @@
+{
+  "scenarios": [
+    {
+      "slug": "consent-boundaries",
+      "title": "Consent & boundaries",
+      "tagline": "Say what feels comfortable. Make room for a different answer.",
+      "intro": "Practice checking in, expressing a limit, and responding when someone wants to slow down or stop. You can change your mind at any point.",
+      "concern": "How do I say I want to slow down without making things awkward?",
+      "learn": [
+        {
+          "heading": "A boundary can be a complete sentence",
+          "text": "You can say what you want, what you do not want, or that you need more time. You do not need a perfect explanation to ask for a pause. If saying it in the moment feels difficult, a calm conversation beforehand can help you find words. Your boundary remains valid even if a partner feels disappointed or expected something different."
+        },
+        {
+          "heading": "Consent is an ongoing conversation",
+          "text": "Consent means freely agreeing to a specific activity. A previous yes, an existing relationship, or agreement to one activity does not answer every later question. Ask clearly, listen, and keep checking in. If an answer is uncertain, pause and clarify rather than assuming. When someone says no, asks to stop, or changes their mind, respect that choice without trying to talk them out of it."
+        }
+      ],
+      "practice": {
+        "context": "Fictional practice scenario: You and a partner are becoming physically close. You want to slow down and talk before anything continues. Choose words that you could adapt to your own voice.",
+        "openings": [
+          {
+            "label": "I like being close to you, and I want to slow down. Can we pause?",
+            "note": "Names your boundary directly while sharing how you feel. You can leave out the first sentence if it does not fit."
+          },
+          {
+            "label": "I want to stop here for now. Let's check in.",
+            "note": "States the limit first. Asking for a pause does not require an apology."
+          }
+        ],
+        "responses": [
+          {
+            "label": "They welcome the check-in",
+            "reply": "Of course. What would feel comfortable for you?",
+            "followups": [
+              {
+                "label": "I'd like to sit and talk for a while. How does that sound?",
+                "feedback": "You name an option you want and leave room for their answer. Both people can have boundaries about what happens next."
+              },
+              {
+                "label": "I'm still figuring that out. I want to take a break.",
+                "feedback": "Uncertainty is enough reason to pause. You can take time without choosing a different activity or promising to continue later."
+              }
+            ]
+          },
+          {
+            "label": "They point to an earlier yes",
+            "reply": "But you said you wanted to earlier.",
+            "followups": [
+              {
+                "label": "I did, and I've changed my mind. I want to stop now.",
+                "feedback": "An earlier yes does not remove your ability to change your mind. This statement makes your present boundary clear."
+              },
+              {
+                "label": "I'm not comfortable continuing. I'm going to take some space.",
+                "feedback": "You can end the interaction rather than debate your boundary. If it is not being respected, prioritize getting to a place where you feel safe and seek support if you want it."
+              }
+            ]
+          }
+        ]
+      },
+      "takeaway": "A clear check-in gives everyone room to choose. A request to pause or stop should be respected immediately.",
+      "resourceKeys": [
+        "care",
+        "uhs",
+        "shep"
+      ]
+    },
+    {
+      "slug": "protection",
+      "title": "Protection",
+      "tagline": "Bring up protection before you need to make a decision.",
+      "intro": "Practice discussing barrier protection, asking questions, and stating the conditions you need to feel comfortable. You can pause if you cannot agree.",
+      "concern": "What if bringing up protection interrupts the moment?",
+      "learn": [
+        {
+          "heading": "Start with your needs",
+          "text": "A conversation about protection can begin before a sexual situation. Pick a time when you both have room to think and ask questions. You might discuss what barrier protection you want, ask what your partner is comfortable with, and check whether you have what you need. Base the conversation on your needs and the activity being considered, rather than assumptions about either person's gender or anatomy. Barrier methods include condoms and dental dams; UHS information can help you explore options for the activity you are considering."
+        },
+        {
+          "heading": "Agreement includes the conditions",
+          "text": "If barrier protection is a condition of your consent, say so directly. You do not have to give up that boundary to keep the conversation comfortable. If you cannot agree or do not have what you need, pause or choose an activity that everyone freely wants. For questions about protection options, supplies, or your own health needs, use UHS or a trained SHEP peer educator."
+        }
+      ],
+      "practice": {
+        "context": "You and a partner are talking about having sex. You want to discuss barrier protection before deciding what to do.",
+        "openings": [
+          {
+            "label": "Before we go further, can we talk about what protection we'd use?",
+            "note": "Opens a shared conversation before either person assumes there is a plan."
+          },
+          {
+            "label": "Barrier protection is important to me. I want us to agree on that first.",
+            "note": "Names a condition that matters to you. You can make the wording more specific to the activity you are considering."
+          }
+        ],
+        "responses": [
+          {
+            "label": "They are ready to make a plan",
+            "reply": "Yes. What would you feel comfortable using?",
+            "followups": [
+              {
+                "label": "I'd like us to use barriers. Let's talk about what we'd need before deciding whether to continue.",
+                "feedback": "You connect the conversation to a practical next step. Having supplies does not create an obligation for either person to continue."
+              },
+              {
+                "label": "I have some questions about the options. Could we look at UHS information together first?",
+                "feedback": "It is okay to seek reliable information and take more time. Neither person has to pretend to know an answer."
+              }
+            ]
+          },
+          {
+            "label": "They prefer not to use barriers",
+            "reply": "I'd rather not use barriers.",
+            "followups": [
+              {
+                "label": "I hear you. Barrier protection is a condition for me, so let's pause.",
+                "feedback": "You acknowledge their preference while keeping your own boundary. A disagreement does not need to end with someone giving in."
+              },
+              {
+                "label": "Then I don't want to do that. We can talk about something else we'd both be comfortable with, or stop here.",
+                "feedback": "Any alternative also needs everyone's freely given agreement. Stopping is a valid outcome, with no replacement activity required."
+              }
+            ]
+          }
+        ]
+      },
+      "takeaway": "Protection can be part of a clear agreement. If an important condition is not met, you can pause or stop.",
+      "resourceKeys": [
+        "uhs",
+        "shep",
+        "care"
+      ]
+    },
+    {
+      "slug": "preferences",
+      "title": "Sexual preferences",
+      "tagline": "Share a preference without turning it into pressure.",
+      "intro": "Practice describing what feels comfortable, asking about a partner's preferences, and accepting that your answers may differ.",
+      "concern": "How do I say what I like without sounding critical or demanding?",
+      "learn": [
+        {
+          "heading": "Use your own experience as the starting point",
+          "text": "You can talk about preferences with simple phrases such as 'I like,' 'I would prefer,' or 'I'm curious about.' This describes your experience without assuming what a partner should enjoy. You can also share what you do not want or do not yet know. A conversation can happen outside a sexual situation, when there is less pressure to make an immediate decision."
+        },
+        {
+          "heading": "Curiosity leaves space for no",
+          "text": "Ask your partner what feels comfortable and listen to the answer. Sharing a preference is an invitation to communicate, not an agreement to act on it. You may have different interests, and either person can decline without needing to defend that choice. Consent remains specific and ongoing: even something someone liked before should not be treated as an automatic yes today."
+        }
+      ],
+      "practice": {
+        "context": "Fictional practice scenario: You want to tell a partner that you prefer a slower pace and more verbal check-ins. You also want to hear what works for them.",
+        "openings": [
+          {
+            "label": "I feel more comfortable when we go slowly and check in. What feels good for you?",
+            "note": "Shares a specific preference and invites your partner to describe their own."
+          },
+          {
+            "label": "Could we talk about what we each like and what we don't want? There's no pressure to try anything.",
+            "note": "Makes space for both preferences and limits without assuming that the conversation will lead to an activity."
+          }
+        ],
+        "responses": [
+          {
+            "label": "They share a preference too",
+            "reply": "I like check-ins too. Sometimes I need a moment to figure out how I feel.",
+            "followups": [
+              {
+                "label": "Thanks for telling me. We can pause whenever either of us needs time.",
+                "feedback": "You respond to what they said and make room for uncertainty. You still need to listen to each new answer."
+              },
+              {
+                "label": "Would a question like 'Do you want to keep going?' work for you? We can also stop and talk.",
+                "feedback": "You suggest language rather than assume it will work. A check-in should give a real choice, including stopping."
+              }
+            ]
+          },
+          {
+            "label": "They are unsure about talking now",
+            "reply": "I'm not ready to talk about that yet.",
+            "followups": [
+              {
+                "label": "That's okay. We can leave it here, and you can bring it up if you want to.",
+                "feedback": "You accept the answer without asking for a justification or a promise to discuss it later."
+              },
+              {
+                "label": "I respect that. I also need to talk about my boundaries before anything continues, so let's pause for now.",
+                "feedback": "Their choice not to discuss it and your need for a conversation can both be respected. Pausing avoids turning either need into pressure."
+              }
+            ]
+          }
+        ]
+      },
+      "takeaway": "You can name what you want while making a different answer welcome. Agreement grows through asking and listening.",
+      "resourceKeys": [
+        "uhs",
+        "shep",
+        "care"
+      ]
+    },
+    {
+      "slug": "sexual-health",
+      "title": "Sexual health",
+      "tagline": "Ask a health question without making it an accusation.",
+      "intro": "Practice bringing up STI testing and responding when a partner is willing to talk or feels questioned. Keep the focus on your needs and a shared conversation.",
+      "concern": "Will they think I don't trust them?",
+      "learn": [
+        {
+          "heading": "A health conversation can begin with honesty",
+          "text": "You can acknowledge that a topic feels awkward and still bring it up. Saying 'I'm nervous asking' or explaining that testing matters to your comfort can help state your intention clearly. You can ask about testing histories and questions without making assumptions about someone's health based on appearance, identity, or how well you know them."
+        },
+        {
+          "heading": "Make room for questions and a pause",
+          "text": "People may have different experiences with testing or may not know which questions to ask. UHS provides information about STI testing and access to care; a clinician can help with individual testing questions. Agreeing to discuss testing is only one part of a conversation about boundaries and protection. You can wait, seek information, or stop if you do not feel ready to continue."
+        }
+      ],
+      "practice": {
+        "context": "Fictional practice scenario from our group pitch: You want to discuss STI testing before having sex with a partner. Try a gentle or direct opening, then explore two possible responses. Real conversations may unfold differently.",
+        "openings": [
+          {
+            "label": "Can we talk about STI testing? I'm nervous bringing it up.",
+            "note": "The gentle opening names the topic and your feeling without blaming the other person."
+          },
+          {
+            "label": "I'd like us to discuss STI testing before we have sex.",
+            "note": "The direct opening clearly states when you want this conversation to happen."
+          }
+        ],
+        "responses": [
+          {
+            "label": "They are willing to talk",
+            "reply": "Yes. What did you have in mind?",
+            "followups": [
+              {
+                "label": "Could we talk about our testing histories and any questions we have?",
+                "feedback": "This follow-up from our pitch invites a two-way conversation. Share what you are comfortable sharing and avoid assuming that one answer resolves every health question."
+              },
+              {
+                "label": "I have some questions about testing options. Could we look at the UHS information together?",
+                "feedback": "You can use a reliable resource as a starting point. Individual questions about tests or timing can be discussed with a healthcare professional."
+              }
+            ]
+          },
+          {
+            "label": "They feel questioned",
+            "reply": "Why? Don't you trust me?",
+            "followups": [
+              {
+                "label": "This is about my comfort and health. I'd like us to talk about testing.",
+                "feedback": "This response from our pitch brings the focus back to your needs. It offers an explanation without requiring you to abandon the conversation or your boundary."
+              },
+              {
+                "label": "We don't have to resolve this right now. I want to wait until we can have this conversation.",
+                "feedback": "You can pause instead of trying to win an argument. Neither person has to continue a sexual activity or agree to a test under pressure."
+              }
+            ]
+          }
+        ]
+      },
+      "takeaway": "You can ask a health question and keep your boundary. Honest conversation can include uncertainty, more information, and time to decide.",
+      "resourceKeys": [
+        "uhs",
+        "shep",
+        "care"
+      ]
+    }
+  ]
+}

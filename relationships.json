@@ -1,0 +1,20 @@
+{
+  "options": [
+    {"id":"woman-man","label":"Woman + man","description":"Either person can be your character."},
+    {"id":"woman-woman","label":"Woman + woman","description":"Practice with two women."},
+    {"id":"man-man","label":"Man + man","description":"Practice with two men."},
+    {"id":"neutral","label":"Gender-neutral roles","description":"Use they/them for both characters."}
+  ],
+  "profiles": {
+    "woman-man": {"self":{"name":"Maya","pronouns":"she/her","label":"woman"},"partner":{"name":"Alex","pronouns":"he/him","label":"man"}},
+    "man-woman": {"self":{"name":"Alex","pronouns":"he/him","label":"man"},"partner":{"name":"Maya","pronouns":"she/her","label":"woman"}},
+    "woman-woman": {"self":{"name":"Maya","pronouns":"she/her","label":"woman"},"partner":{"name":"Jules","pronouns":"she/her","label":"woman"}},
+    "man-man": {"self":{"name":"Noah","pronouns":"he/him","label":"man"},"partner":{"name":"Jordan","pronouns":"he/him","label":"man"}},
+    "neutral": {"self":{"name":"Morgan","pronouns":"they/them","label":"gender-neutral character"},"partner":{"name":"Alex","pronouns":"they/them","label":"gender-neutral character"}}
+  },
+  "art": {
+    "woman-man": {"hero":"conversation-3d.webp","consent-boundaries":"consent-3d.webp","protection":"protection-3d.webp","preferences":"conversation-3d.webp","sexual-health":"health-woman-man.webp"},
+    "woman-woman": {"hero":"preferences-3d.webp","consent-boundaries":"consent-woman-woman.webp","protection":"protection-woman-woman.webp","preferences":"preferences-3d.webp","sexual-health":"health-woman-woman.webp"},
+    "man-man": {"hero":"health-3d.webp","consent-boundaries":"consent-man-man.webp","protection":"protection-man-man.webp","preferences":"preferences-man-man.webp","sexual-health":"health-3d.webp"}
+  }
+}

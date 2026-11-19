@@ -1,0 +1,490 @@
+{
+  "consent-boundaries": [
+    {
+      "title": "🌡️ A quick feeling check",
+      "prompt": "What might make the first sentence difficult for you?",
+      "hint": "You can name a present need before you have a perfect explanation. Feeling nervous does not make the request less clear.",
+      "humor": "Brain: three rehearsals. Mouth: still buffering 😅",
+      "choices": [
+        {
+          "label": "I know what I need, but saying it feels awkward.",
+          "response": "You already have a useful starting point: the need itself. Try one short sentence about it; you do not have to make the awkward feeling disappear first."
+        },
+        {
+          "label": "I am still figuring out what I want.",
+          "response": "You can ask for time while you figure that out. A clear request to pause can come before an explanation of what you might want afterward."
+        },
+        {
+          "label": "I keep wanting to apologize.",
+          "response": "That impulse can show how much you care about the interaction. You can be considerate and still state your need without making an apology the price of speaking."
+        }
+      ]
+    },
+    {
+      "title": "🎯 Make one thing clear",
+      "prompt": "Which detail would help make your request easier to understand?",
+      "hint": "Clarify what you want now, such as stopping, taking space, or having time. You do not need to supply a replacement activity.",
+      "humor": "Your first sentence does not need an introduction, abstract, and bibliography 📚",
+      "choices": [
+        {
+          "label": "What I want to stop or change right now.",
+          "response": "Naming the present action gives the other person less to guess about. Keep the sentence focused on your current choice rather than defending every past decision."
+        },
+        {
+          "label": "Whether I want company or space.",
+          "response": "Company and space are different requests, so it can help to name which you want. You may also be unsure and choose some time alone before deciding."
+        },
+        {
+          "label": "That I need time without deciding what comes next.",
+          "response": "That is something concrete to communicate, even without a later plan. You can explain that time to think does not include a promise to continue afterward."
+        }
+      ]
+    },
+    {
+      "title": "✏️ Try a sentence repair",
+      "prompt": "Which repair phrase would be useful to keep nearby?",
+      "hint": "Acknowledge unclear wording and restate the current boundary. Reassuring someone does not require changing your answer.",
+      "humor": "Good news: spoken sentences have an edit button too ✏️",
+      "choices": [
+        {
+          "label": "Let me say that more clearly: I want to pause.",
+          "response": "This gives you a direct way back to the point after a vague or sharp opening. You can revise the wording without withdrawing the request itself."
+        },
+        {
+          "label": "I meant that earlier, and my answer is different now.",
+          "response": "This separates an earlier answer from your present choice. You do not need to prove that the earlier answer was mistaken in order to change your mind."
+        },
+        {
+          "label": "I care about how you feel, and I still want to stop.",
+          "response": "This can acknowledge another person without making their feelings responsible for your decision. Use the caring statement only if it feels true; the boundary can stand alone."
+        }
+      ]
+    },
+    {
+      "title": "🧭 Two needs can be visible",
+      "prompt": "Where would you like to focus before choosing a next step?",
+      "hint": "Listen to another person’s wishes while keeping your own choice visible. A difference does not have to become an agreement tonight.",
+      "humor": "No need to solve the entire evening in one sentence 😅",
+      "choices": [
+        {
+          "label": "Name the need I do not want to talk myself out of.",
+          "response": "Try putting that need into ordinary words, such as space, quiet, or stopping. Identifying it can help you notice when you are agreeing mainly to reduce tension."
+        },
+        {
+          "label": "Understand their wish without promising to meet it.",
+          "response": "You can reflect what you heard and still have a different answer. Listening is a way to understand the situation, not a commitment to provide what someone wants."
+        },
+        {
+          "label": "Notice that we do not have a shared plan yet.",
+          "response": "That observation can be enough to choose a pause. You do not have to invent a compromise just because both people have explained their positions clearly."
+        }
+      ]
+    },
+    {
+      "title": "👣 Choose a small practical detail",
+      "prompt": "Which detail would make your next step less vague?",
+      "hint": "Keep the next step limited to what is actually wanted now. Future conversation or company should remain a separate choice.",
+      "humor": "The planning brain has opened seventeen tabs. One small detail is enough 🗂️",
+      "choices": [
+        {
+          "label": "Where I want to be after this conversation.",
+          "response": "A simple location or departure plan can make your request concrete. You can choose space without explaining the whole future of the relationship at the same time."
+        },
+        {
+          "label": "How much conversation I want right now.",
+          "response": "You can set a limit on talking as well as on an activity. If you want a break, you do not need to finish every question first."
+        },
+        {
+          "label": "What I am leaving undecided for later.",
+          "response": "Saying what remains open helps avoid accidental promises. You can leave a question undecided without scheduling when you will be ready to answer it."
+        }
+      ]
+    },
+    {
+      "title": "🧳 A phrase to carry with you",
+      "prompt": "Which skill would you like to practice again?",
+      "hint": "A clear ending can describe both the present decision and anything still unresolved. The other person’s reaction does not decide whether your boundary counts.",
+      "humor": "You can close a conversation without a season-finale speech 🎬",
+      "choices": [
+        {
+          "label": "Saying a short boundary without a long defense.",
+          "response": "You can practice a sentence that sounds like your own voice and stops after the request. Extra explanation is optional, rather than proof that the boundary is valid."
+        },
+        {
+          "label": "Correcting an answer when it no longer fits.",
+          "response": "Changing an answer can feel uncomfortable, especially after reassurance. A useful practice is naming the change plainly instead of hoping the other person will infer it."
+        },
+        {
+          "label": "Closing with no promise about a future yes.",
+          "response": "You can make the current decision clear while leaving the future genuinely open. That does not require predicting whether either person will want another conversation."
+        }
+      ]
+    }
+  ],
+  "protection": [
+    {
+      "title": "💬 What should your first line do?",
+      "prompt": "Choose the job you want the opening sentence to have.",
+      "hint": "Start with the barrier protection question or condition that matters to you. A short opening can leave room for details without hiding the topic.",
+      "humor": "Your brain has a 12-slide deck. Your mouth only needs the opening line 😅",
+      "choices": [
+        {
+          "label": "Put protection on the table before making plans.",
+          "response": "Naming the topic early gives you a clear starting point. You can ask to discuss protection without assuming that starting the conversation means agreeing to sex."
+        },
+        {
+          "label": "State a condition I need before continuing.",
+          "response": "A condition can be expressed as your own choice about participation. You do not need to frame it as a judgment about the other person to make it clear."
+        },
+        {
+          "label": "Admit that I have a question, not a complete plan.",
+          "response": "You can begin without knowing every detail. Naming the question lets you take time or seek information rather than agreeing to a plan you do not yet understand."
+        }
+      ]
+    },
+    {
+      "title": "🔎 Trade vague for specific",
+      "prompt": "Which phrase would make a general request more precise?",
+      "hint": "Words such as careful or safe can mean different things to different people. Name the condition or unanswered question rather than assuming a shared meaning.",
+      "humor": "Unfortunately, nobody else can see the subtitles in your head 💭",
+      "choices": [
+        {
+          "label": "Barrier protection is a condition for me.",
+          "response": "This states the condition directly and lets the other person respond to what you actually mean. It does not make you responsible for obtaining a particular answer."
+        },
+        {
+          "label": "I want us to agree on protection before deciding about sex.",
+          "response": "You separate the protection conversation from the decision to have sex. A discussion can end with a pause or unanswered questions rather than a commitment to continue."
+        },
+        {
+          "label": "I still have a question that I want to understand first.",
+          "response": "This makes uncertainty visible instead of covering it with a vague yes. You can identify the question and take time without pretending you already have an answer."
+        }
+      ]
+    },
+    {
+      "title": "🛠️ Keep the need, repair the wording",
+      "prompt": "Which phrase could help after a misunderstanding?",
+      "hint": "Clarify your own condition and correct any accidental agreement. You can repair tone without giving up the substance of the request.",
+      "humor": "Awkward first draft? Luckily, conversation has revision rights ✏️",
+      "choices": [
+        {
+          "label": "This is about a condition I need, not a judgment about you.",
+          "response": "This redirects attention to your choice about participation. The other person may still have feelings about the request, and you can listen without withdrawing the condition."
+        },
+        {
+          "label": "That came out sharply. Let me explain what I mean.",
+          "response": "You acknowledge the delivery rather than arguing that it should not matter. Follow the repair with the specific condition so the conversation does not lose its purpose."
+        },
+        {
+          "label": "That sounded like a yes, but I am not ready to agree.",
+          "response": "This corrects the impression before it becomes a plan. You can clarify an uncertain or unintended answer without needing the other person to notice the hesitation first."
+        }
+      ]
+    },
+    {
+      "title": "🧭 Before looking for a workaround",
+      "prompt": "What needs your attention when the plan does not fit?",
+      "hint": "A preference difference, missing supplies, or an unanswered question can leave you without a workable plan. You can pause without inventing an alternative activity.",
+      "humor": "The group-project instinct says “find a solution.” You can also take a beat 😅",
+      "choices": [
+        {
+          "label": "The condition that still matters to me.",
+          "response": "Name what has not changed just because a practical problem appeared. This can help distinguish a freely chosen adjustment from giving in to keep the evening moving."
+        },
+        {
+          "label": "The information or practical detail still missing.",
+          "response": "Being specific about the gap can make the situation easier to understand. Identifying a missing detail does not obligate you to solve it immediately or continue afterward."
+        },
+        {
+          "label": "Whether I actually want any alternative plan.",
+          "response": "An alternative is another choice, not a required consolation. You can consider what you want now, including ending the interaction without selecting something else to do."
+        }
+      ]
+    },
+    {
+      "title": "👣 Make the next step small",
+      "prompt": "Which kind of next step would you like to clarify?",
+      "hint": "Describe one manageable action and its limits. Getting information, spending time together, and having sex remain separate decisions.",
+      "humor": "No need to turn one next step into a five-year strategic plan 📅",
+      "choices": [
+        {
+          "label": "Take a break without setting a deadline.",
+          "response": "A break can give you room to think without promising a different answer. You can describe what is paused and leave the timing of any later conversation open."
+        },
+        {
+          "label": "Find an official resource for the question I still have.",
+          "response": "A resource can help you locate information or someone to ask. You can keep individual health questions for a professional without treating a webpage as a complete personal answer."
+        },
+        {
+          "label": "Check whether we both want a nonsexual plan.",
+          "response": "You can ask about a specific activity while making a different answer welcome. Neither person needs to accept company simply because another plan is off the table."
+        }
+      ]
+    },
+    {
+      "title": "📝 Give the plan a clear label",
+      "prompt": "Which distinction would you want to keep in the closing sentence?",
+      "hint": "Name what has actually been agreed and avoid filling in the rest. A protection conversation does not settle every later decision.",
+      "humor": "A clear closing line beats “you know what I mean” doing unpaid overtime 😅",
+      "choices": [
+        {
+          "label": "A condition, not a prediction of what will happen.",
+          "response": "You can state the condition for your participation without forecasting another person’s choice. If there is no shared agreement, that can remain the reason to stop or wait."
+        },
+        {
+          "label": "A pause, not a deadline for someone to change.",
+          "response": "This keeps the pause from becoming a countdown to agreement. Both people can take time without owing a new preference when a particular amount of time has passed."
+        },
+        {
+          "label": "A plan to talk, not a promise to proceed.",
+          "response": "A later conversation can be its own limited plan. You can make clear that having it will not automatically lead to sex or any other activity."
+        }
+      ]
+    }
+  ],
+  "preferences": [
+    {
+      "title": "🌡️ What is the awkward part?",
+      "prompt": "Pick the thought that makes this opening feel difficult.",
+      "hint": "Describe your own experience rather than assuming what your partner should enjoy. You can be uncertain and still begin a conversation.",
+      "humor": "Brain has drafted the speech. Mouth is still choosing a font 😅",
+      "choices": [
+        {
+          "label": "I worry that a preference will sound like criticism.",
+          "response": "An opening about what helps you feel comfortable gives you a concrete starting point. It cannot control the reaction, but it can make your intention easier to explain."
+        },
+        {
+          "label": "I do not have the perfect words for what I like.",
+          "response": "You can start with an example or describe what you are still figuring out. A conversation does not require a complete, polished inventory of your preferences."
+        },
+        {
+          "label": "I am worried our answers will be different.",
+          "response": "That possibility can feel uncomfortable without making the conversation pointless. Understanding the difference can help you decide what you want, even when it does not lead to agreement."
+        }
+      ]
+    },
+    {
+      "title": "🎯 Give a preference some detail",
+      "prompt": "Which approach would help explain what you mean?",
+      "hint": "A concrete example can make an abstract preference easier to discuss. Leave room for the other person to describe a different experience.",
+      "humor": "“You know, the thing” has officially reached its communication limit 😅",
+      "choices": [
+        {
+          "label": "Give one example of a check-in I would find useful.",
+          "response": "An example gives the other person something specific to respond to. Treat it as language to discuss and adapt, rather than a script they must perform perfectly."
+        },
+        {
+          "label": "Explain what a slower pace means to me.",
+          "response": "Your meaning may differ from the other person’s, so one concrete detail can help. You can name what feels comfortable without promising that it will always stay the same."
+        },
+        {
+          "label": "Ask what communication feels natural to them.",
+          "response": "This makes space for a preference you may not share. Listening can inform your next step without requiring you to replace your own needs with theirs."
+        }
+      ]
+    },
+    {
+      "title": "🧩 Check the assumption",
+      "prompt": "Which habit would help when the meaning gets tangled?",
+      "hint": "Do not assume that silence or imperfect wording tells you the whole answer. Clarify the meaning without turning the check-in into a performance test.",
+      "humor": "Mind-reading was not on the syllabus 😅",
+      "choices": [
+        {
+          "label": "Ask a clear question instead of interpreting silence.",
+          "response": "A direct question can give the other person a chance to describe their experience. It still needs room for uncertainty, a pause, or an answer you did not expect."
+        },
+        {
+          "label": "Let “I am not sure” be a usable answer.",
+          "response": "Uncertainty becomes more meaningful when it can lead to time and space. You can consider what you would do after that answer rather than immediately requesting a clearer yes."
+        },
+        {
+          "label": "Focus on understanding, not finding the perfect phrase.",
+          "response": "An awkward sentence can still open a useful conversation. You can ask what someone means and repair misunderstandings without treating every imperfect word as the final version."
+        }
+      ]
+    },
+    {
+      "title": "🧭 Make room for two answers",
+      "prompt": "What would you like to notice about the difference between you?",
+      "hint": "A shared plan needs both people’s willing participation. Understanding a difference does not require settling it or promising a new communication style.",
+      "humor": "This conversation can have two main characters 🎬",
+      "choices": [
+        {
+          "label": "What I need, even if explaining it feels uncomfortable.",
+          "response": "Naming the need can help you avoid agreeing only to make the tension disappear. You can describe its importance without insisting that the other person must meet it."
+        },
+        {
+          "label": "What they can honestly offer right now.",
+          "response": "Try listening to the answer they are giving rather than the answer you hope will follow. Their limit can matter alongside your own decision about continuing."
+        },
+        {
+          "label": "Whether a compromise actually feels comfortable to both of us.",
+          "response": "A compromise is not automatically useful just because it sits between two preferences. You can pause to ask whether either person is agreeing mainly to end the discussion."
+        }
+      ]
+    },
+    {
+      "title": "⏳ Leave space in the plan",
+      "prompt": "Which detail would make a tentative plan more honest?",
+      "hint": "A possible approach is not a promise to use it forever. Make room for uncertainty, time, and a changed answer.",
+      "humor": "The planning brain has opened a spreadsheet. You may close that tab 😅",
+      "choices": [
+        {
+          "label": "What we would do if someone says “I do not know.”",
+          "response": "Thinking about the response makes the check-in more than a question on a list. You can leave room to stop without demanding an immediate alternative or decision."
+        },
+        {
+          "label": "Which part of the plan is only something to consider.",
+          "response": "Naming a tentative idea keeps it from quietly becoming an agreement. Both people can consider the approach and later decide that they do not want to try it."
+        },
+        {
+          "label": "Whether another conversation is wanted, rather than owed.",
+          "response": "A later conversation can remain an invitation instead of homework. You can leave room for someone to decline it or decide that the difference is still unresolved."
+        }
+      ]
+    },
+    {
+      "title": "🧳 Choose what to take with you",
+      "prompt": "Which communication skill would you like to keep practicing?",
+      "hint": "A useful ending can be a limited plan, a pause, or recognition of different needs. None requires a promise that your preferences will align later.",
+      "humor": "Keep the phrase that sounds like you. Retire the robot voice 🤖",
+      "choices": [
+        {
+          "label": "Sharing a preference without making it a requirement for someone else.",
+          "response": "You can name what you want and decide what you will participate in. That is different from treating another person’s matching preference as something you are owed."
+        },
+        {
+          "label": "Making a small agreement without adding extra expectations.",
+          "response": "A limited plan can be easier to understand when its edges are clear. You can say what it includes and leave later choices for a separate conversation."
+        },
+        {
+          "label": "Recognizing a mismatch without treating it as a failure.",
+          "response": "Different preferences do not always produce a shared plan, even with thoughtful wording. You can respect the answer and still make a decision that fits your own needs."
+        }
+      ]
+    }
+  ],
+  "sexual-health": [
+    {
+      "title": "🌡️ Name the opening hurdle",
+      "prompt": "What makes bringing up this topic feel difficult?",
+      "hint": "Name the health topic and your own reason for wanting a conversation. You do not need to predict or manage the other person’s entire reaction.",
+      "humor": "Internal rehearsal: Oscar-worthy. First sentence: “So... um...” 😅",
+      "choices": [
+        {
+          "label": "I worry the question will sound like mistrust.",
+          "response": "You can explain that the conversation matters to your comfort and decisions. That cannot guarantee the response, but it gives you a clear intention to return to."
+        },
+        {
+          "label": "I have questions and do not know where to start.",
+          "response": "Starting with one question can be enough. You can say what you want to understand without needing to know the answer or make a health decision immediately."
+        },
+        {
+          "label": "I feel embarrassed saying the topic out loud.",
+          "response": "You can acknowledge that feeling and still name the topic directly. The opening does not have to sound effortless for it to express a genuine need to talk."
+        }
+      ]
+    },
+    {
+      "title": "🎯 What kind of request is this?",
+      "prompt": "Which distinction would help make your intention clearer?",
+      "hint": "A request to talk, a request for information, and a condition for your own participation are different. Say which one you mean instead of combining them into an unclear yes.",
+      "humor": "The sentence does not need a slide deck. One clear line can do it 😅",
+      "choices": [
+        {
+          "label": "An invitation to discuss questions we each have.",
+          "response": "This can open a two-way conversation without assuming access to every detail. The other person can choose what to share, and you can decide what remains unresolved for you."
+        },
+        {
+          "label": "A condition I need before deciding whether to have sex.",
+          "response": "You can state your own condition without requiring another person to change their health decisions. If the conditions do not overlap, waiting or stepping back remains available."
+        },
+        {
+          "label": "A request to look at information without making a decision yet.",
+          "response": "Reading information can be a limited next step. You can clarify that it does not require a test, disclosure of records, or agreement to any later activity."
+        }
+      ]
+    },
+    {
+      "title": "🧩 Unbundle the conversation",
+      "prompt": "Which pair of ideas would you want to keep separate?",
+      "hint": "Discussing testing does not automatically mean sharing records, taking a test, or agreeing to sex. Clarify the particular choice being discussed.",
+      "humor": "One conversation has opened three tabs. Let us label them first 🗂️",
+      "choices": [
+        {
+          "label": "Talking about questions and sharing private records.",
+          "response": "A conversation does not give either person automatic access to private records. You can be clear about what you are asking and accept that some information may remain private."
+        },
+        {
+          "label": "Learning about services and choosing a health action.",
+          "response": "Someone can want information without being ready to make a health decision. Keeping those steps separate leaves room for individual questions and choices about what to do next."
+        },
+        {
+          "label": "Trusting someone and agreeing to their request.",
+          "response": "A different answer does not have to become a verdict on the relationship. You can explain a need without making agreement the test of whether someone trusts you."
+        }
+      ]
+    },
+    {
+      "title": "🛠️ Reduce pressure, keep clarity",
+      "prompt": "Which skill would help when your needs do not match?",
+      "hint": "You can acknowledge pressure or unclear wording while keeping your own boundary. Neither person needs to make a health decision to end an uncomfortable conversation.",
+      "humor": "You can revise the sentence without submitting a formal correction notice ✏️",
+      "choices": [
+        {
+          "label": "Own wording that sounded like a demand.",
+          "response": "A specific repair names what felt pressuring rather than insisting you meant well. You can then offer a narrower invitation that genuinely leaves room for a different answer."
+        },
+        {
+          "label": "State what I will wait on without directing their decision.",
+          "response": "This keeps the focus on your own participation. The other person retains their choices about information and care, while you retain your choice about whether to continue."
+        },
+        {
+          "label": "Accept that we may be ready on different timelines.",
+          "response": "Different timelines can remain unresolved without either person being wrong. You can decide what that means for present plans instead of setting a deadline for someone else to agree."
+        }
+      ]
+    },
+    {
+      "title": "👣 Choose one information step",
+      "prompt": "Which small step would help you handle an unanswered question?",
+      "hint": "Use official resources to find information and access to care. Individual testing questions can be discussed with a healthcare professional rather than settled by this conversation exercise.",
+      "humor": "Your question can be a rough draft. It does not need a thesis defense 📚",
+      "choices": [
+        {
+          "label": "Find the official service page and check where to ask questions.",
+          "response": "This gives information-seeking a manageable purpose: locating the service or contact route. It does not require drawing a personal health conclusion from everything on the page."
+        },
+        {
+          "label": "Keep one question for a private conversation with a clinician.",
+          "response": "You can prepare for an individual conversation without sharing the question with a partner. A private next step does not have to include a promise to report back."
+        },
+        {
+          "label": "Identify what I still do not know before making plans.",
+          "response": "Naming the uncertainty can help you avoid turning reassurance into a conclusion. You can leave plans paused while seeking information, without promising that every question will disappear."
+        }
+      ]
+    },
+    {
+      "title": "📝 Name the actual agreement",
+      "prompt": "Which closing distinction would you want to make clear?",
+      "hint": "Describe only what both people have actually agreed to. Information, a future conversation, and sexual activity remain separate choices even after a thoughtful discussion.",
+      "humor": "A closing sentence can be short. No dramatic mic drop needed 🎤",
+      "choices": [
+        {
+          "label": "A resource to explore, not a conclusion about our health.",
+          "response": "You can agree to look for information while leaving personal questions open. That next step does not establish anyone’s health status or settle what either person should do."
+        },
+        {
+          "label": "A pause, not a promise of a different answer.",
+          "response": "This lets both people understand that time is not being offered as a guarantee. A later conversation can happen only if it is wanted, not owed."
+        },
+        {
+          "label": "A decision to step back, not a tactic to change their mind.",
+          "response": "You can explain your own decision without using it as a threat to obtain agreement. The other person’s answer can remain unchanged while you choose what happens next."
+        }
+      ]
+    }
+  ]
+}
