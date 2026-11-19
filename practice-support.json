@@ -3,7 +3,7 @@
     {
       "title": "🌡️ A quick feeling check",
       "prompt": "What might make the first sentence difficult for you?",
-      "hint": "You can name a present need before you have a perfect explanation. Feeling nervous does not make the request less clear.",
+      "hint": "You don't need perfect words to ask for a pause. You can name a present need before you have a perfect explanation. Feeling nervous does not make the request less clear.",
       "humor": "Brain: three rehearsals. Mouth: still buffering 😅",
       "choices": [
         {
@@ -23,7 +23,7 @@
     {
       "title": "🎯 Make one thing clear",
       "prompt": "Which detail would help make your request easier to understand?",
-      "hint": "Clarify what you want now, such as stopping, taking space, or having time. You do not need to supply a replacement activity.",
+      "hint": "You can say what you need right now, whether that's stopping, some space, or more time. Clarify what you want now, such as stopping, taking space, or having time. You do not need to supply a replacement activity.",
       "humor": "Your first sentence does not need an introduction, abstract, and bibliography 📚",
       "choices": [
         {
@@ -43,7 +43,7 @@
     {
       "title": "✏️ Try a sentence repair",
       "prompt": "Which repair phrase would be useful to keep nearby?",
-      "hint": "Acknowledge unclear wording and restate the current boundary. Reassuring someone does not require changing your answer.",
+      "hint": "You can try saying it again in a way that feels more like you. Acknowledge unclear wording and restate the current boundary. Reassuring someone does not require changing your answer.",
       "humor": "Good news: spoken sentences have an edit button too ✏️",
       "choices": [
         {
@@ -63,7 +63,7 @@
     {
       "title": "🧭 Two needs can be visible",
       "prompt": "Where would you like to focus before choosing a next step?",
-      "hint": "Listen to another person’s wishes while keeping your own choice visible. A difference does not have to become an agreement tonight.",
+      "hint": "You can hear each other out without finding an answer tonight. Listen to another person’s wishes while keeping your own choice visible. A difference does not have to become an agreement tonight.",
       "humor": "No need to solve the entire evening in one sentence 😅",
       "choices": [
         {
@@ -83,7 +83,7 @@
     {
       "title": "👣 Choose a small practical detail",
       "prompt": "Which detail would make your next step less vague?",
-      "hint": "Keep the next step limited to what is actually wanted now. Future conversation or company should remain a separate choice.",
+      "hint": "One small next step is enough. Keep the next step limited to what is actually wanted now. Future conversation or company should remain a separate choice.",
       "humor": "The planning brain has opened seventeen tabs. One small detail is enough 🗂️",
       "choices": [
         {
@@ -103,7 +103,7 @@
     {
       "title": "🧳 A phrase to carry with you",
       "prompt": "Which skill would you like to practice again?",
-      "hint": "A clear ending can describe both the present decision and anything still unresolved. The other person’s reaction does not decide whether your boundary counts.",
+      "hint": "It's okay to say where you'd like to leave things for now. A clear ending can describe both the present decision and anything still unresolved. The other person’s reaction does not decide whether your boundary counts.",
       "humor": "You can close a conversation without a season-finale speech 🎬",
       "choices": [
         {
@@ -125,7 +125,7 @@
     {
       "title": "💬 What should your first line do?",
       "prompt": "Choose the job you want the opening sentence to have.",
-      "hint": "Start with the barrier protection question or condition that matters to you. A short opening can leave room for details without hiding the topic.",
+      "hint": "It's okay to bring up protection before things go further. Start with the barrier protection question or condition that matters to you. A short opening can leave room for details without hiding the topic.",
       "humor": "Your brain has a 12-slide deck. Your mouth only needs the opening line 😅",
       "choices": [
         {
@@ -145,7 +145,7 @@
     {
       "title": "🔎 Trade vague for specific",
       "prompt": "Which phrase would make a general request more precise?",
-      "hint": "Words such as careful or safe can mean different things to different people. Name the condition or unanswered question rather than assuming a shared meaning.",
+      "hint": "If 'being careful' feels vague, try saying what you have in mind. Words such as careful or safe can mean different things to different people. Name the condition or unanswered question rather than assuming a shared meaning.",
       "humor": "Unfortunately, nobody else can see the subtitles in your head 💭",
       "choices": [
         {
@@ -165,7 +165,7 @@
     {
       "title": "🛠️ Keep the need, repair the wording",
       "prompt": "Which phrase could help after a misunderstanding?",
-      "hint": "Clarify your own condition and correct any accidental agreement. You can repair tone without giving up the substance of the request.",
+      "hint": "You can clear up what you meant and still keep your boundary. Clarify your own condition and correct any accidental agreement. You can repair tone without giving up the substance of the request.",
       "humor": "Awkward first draft? Luckily, conversation has revision rights ✏️",
       "choices": [
         {
@@ -185,7 +185,7 @@
     {
       "title": "🧭 Before looking for a workaround",
       "prompt": "What needs your attention when the plan does not fit?",
-      "hint": "A preference difference, missing supplies, or an unanswered question can leave you without a workable plan. You can pause without inventing an alternative activity.",
+      "hint": "If your needs don't match, it's okay to pause. A preference difference, missing supplies, or an unanswered question can leave you without a workable plan. You can pause without inventing an alternative activity.",
       "humor": "The group-project instinct says “find a solution.” You can also take a beat 😅",
       "choices": [
         {
@@ -205,7 +205,7 @@
     {
       "title": "👣 Make the next step small",
       "prompt": "Which kind of next step would you like to clarify?",
-      "hint": "Describe one manageable action and its limits. Getting information, spending time together, and having sex remain separate decisions.",
+      "hint": "One small next step is enough. Describe one manageable action and its limits. Getting information, spending time together, and having sex remain separate decisions.",
       "humor": "No need to turn one next step into a five-year strategic plan 📅",
       "choices": [
         {
@@ -225,7 +225,7 @@
     {
       "title": "📝 Give the plan a clear label",
       "prompt": "Which distinction would you want to keep in the closing sentence?",
-      "hint": "Name what has actually been agreed and avoid filling in the rest. A protection conversation does not settle every later decision.",
+      "hint": "A simple recap can help you both know what to expect. Name what has actually been agreed and avoid filling in the rest. A protection conversation does not settle every later decision.",
       "humor": "A clear closing line beats “you know what I mean” doing unpaid overtime 😅",
       "choices": [
         {
@@ -247,7 +247,7 @@
     {
       "title": "🌡️ What is the awkward part?",
       "prompt": "Pick the thought that makes this opening feel difficult.",
-      "hint": "Describe your own experience rather than assuming what your partner should enjoy. You can be uncertain and still begin a conversation.",
+      "hint": "Start with what feels good or comfortable for you. Describe your own experience rather than assuming what your partner should enjoy. You can be uncertain and still begin a conversation.",
       "humor": "Brain has drafted the speech. Mouth is still choosing a font 😅",
       "choices": [
         {
@@ -267,7 +267,7 @@
     {
       "title": "🎯 Give a preference some detail",
       "prompt": "Which approach would help explain what you mean?",
-      "hint": "A concrete example can make an abstract preference easier to discuss. Leave room for the other person to describe a different experience.",
+      "hint": "A small example can help your partner picture what you mean. A concrete example can make an abstract preference easier to discuss. Leave room for the other person to describe a different experience.",
       "humor": "“You know, the thing” has officially reached its communication limit 😅",
       "choices": [
         {
@@ -287,7 +287,7 @@
     {
       "title": "🧩 Check the assumption",
       "prompt": "Which habit would help when the meaning gets tangled?",
-      "hint": "Do not assume that silence or imperfect wording tells you the whole answer. Clarify the meaning without turning the check-in into a performance test.",
+      "hint": "If you're unsure what they mean, you can gently ask. Do not assume that silence or imperfect wording tells you the whole answer. Clarify the meaning without turning the check-in into a performance test.",
       "humor": "Mind-reading was not on the syllabus 😅",
       "choices": [
         {
@@ -307,7 +307,7 @@
     {
       "title": "🧭 Make room for two answers",
       "prompt": "What would you like to notice about the difference between you?",
-      "hint": "A shared plan needs both people’s willing participation. Understanding a difference does not require settling it or promising a new communication style.",
+      "hint": "You can hear each other out without finding an answer tonight. A shared plan needs both people’s willing participation. Understanding a difference does not require settling it or promising a new communication style.",
       "humor": "This conversation can have two main characters 🎬",
       "choices": [
         {
@@ -327,7 +327,7 @@
     {
       "title": "⏳ Leave space in the plan",
       "prompt": "Which detail would make a tentative plan more honest?",
-      "hint": "A possible approach is not a promise to use it forever. Make room for uncertainty, time, and a changed answer.",
+      "hint": "You can try an idea and change your mind later. A possible approach is not a promise to use it forever. Make room for uncertainty, time, and a changed answer.",
       "humor": "The planning brain has opened a spreadsheet. You may close that tab 😅",
       "choices": [
         {
@@ -347,7 +347,7 @@
     {
       "title": "🧳 Choose what to take with you",
       "prompt": "Which communication skill would you like to keep practicing?",
-      "hint": "A useful ending can be a limited plan, a pause, or recognition of different needs. None requires a promise that your preferences will align later.",
+      "hint": "It's okay to finish with a small plan, a pause, or different wishes. A useful ending can be a limited plan, a pause, or recognition of different needs. None requires a promise that your preferences will align later.",
       "humor": "Keep the phrase that sounds like you. Retire the robot voice 🤖",
       "choices": [
         {
@@ -369,7 +369,7 @@
     {
       "title": "🌡️ Name the opening hurdle",
       "prompt": "What makes bringing up this topic feel difficult?",
-      "hint": "Name the health topic and your own reason for wanting a conversation. You do not need to predict or manage the other person’s entire reaction.",
+      "hint": "It's okay if bringing this up feels a little awkward. Name the health topic and your own reason for wanting a conversation. You do not need to predict or manage the other person’s entire reaction.",
       "humor": "Internal rehearsal: Oscar-worthy. First sentence: “So... um...” 😅",
       "choices": [
         {
@@ -389,7 +389,7 @@
     {
       "title": "🎯 What kind of request is this?",
       "prompt": "Which distinction would help make your intention clearer?",
-      "hint": "A request to talk, a request for information, and a condition for your own participation are different. Say which one you mean instead of combining them into an unclear yes.",
+      "hint": "You can gently check what 'talking about testing' means to each of you. A request to talk, a request for information, and a condition for your own participation are different. Say which one you mean instead of combining them into an unclear yes.",
       "humor": "The sentence does not need a slide deck. One clear line can do it 😅",
       "choices": [
         {
@@ -409,7 +409,7 @@
     {
       "title": "🧩 Unbundle the conversation",
       "prompt": "Which pair of ideas would you want to keep separate?",
-      "hint": "Discussing testing does not automatically mean sharing records, taking a test, or agreeing to sex. Clarify the particular choice being discussed.",
+      "hint": "A conversation doesn't have to become a promise. Discussing testing does not automatically mean sharing records, taking a test, or agreeing to sex. Clarify the particular choice being discussed.",
       "humor": "One conversation has opened three tabs. Let us label them first 🗂️",
       "choices": [
         {
@@ -429,7 +429,7 @@
     {
       "title": "🛠️ Reduce pressure, keep clarity",
       "prompt": "Which skill would help when your needs do not match?",
-      "hint": "You can acknowledge pressure or unclear wording while keeping your own boundary. Neither person needs to make a health decision to end an uncomfortable conversation.",
+      "hint": "A gentler restart can help if the conversation feels tense. You can acknowledge pressure or unclear wording while keeping your own boundary. Neither person needs to make a health decision to end an uncomfortable conversation.",
       "humor": "You can revise the sentence without submitting a formal correction notice ✏️",
       "choices": [
         {
@@ -449,7 +449,7 @@
     {
       "title": "👣 Choose one information step",
       "prompt": "Which small step would help you handle an unanswered question?",
-      "hint": "Use official resources to find information and access to care. Individual testing questions can be discussed with a healthcare professional rather than settled by this conversation exercise.",
+      "hint": "You don't have to figure out every health question together. Use official resources to find information and access to care. Individual testing questions can be discussed with a healthcare professional rather than settled by this conversation exercise.",
       "humor": "Your question can be a rough draft. It does not need a thesis defense 📚",
       "choices": [
         {
@@ -469,7 +469,7 @@
     {
       "title": "📝 Name the actual agreement",
       "prompt": "Which closing distinction would you want to make clear?",
-      "hint": "Describe only what both people have actually agreed to. Information, a future conversation, and sexual activity remain separate choices even after a thoughtful discussion.",
+      "hint": "You can finish with one small step you both feel okay about. Describe only what both people have actually agreed to. Information, a future conversation, and sexual activity remain separate choices even after a thoughtful discussion.",
       "humor": "A closing sentence can be short. No dramatic mic drop needed 🎤",
       "choices": [
         {

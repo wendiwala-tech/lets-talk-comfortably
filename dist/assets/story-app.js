@@ -30,6 +30,10 @@
   function restart(){Object.assign(state,{node:story.entry,history:[],pending:null,paused:false,reflection:null,after:null,before:path.read().baseline,micro:{},showLevels:false});render();}
   function rewind(index){const rec=state.history[index];state.node=rec.node;state.history=state.history.slice(0,index);state.pending=null;state.reflection=null;state.after=null;state.micro={};render();}
   function speech(who,line,cls=''){const d=el('div',undefined,'story-speech '+cls);d.append(el('span',who,'speaker-name'),el('p',line));return d;}
+  function illustratedSpeech(node,choice=null){
+    if(!window.ConversationComic)return speech(partner,choice?choice.response:node.partner);
+    return window.ConversationComic.render({slug:scenario.slug,story,node,choice,phase:choice?'feedback':'choice',relationship:path.read().relationship,selfName:speaker,partnerName:partner});
+  }
   function feedback(title,body){const box=el('section',undefined,'feedback story-feedback');box.append(el('h4',title),el('p',body));return box;}
   function historyPanel(){
     if(!state.history.length)return null;
@@ -82,13 +86,13 @@
       const history=historyPanel();if(history)root.append(history);const actions=el('div',undefined,'exercise-actions');actions.append(btn('Try another ending',()=>rewind(state.history.length-1),'button secondary'),btn('Restart this story',restart,'button secondary'));const resources=el('a','Explore campus resources','button secondary');resources.href='#support';actions.append(resources);root.append(actions);focus(title,move);return;
     }
     if(state.pending!==null){
-      const choice=node.choices[state.pending];title=el('h3','See how the conversation shifts.','stage-title');root.append(title,speech(partner,choice.response));
+      const choice=node.choices[state.pending];title=el('h3','See how the conversation shifts.','stage-title');root.append(title,illustratedSpeech(node,choice));
       if(currentLevel()!==3)root.append(feedback('What this choice does',firstSentence(choice.explanation)));
       root.append(el('p',support[node.round-1].humor,'micro-humor'));
       const actions=el('div',undefined,'exercise-actions');actions.append(btn(story.endings[choice.next]?'See this ending':'Continue the conversation',()=>{state.history.push({node:state.node,choice:state.pending});setNode(choice.next);},'button primary'),btn('Try different wording',()=>{state.pending=null;render();},'button secondary'));root.append(actions);
       root.append(more(currentLevel()===3?'Unpack this choice 🔍':'Your wording & the full explanation',speech(speaker,choice.label,'self'),feedback('Why this wording matters',choice.explanation),microDetails(node)));
     }else{
-      title=el('h3',node.title,'stage-title');root.append(title);if(node.partner)root.append(speech(partner,node.partner));
+      title=el('h3',node.title,'stage-title');root.append(title);if(node.partner)root.append(illustratedSpeech(node));
       if(currentLevel()===1){root.append(el('p',firstSentence(support[node.round-1].hint),'coach-preview'));}
       else if(currentLevel()===2){const d=el('details',undefined,'micro-toggle');d.append(el('summary','A hint, please 💡'),el('p',support[node.round-1].hint,'coach-hint'));root.append(d);}
       else root.append(el('p','Your turn. Pick a reply, then explore what it does. 🎯','path-note'));
