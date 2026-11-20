@@ -1,9 +1,14 @@
 /* Story panels use the existing warm and academic palettes. */
 .conversation-comic{margin:.65rem 0 .8rem;min-width:0;max-width:100%}
 .conversation-comic .comic-bubble.story-speech{display:flow-root;margin:0;padding:.8rem 1rem;background:var(--tint);border:0;border-radius:14px;color:var(--ink);animation:comic-panel-arrive .2s ease-out}
-.comic-art{float:left;width:200px;max-width:43%;aspect-ratio:1;margin:-.3rem .9rem .2rem -.3rem;background-repeat:no-repeat;background-size:200% 300%;border-radius:8px}
+.comic-figure{float:left;width:200px;max-width:43%;margin:-.3rem .9rem .2rem -.3rem}
+.comic-art{width:100%;aspect-ratio:1;background-repeat:no-repeat;background-size:200% 300%;border-radius:8px}
+.comic-cast{display:grid;grid-template-columns:1fr 1fr;gap:.2rem;text-align:center;margin-top:.1rem;font-size:.72rem;line-height:1.2}
+.comic-person{padding:.2rem .1rem;color:var(--muted);overflow-wrap:anywhere}
+.comic-person.is-speaking{font-weight:700;color:var(--ink);background:var(--paper);border-radius:8px}
+.comic-person small{display:block;font-size:.65rem;font-weight:400;margin-top:.1rem}
 .comic-load-check{display:none!important}
-.comic-art[hidden]{display:none!important}
+.comic-figure[hidden]{display:none!important}
 .conversation-comic .speaker-name{padding-top:.2rem;font-size:.82rem;margin-bottom:.4rem;line-height:1.4}
 .conversation-comic .comic-bubble p{font-size:1rem;line-height:1.5;margin:0;overflow-wrap:break-word}
 .conversation-comic[data-art-status="missing"] .comic-bubble.story-speech{background:var(--tint)}
@@ -12,9 +17,9 @@
 @keyframes comic-panel-arrive{from{opacity:.5;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:650px){
  .conversation-comic .comic-bubble.story-speech{padding:.7rem .8rem}
- .comic-art{width:125px;max-width:45%;margin:-.2rem .65rem .15rem -.2rem}
+ .comic-figure{width:125px;max-width:45%;margin:-.2rem .65rem .15rem -.2rem}
  .conversation-comic .comic-bubble p{font-size:1rem;line-height:1.5}
  .conversation-comic .speaker-name{font-size:.8rem}
 }
-@media(max-width:380px){.comic-art{width:108px;margin-right:.55rem}}
+@media(max-width:380px){.comic-figure{width:108px;margin-right:.55rem}}
 @media(prefers-reduced-motion:reduce){.conversation-comic .comic-bubble.story-speech{animation:none}}

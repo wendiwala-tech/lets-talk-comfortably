@@ -52,3 +52,49 @@ Six cells in row-major order: top-left = a gently nervous opening, speaker gathe
 Constraints: exactly two adult people per cell, twelve character figures total. Every cell must be a usable separate animation frame. No text, letters, numbers, logos, speech balloons, icons, captions, props, furniture, scenery, shadows outside the character cutouts or watermark. No exaggerated anger, crying, celebration, hearts, sexual activity or nudity. Do not frame a boundary or pause as a bad outcome.
 Transparent background: genuine alpha, no checkerboard drawn into the image.
 Reference identity: man on left with medium wavy dark hair, round glasses, navy knit sweater and cream collar; man on right with short dense dark curls, salmon overshirt over cream shirt.
+
+
+Speaker-specific revision — 2026-11-19
+Current production assets: comic-speaker-mixed-woman.webp, comic-speaker-mixed-man.webp,
+comic-speaker-women-right.webp, comic-speaker-men-right.webp.
+The older comic-pair sheets above are retained as reference assets, not loaded by the story runtime.
+Built-in image_gen.imagegen edit mode, real generated alpha requested. Sources copied to
+../comic-art-source/comic-speaker-*.png; WebP conversion only. No programmatic redrawing.
+Frame order: hesitant, asking, concerned, explaining, boundary, warm.
+Only the designated partner speaks/gestures; the other character listens. All 24 cells visually reviewed.
+Current spoken-line emotion is recorded as comicExpression in stories/*.json.
+
+SHARED PROMPT:
+Use case: illustration-story. Edit the reference into a production sprite sheet for an adult conversation practice website. Preserve EXACT character identities, hair, skin tones, clothes, warm soft stylized 3D rendering, transparent cutouts.
+Exact canvas 1024x1536, TWO columns and THREE rows, six 512-square cells, same two fully clothed adults waist-up in every cell at identical scale and left/right position, plenty of transparent margin and separate cells. Real transparent alpha, no background, labels, text, icons, speech bubbles, furniture, objects, or grid lines. Both figures fully contained in each cell; no touching.
+CRITICAL: only the designated SPEAKER speaks, mouths slightly open and natural small hand gestures. The LISTENER's mouth stays closed, relaxed hands resting low and still, attentive without making a speaking/questioning/stop gesture. This must hold in ALL SIX cells, no role switches.
+Frame0 top-left: speaker gently hesitant, worried eyebrows, one hand near chest, not smiling.
+Frame1 top-right: speaker asking a curious clarifying question, brows lightly raised, one modest palm-up hand, no smile.
+Frame2 middle-left: speaker concerned / uncertain / disappointed, eyebrows drawn slightly up at center, hands close and low, no smile, no anger.
+Frame3 middle-right: speaker calmly explaining, composed neutral expression, one low open palm, no smile.
+Frame4 bottom-left: speaker kindly but firmly setting a boundary or asking for a pause, calm serious expression, a small open palm held upright close to their own body; listener respects it, no smile.
+Frame5 bottom-right: speaker offering warm acknowledgment, small genuine smile, slight conversational hand gesture; listener quiet, no celebration, no romance.
+All six are SPEAKING expressions, never put speaker gesture on listener. Do not exaggerate emotions.
+
+ASSET: comic-speaker-mixed-woman.webp
+REFERENCE: comic-pair-mixed.webp
+ADDITIONAL PROMPT:
+The SPEAKER is ALWAYS the woman on the LEFT: long dark wavy hair, gold hoop earrings, sage-green cardigan over cream shirt. The LISTENER is ALWAYS the man on the RIGHT: curly dark hair, navy knit sweater over salmon collar. Keep these exact sides; only the left woman gestures/speaks in every frame.
+
+ASSET: comic-speaker-mixed-man.webp
+REFERENCE: comic-pair-mixed.webp
+ADDITIONAL PROMPT:
+The SPEAKER is ALWAYS the man on the RIGHT: curly dark hair, navy knit sweater over salmon collar. The LISTENER is ALWAYS the woman on the LEFT: long dark wavy hair, gold hoop earrings, sage-green cardigan over cream shirt. Keep these exact sides; ONLY the right man gestures/speaks in every frame. In the reference the woman sometimes gestures; change her hands to resting in EVERY CELL.
+
+ASSET: comic-speaker-women-right.webp
+REFERENCE: comic-pair-women.webp
+ADDITIONAL PROMPT:
+The SPEAKER is ALWAYS the woman on the RIGHT: shoulder-length brown waves, small gold hoops and coral knit sweater. The LISTENER is ALWAYS the woman on the LEFT: short dense dark curls, gold hoops, olive overshirt over cream shirt. Keep these exact sides; ONLY the right coral-sweater woman gestures/speaks in every frame. Change the left woman to relaxed resting hands and mouth closed in EVERY CELL.
+
+ASSET: comic-speaker-men-right.webp
+REFERENCE: comic-pair-men.webp
+ADDITIONAL PROMPT:
+The SPEAKER is ALWAYS the man on the RIGHT: short dense dark curls, salmon overshirt over cream shirt. The LISTENER is ALWAYS the man on the LEFT: medium wavy dark hair, round glasses, navy knit sweater and cream collar. Keep these exact sides; ONLY the right salmon-shirt man gestures/speaks in every frame. Change the left glasses-wearing man to relaxed resting hands and mouth closed in EVERY CELL.
+
+Follow-up edit for comic-speaker-men-right.webp: removed residual backdrop with built-in image_gen.imagegen. Final source ../comic-art-source/comic-speaker-men-right-transparent.png.
+Use case: background-extraction. Edit ONLY the background of this existing 1024x1536 two-column by three-row sprite sheet. Remove ALL white/cream/brown background and haze to genuinely empty fully transparent alpha in every cell and every gap. Keep the six pairs of adult characters exactly as drawn: identical identity, hair, faces, expressions, mouth positions, gestures, clothes, left/right locations, sizing and 2x3 grid alignment. Do not move or redraw people. Precisely retain the silhouettes, hair and fingers. No added shadows, glow, borders, text, checkerboards or color backgrounds. The right salmon-shirt man is speaking in all six cells; preserve that. Deliver real transparent cutout with alpha 0 outside people.

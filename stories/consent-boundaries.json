@@ -31,16 +31,19 @@
           "moveTags": [
             "naming-needs",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "asking"
         },
         {
           "label": "Maybe we should take it easy for a bit?",
           "response": "Sure, we can pause. Do you mean a little break, or stopping for tonight?",
           "explanation": "This sounds natural when you feel shy, but 'take it easy' can mean different things. You will have a chance to make your boundary more specific.",
           "next": "vague_checkin",
-          "moveTags": []
+          "moveTags": [],
+          "comicExpression": "asking"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "clear_checkin": {
       "round": 2,
@@ -58,16 +61,19 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         },
         {
           "label": "No, you haven't done anything wrong. I'm probably just overthinking.",
           "response": "Oh, so you'd still like to keep going, but you're feeling nervous?",
           "explanation": "Reassurance may feel easier than stating a limit, but it can hide what you need. Alex has interpreted your words as uncertainty about continuing, which you can now correct.",
           "next": "reassurance_misread",
-          "moveTags": []
+          "moveTags": [],
+          "comicExpression": "asking"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "vague_checkin": {
       "round": 2,
@@ -85,16 +91,19 @@
           "moveTags": [
             "clarifying",
             "naming-needs"
-          ]
+          ],
+          "comicExpression": "explaining"
         },
         {
           "label": "I'm not sure... I thought you'd know what I meant.",
           "response": "I want to understand. Could you help me out a little?",
           "explanation": "Frustration is understandable, but asking someone to guess can prolong confusion. You can repair the wording while keeping your boundary intact.",
           "next": "guessing_repair",
-          "moveTags": []
+          "moveTags": [],
+          "comicExpression": "asking"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "earlier_yes": {
       "round": 3,
@@ -112,7 +121,8 @@
           "moveTags": [
             "boundaries",
             "clarifying"
-          ]
+          ],
+          "comicExpression": "concerned"
         },
         {
           "label": "I'd still like to hang out and talk. I don't want any more touching tonight, though.",
@@ -122,9 +132,11 @@
           "moveTags": [
             "naming-needs",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "hesitant"
         }
-      ]
+      ],
+      "comicExpression": "explaining"
     },
     "reassurance_misread": {
       "round": 3,
@@ -142,7 +154,8 @@
           "moveTags": [
             "clarifying",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "concerned"
         },
         {
           "label": "I'm not sure what I want yet. I'd rather stop while I figure that out.",
@@ -152,9 +165,11 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "asking"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "guessing_repair": {
       "round": 3,
@@ -172,7 +187,8 @@
           "moveTags": [
             "clarifying",
             "naming-needs"
-          ]
+          ],
+          "comicExpression": "concerned"
         },
         {
           "label": "I can't quite explain it yet. I don't want any more touching while I figure out how I feel.",
@@ -182,9 +198,11 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "asking"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "different_expectations": {
       "round": 4,
@@ -202,7 +220,8 @@
           "moveTags": [
             "listening",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "asking"
         },
         {
           "label": "I get that. I'd like to talk for a bit, but I still don't want any more touching tonight.",
@@ -212,9 +231,11 @@
           "moveTags": [
             "listening",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "asking"
         }
-      ]
+      ],
+      "comicExpression": "concerned"
     },
     "different_company": {
       "round": 4,
@@ -232,7 +253,8 @@
           "moveTags": [
             "listening",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "asking"
         },
         {
           "label": "I'd enjoy talking if you'd like that too. I'd still want to keep it to talking tonight.",
@@ -242,9 +264,11 @@
           "moveTags": [
             "listening",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "asking"
         }
-      ]
+      ],
+      "comicExpression": "hesitant"
     },
     "uncertain_needs": {
       "round": 4,
@@ -262,7 +286,8 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "asking"
         },
         {
           "label": "I'd like to stay and talk for a bit. I still don't want any touching, though.",
@@ -272,9 +297,11 @@
           "moveTags": [
             "naming-needs",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "asking"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "plan_space": {
       "round": 5,
@@ -292,7 +319,8 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         },
         {
           "label": "I'd like to head home now. Could we check in tomorrow about how we talk about this?",
@@ -302,9 +330,11 @@
           "moveTags": [
             "naming-needs",
             "listening"
-          ]
+          ],
+          "comicExpression": "asking"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "plan_talk": {
       "round": 5,
@@ -322,7 +352,8 @@
           "moveTags": [
             "listening",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "warm"
         },
         {
           "label": "Actually, I think tomorrow would be easier. I'd like to head home for tonight.",
@@ -332,9 +363,11 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "asking"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "decision_space": {
       "round": 6,
@@ -352,7 +385,8 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         },
         {
           "label": "I'd like to talk another day about what makes it easier for us to speak up. We can find a time when we're both ready.",
@@ -362,9 +396,11 @@
           "moveTags": [
             "listening",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "warm"
         }
-      ]
+      ],
+      "comicExpression": "explaining"
     },
     "decision_later": {
       "round": 6,
@@ -382,7 +418,8 @@
           "moveTags": [
             "clarifying",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "warm"
         },
         {
           "label": "Thinking about it, I might need a little more time. Can we leave the timing open?",
@@ -392,9 +429,11 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "decision_talk": {
       "round": 6,
@@ -412,7 +451,8 @@
           "moveTags": [
             "listening",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "warm"
         },
         {
           "label": "Thanks, I appreciate that. I'm feeling tired now, so I'd rather head home after all.",
@@ -422,9 +462,11 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         }
-      ]
+      ],
+      "comicExpression": "warm"
     }
   },
   "endings": {

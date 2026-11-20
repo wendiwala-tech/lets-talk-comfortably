@@ -31,7 +31,8 @@
           "moveTags": [
             "naming-needs",
             "health-questions"
-          ]
+          ],
+          "comicExpression": "asking"
         },
         {
           "label": "Before we have sex, could we talk about STI testing? I'd feel more comfortable if we did.",
@@ -41,9 +42,11 @@
           "moveTags": [
             "naming-needs",
             "health-questions"
-          ]
+          ],
+          "comicExpression": "concerned"
         }
-      ]
+      ],
+      "comicExpression": "warm"
     },
     "willing": {
       "round": 2,
@@ -61,7 +64,8 @@
           "moveTags": [
             "listening",
             "health-questions"
-          ]
+          ],
+          "comicExpression": "boundary"
         },
         {
           "label": "I'm not sure about the testing options. Would you want to look at the UHS page together?",
@@ -70,9 +74,11 @@
           "next": "uncertain_agreement",
           "moveTags": [
             "health-questions"
-          ]
+          ],
+          "comicExpression": "asking"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "trust": {
       "round": 2,
@@ -90,16 +96,19 @@
           "moveTags": [
             "naming-needs",
             "health-questions"
-          ]
+          ],
+          "comicExpression": "boundary"
         },
         {
           "label": "Could you trust me on this and say yes? It would really put my mind at ease.",
           "response": "I'd like to understand what you're asking before I agree.",
           "explanation": "This turns trust into a reason Jordan should comply, which increases the pressure. You can still repair that wording and clarify what talking, reading information, and deciding each mean.",
           "next": "uncertain_agreement",
-          "moveTags": []
+          "moveTags": [],
+          "comicExpression": "explaining"
         }
-      ]
+      ],
+      "comicExpression": "hesitant"
     },
     "privacy": {
       "round": 3,
@@ -117,16 +126,19 @@
           "moveTags": [
             "naming-needs",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "boundary"
         },
         {
           "label": "Could you just tell me everything? I think I'd feel better if I knew.",
           "response": "I want to help you feel more comfortable, but that's more than I'm ready to share.",
           "explanation": "You express anxiety, but \"everything\" gives Jordan no clear boundary around the request. Their response makes the pressure visible, and the next step is acknowledging it rather than asking for more detail.",
           "next": "repair_pressure",
-          "moveTags": []
+          "moveTags": [],
+          "comicExpression": "boundary"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "uncertain_agreement": {
       "round": 3,
@@ -144,16 +156,19 @@
           "moveTags": [
             "clarifying",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "boundary"
         },
         {
           "label": "Could we sort out the details later? I'd feel better if you could just say yes for now.",
           "response": "I don't feel ready to say yes without knowing more. Could we slow down?",
           "explanation": "An early yes might feel reassuring, but it would not settle what either person has agreed to. Jordan's refusal creates a chance to stop seeking the word \"yes\" and return to a specific request.",
           "next": "repair_pressure",
-          "moveTags": []
+          "moveTags": [],
+          "comicExpression": "boundary"
         }
-      ]
+      ],
+      "comicExpression": "boundary"
     },
     "different_choices": {
       "round": 4,
@@ -171,7 +186,8 @@
           "moveTags": [
             "health-questions",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "warm"
         },
         {
           "label": "Would you rather look into your questions on your own? I'm okay waiting instead of rushing you.",
@@ -181,9 +197,11 @@
           "moveTags": [
             "health-questions",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "hesitant"
         }
-      ]
+      ],
+      "comicExpression": "boundary"
     },
     "repair_pressure": {
       "round": 4,
@@ -201,7 +219,8 @@
           "moveTags": [
             "clarifying",
             "listening"
-          ]
+          ],
+          "comicExpression": "boundary"
         },
         {
           "label": "I hear you. Let's take a break from the questions. I'll wait on sex, and you can take your own time.",
@@ -211,9 +230,11 @@
           "moveTags": [
             "boundaries",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "boundary"
         }
-      ]
+      ],
+      "comicExpression": "boundary"
     },
     "resource_step": {
       "round": 5,
@@ -231,16 +252,19 @@
           "moveTags": [
             "health-questions",
             "clarifying"
-          ]
+          ],
+          "comicExpression": "boundary"
         },
         {
           "label": "Maybe once we've read it, we'll have everything figured out and won't need to worry.",
           "response": "I hope it helps, but I might still have questions. I'm not ready to make plans for sex.",
           "explanation": "You reach for a simple resolution, but Jordan does not share that confidence. Their answer gives you a chance to accept remaining uncertainty rather than treat reading a page as completion of the conversation.",
           "next": "unresolved_decision",
-          "moveTags": []
+          "moveTags": [],
+          "comicExpression": "boundary"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "separate_step": {
       "round": 5,
@@ -258,7 +282,8 @@
           "moveTags": [
             "boundaries",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "warm"
         },
         {
           "label": "I understand. I'm finding the uncertainty hard, so I think I need a little space from dating.",
@@ -268,9 +293,11 @@
           "moveTags": [
             "naming-needs",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "concerned"
         }
-      ]
+      ],
+      "comicExpression": "hesitant"
     },
     "information_decision": {
       "round": 6,
@@ -288,7 +315,8 @@
           "moveTags": [
             "health-questions",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "warm"
         },
         {
           "label": "Actually, I think I need a break from talking about this—and from dating for a little while.",
@@ -298,9 +326,11 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "waiting_decision": {
       "round": 6,
@@ -318,7 +348,8 @@
           "moveTags": [
             "clarifying",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "warm"
         },
         {
           "label": "I appreciate the invitation. I think I need some space from dating while I figure out how I feel.",
@@ -328,9 +359,11 @@
           "moveTags": [
             "naming-needs",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "concerned"
         }
-      ]
+      ],
+      "comicExpression": "warm"
     },
     "unresolved_decision": {
       "round": 6,
@@ -348,7 +381,8 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         },
         {
           "label": "I like spending time with you, but I think we're looking for different things. I'd rather step back than keep asking you to change your mind.",
@@ -358,9 +392,11 @@
           "moveTags": [
             "naming-needs",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "concerned"
         }
-      ]
+      ],
+      "comicExpression": "concerned"
     }
   },
   "endings": {

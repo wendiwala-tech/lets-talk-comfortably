@@ -31,16 +31,19 @@
           "moveTags": [
             "naming-needs",
             "listening"
-          ]
+          ],
+          "comicExpression": "warm"
         },
         {
           "label": "Before we plan Friday, can we talk about the way you've been with me?",
           "response": "Of course. Is something wrong? I'm not quite sure what you mean.",
           "explanation": "You bring up the topic, but the broad wording leaves Eli guessing what the concern is. You can still explain your own preference and repair the impression that this is an accusation.",
           "next": "repair_opening",
-          "moveTags": []
+          "moveTags": [],
+          "comicExpression": "concerned"
         }
-      ]
+      ],
+      "comicExpression": "warm"
     },
     "clarify": {
       "round": 2,
@@ -58,7 +61,8 @@
           "moveTags": [
             "boundaries",
             "clarifying"
-          ]
+          ],
+          "comicExpression": "hesitant"
         },
         {
           "label": "What would feel comfortable for you? I'd like to hear that too.",
@@ -67,9 +71,11 @@
           "next": "silence",
           "moveTags": [
             "listening"
-          ]
+          ],
+          "comicExpression": "explaining"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "repair_opening": {
       "round": 2,
@@ -87,16 +93,19 @@
           "moveTags": [
             "clarifying",
             "naming-needs"
-          ]
+          ],
+          "comicExpression": "hesitant"
         },
         {
           "label": "Maybe I'm overthinking it. We can just let things happen naturally.",
           "response": "Okay. I'm usually quiet when I'm comfortable, so I thought things were going well.",
           "explanation": "This reduces the tension for a moment, but it leaves your stated need unresolved. The conversation now needs to address whether quiet means the same thing to both of you.",
           "next": "silence",
-          "moveTags": []
+          "moveTags": [],
+          "comicExpression": "explaining"
         }
-      ]
+      ],
+      "comicExpression": "hesitant"
     },
     "misread": {
       "round": 3,
@@ -114,16 +123,19 @@
           "moveTags": [
             "clarifying",
             "listening"
-          ]
+          ],
+          "comicExpression": "explaining"
         },
         {
           "label": "Could you just ask every time? Then we wouldn't have to worry.",
           "response": "I'm happy to ask. I'm just not sure what 'every time' would mean.",
           "explanation": "This offers a clear-sounding rule, but it brushes past Eli's uncertainty. Their hesitation gives you a chance to replace an open-ended demand with a more honest conversation.",
           "next": "pressure",
-          "moveTags": []
+          "moveTags": [],
+          "comicExpression": "asking"
         }
-      ]
+      ],
+      "comicExpression": "hesitant"
     },
     "silence": {
       "round": 3,
@@ -141,16 +153,19 @@
           "moveTags": [
             "clarifying",
             "naming-needs"
-          ]
+          ],
+          "comicExpression": "explaining"
         },
         {
           "label": "I think so. I'll try to say something if I want to slow down.",
           "response": "You sound a little unsure. We don't have to agree to something just to get through this conversation.",
           "explanation": "You offer a plan before you sound comfortable with it, and Eli notices the hesitation. You can revisit the answer rather than treat your first response as a commitment.",
           "next": "pressure",
-          "moveTags": []
+          "moveTags": [],
+          "comicExpression": "concerned"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "rhythm": {
       "round": 4,
@@ -168,7 +183,8 @@
           "moveTags": [
             "listening",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "asking"
         },
         {
           "label": "I think I'd need to hear from you a little more often right now. Maybe we could take some time to think about it.",
@@ -178,9 +194,11 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         }
-      ]
+      ],
+      "comicExpression": "explaining"
     },
     "pressure": {
       "round": 4,
@@ -198,7 +216,8 @@
           "moveTags": [
             "clarifying",
             "listening"
-          ]
+          ],
+          "comicExpression": "asking"
         },
         {
           "label": "I'm still not quite comfortable with a plan. Could we take a break from this for now?",
@@ -208,9 +227,11 @@
           "moveTags": [
             "boundaries",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         }
-      ]
+      ],
+      "comicExpression": "explaining"
     },
     "try_plan": {
       "round": 5,
@@ -228,16 +249,19 @@
           "moveTags": [
             "boundaries",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "warm"
         },
         {
           "label": "We could slow down a bit, but I'd feel better if you could give me an answer soon.",
           "response": "I get wanting to know. I think I'd find it harder to be honest if I felt I had to answer quickly.",
           "explanation": "You name a real wish for clarity, but the deadline conflicts with Eli's need for time. The next decision is whether to pause with that difference unresolved, not how to obtain a faster answer.",
           "next": "unresolved_decision",
-          "moveTags": []
+          "moveTags": [],
+          "comicExpression": "concerned"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "take_space": {
       "round": 5,
@@ -255,7 +279,8 @@
           "moveTags": [
             "boundaries",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         },
         {
           "label": "I hear you. Regular check-ins really matter to me, so I think we may be looking for different things.",
@@ -265,9 +290,11 @@
           "moveTags": [
             "naming-needs",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "concerned"
         }
-      ]
+      ],
+      "comicExpression": "explaining"
     },
     "shared_decision": {
       "round": 6,
@@ -285,7 +312,8 @@
           "moveTags": [
             "clarifying",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "warm"
         },
         {
           "label": "I'm glad we talked. I'd still like a little time before we make another date.",
@@ -295,9 +323,11 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         }
-      ]
+      ],
+      "comicExpression": "warm"
     },
     "pause_decision": {
       "round": 6,
@@ -315,7 +345,8 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         },
         {
           "label": "I've liked getting to know you, but I think we may want different things. I'd rather stop dating than keep trying to work this out.",
@@ -325,9 +356,11 @@
           "moveTags": [
             "naming-needs",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "concerned"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "unresolved_decision": {
       "round": 6,
@@ -345,7 +378,8 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         },
         {
           "label": "I think we need different things to feel comfortable. I've enjoyed our time together, but I'd like to stop dating.",
@@ -355,9 +389,11 @@
           "moveTags": [
             "naming-needs",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "concerned"
         }
-      ]
+      ],
+      "comicExpression": "concerned"
     }
   },
   "endings": {

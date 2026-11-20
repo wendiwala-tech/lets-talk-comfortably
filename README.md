@@ -11,7 +11,7 @@ Live website: https://lets-talk-comfortably.netlify.app/
 
 
 - `content.json`: topic explanations and learning content.
-- `stories/*.json`: the four branching, six-round conversations.
+- `stories/*.json`: the four branching, six-round conversations. Every node and choice has a reviewed `comicExpression` for its own partner line/reply.
 - `practice-support.json`: hints, humor, and optional interactions.
 - `relationships.json`: character profiles and illustration mappings.
 - `photos.json`: editorial photography, credits, display positions, and source/license links.
@@ -19,7 +19,7 @@ Live website: https://lets-talk-comfortably.netlify.app/
 - `dist/assets/`: CSS, JavaScript, and illustrations.
 - `dist/assets/compact.css`: compact practice presentation, using the existing reading styles.
 - `dist/assets/rewards.js` and `rewards.css`: a per-story conversation map based on optional choice `moveTags`.
-- `dist/assets/comic.js` and `comic.css`: branch-aware illustrated dialogue using the existing story and character settings.
+- `dist/assets/comic.js` and `comic.css`: speaker-specific illustrated dialogue, including the selected mixed-pair role. New dialogue needs one of `hesitant`, `asking`, `concerned`, `explaining`, `boundary`, or `warm`; choose from the actual line, not reward tags or the next scene. Unmapped lines remain text-only until reviewed.
 
 
 Edit the source JSON or templates rather than generated HTML. Run:
@@ -31,7 +31,7 @@ python3 check_site.py
 node check_path.cjs
 node check_relationships.cjs --assets
 node check_rewards.cjs
-node check_comics.cjs
+node check_comics.cjs --assets
 ```
 
 
