@@ -9,6 +9,7 @@ const support=JSON.parse(read('practice-support.json'));
 const topics=['consent-boundaries','protection','preferences','sexual-health'];
 const levelsSource=read('dist/assets/levels.js');
 const storySource=read('dist/assets/story-app.js');
+const comicSource=read('dist/assets/comic.js');
 const storageKey='conversation-practice-path-v1';
 const profiles=[
   {key:'woman-man',relationship:'woman-man',role:'woman'},
@@ -61,7 +62,7 @@ function boot({store=new Map(),slug}={}){
   let exercise,story;
   if(slug){story=JSON.parse(read(`stories/${slug}.json`));make('script','scenario-data',JSON.stringify({slug,story,support:support[slug]}));exercise=make('div','exercise');const setting=make('p');setting.setAttribute('data-story-setting','');make('p','practice-cast');}
   const ctx={window:{},document,sessionStorage:{getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,v),removeItem:k=>store.delete(k)},localStorage:{setItem(){}}};
-  vm.createContext(ctx);vm.runInContext(levelsSource,ctx);
+  vm.createContext(ctx);vm.runInContext(levelsSource,ctx);vm.runInContext(comicSource,ctx);
   return{api:ctx.window.PracticePath,ctx,document,exercise,images,store,story,start(){vm.runInContext(storySource,ctx);}};
 }
 function select(api,p){api.setRelationship(p.relationship);api.setMixedRole(p.role);}
@@ -123,6 +124,19 @@ function switchCast(run,p){
 for(const slug of topics){
   const run=boot({slug});run.api.setLevel(2);run.start();assert(run.exercise.textContent.includes('Round 1 of 6'));assert.equal(run.exercise.querySelectorAll('.relationship-picker').length,0);assert.equal(run.exercise.querySelectorAll('.checkin-fieldset').length,0);
   let id=run.story.entry;const history=[];
+  for(const p of profiles){
+    switchCast(run,p);
+    const comic=find(run.exercise,'.conversation-comic');
+    assert.equal(comic.dataset.speakerSide,p.key==='man-woman'?'left':'right');
+    assert.equal(find(comic,'.is-speaking').textContent,config.profiles[p.key].partner.name+'speaking');
+    assert.equal(comic.dataset.expression,run.story.nodes[id].comicExpression);
+  }
+  // If a sprite fails, neither the empty illustration nor misleading cast labels remain.
+  const failedComic=find(run.exercise,'.conversation-comic');
+  for(const onerror of find(failedComic,'.comic-load-check').listeners.error)onerror();
+  assert.equal(failedComic.dataset.artStatus,'missing');
+  assert.equal(find(failedComic,'.comic-figure').hidden,true);
+  assert(failedComic.textContent.includes(run.story.nodes[id].partner));
   for(let round=1;round<=2;round++){
     find(run.exercise,'.choice').click();history.push({id,index:0});id=run.story.nodes[id].choices[0].next;find(run.exercise,'button','Continue the conversation').click();
   }
@@ -132,6 +146,12 @@ for(const slug of topics){
     assert(run.exercise.textContent.includes('Round 3 of 6'),`${slug}: cast change moved the round`);
     assert(run.exercise.textContent.includes('See how the conversation shifts.'),`${slug}: cast change lost pending reply`);
     const personalized=run.api.personalize(run.story);
+    const comic=find(run.exercise,'.conversation-comic');
+    const side=p.key==='man-woman'?'left':'right';
+    assert.equal(comic.dataset.speakerSide,side,`${slug}/${p.key}: wrong person is speaking after role switch`);
+    assert.equal(find(comic,'.speaker-name').textContent,config.profiles[p.key].partner.name,'Bubble name must be the partner');
+    assert.equal(find(comic,'.is-speaking').textContent,config.profiles[p.key].partner.name+'speaking','Active figure must match the bubble');
+    assert.equal(comic.dataset.expression,personalized.nodes[id].choices[0].comicExpression,'Pending reply must keep its expression');
     assert.equal(find(run.exercise,'.story-speech.self').textContent,personalized.characters[0].name+personalized.nodes[id].choices[0].label);
     const articles=run.exercise.querySelectorAll('.story-history article');assert.equal(articles.length,2);
     history.forEach((rec,i)=>{const c=personalized.nodes[rec.id].choices[rec.index];assert(articles[i].textContent.includes(c.label));assert(articles[i].textContent.includes(c.response));});

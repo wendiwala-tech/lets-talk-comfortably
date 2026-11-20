@@ -31,16 +31,19 @@
           "moveTags": [
             "naming-needs",
             "health-questions"
-          ]
+          ],
+          "comicExpression": "asking"
         },
         {
           "label": "I'd like to. We should probably be careful, though.",
           "response": "Sure. What do you mean by being careful?",
           "explanation": "This can feel like an easier opening when you are shy. The word 'careful' leaves your actual condition unstated, so clarification matters.",
           "next": "vague_question",
-          "moveTags": []
+          "moveTags": [],
+          "comicExpression": "asking"
         }
-      ]
+      ],
+      "comicExpression": "warm"
     },
     "specific_question": {
       "round": 2,
@@ -58,16 +61,19 @@
           "moveTags": [
             "naming-needs",
             "health-questions"
-          ]
+          ],
+          "comicExpression": "concerned"
         },
         {
           "label": "I thought you'd already know what I meant about protection.",
           "response": "Oh. I feel a little judged by that. I was just trying to understand what you meant.",
           "explanation": "You assume Sam should already know what you mean instead of saying what you need. You can repair the tone and still keep the same protection boundary.",
           "next": "judgment_repair",
-          "moveTags": []
+          "moveTags": [],
+          "comicExpression": "concerned"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "vague_question": {
       "round": 2,
@@ -85,16 +91,19 @@
           "moveTags": [
             "clarifying",
             "naming-needs"
-          ]
+          ],
+          "comicExpression": "concerned"
         },
         {
           "label": "I'm probably overthinking it. I'm sure it'll be fine.",
           "response": "Oh, so are you saying you're okay without barriers?",
           "explanation": "Backing away may reduce awkwardness for a moment while leaving your needs hidden. Sam is now checking whether your reassurance means you are okay without barriers.",
           "next": "agreement_assumed",
-          "moveTags": []
+          "moveTags": [],
+          "comicExpression": "asking"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "trust_misunderstanding": {
       "round": 3,
@@ -112,7 +121,8 @@
           "moveTags": [
             "naming-needs",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "explaining"
         },
         {
           "label": "It's about what helps me feel comfortable. I'm happy to talk it through, but I do need us to use barriers.",
@@ -122,9 +132,11 @@
           "moveTags": [
             "naming-needs",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "hesitant"
         }
-      ]
+      ],
+      "comicExpression": "concerned"
     },
     "judgment_repair": {
       "round": 3,
@@ -142,7 +154,8 @@
           "moveTags": [
             "clarifying",
             "naming-needs"
-          ]
+          ],
+          "comicExpression": "explaining"
         },
         {
           "label": "Sorry, I shouldn't have assumed. I'd like us to use barriers. Could we check what we have first?",
@@ -152,9 +165,11 @@
           "moveTags": [
             "clarifying",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "concerned"
         }
-      ]
+      ],
+      "comicExpression": "concerned"
     },
     "agreement_assumed": {
       "round": 3,
@@ -172,7 +187,8 @@
           "moveTags": [
             "clarifying",
             "naming-needs"
-          ]
+          ],
+          "comicExpression": "explaining"
         },
         {
           "label": "I was nervous saying it, but I do want barriers. Could we check what we'd need before going further?",
@@ -182,9 +198,11 @@
           "moveTags": [
             "naming-needs",
             "health-questions"
-          ]
+          ],
+          "comicExpression": "concerned"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "different_preference": {
       "round": 4,
@@ -202,7 +220,8 @@
           "moveTags": [
             "listening",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "asking"
         },
         {
           "label": "I'd rather not have sex without them. Would you be up for just a movie, or would you rather call it a night?",
@@ -212,9 +231,11 @@
           "moveTags": [
             "naming-needs",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "warm"
         }
-      ]
+      ],
+      "comicExpression": "explaining"
     },
     "missing_supplies": {
       "round": 4,
@@ -232,7 +253,8 @@
           "moveTags": [
             "naming-needs",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "asking"
         },
         {
           "label": "I'd like to hold off on sex. Would you be up for just watching a movie instead?",
@@ -242,9 +264,11 @@
           "moveTags": [
             "boundaries",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "warm"
         }
-      ]
+      ],
+      "comicExpression": "concerned"
     },
     "different_information_needs": {
       "round": 4,
@@ -262,7 +286,8 @@
           "moveTags": [
             "health-questions",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "warm"
         },
         {
           "label": "We don't have to figure it all out tonight. I'd like a little time to think about my questions too.",
@@ -272,9 +297,11 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "asking"
         }
-      ]
+      ],
+      "comicExpression": "hesitant"
     },
     "plan_no_sex": {
       "round": 5,
@@ -292,7 +319,8 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         },
         {
           "label": "A little space would help. Maybe another day we could talk about what we're both comfortable with?",
@@ -302,9 +330,11 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "asking"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "plan_company": {
       "round": 5,
@@ -322,7 +352,8 @@
           "moveTags": [
             "listening",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "warm"
         },
         {
           "label": "Actually, I think I'd feel better heading home. I'm glad we could talk, though.",
@@ -332,9 +363,11 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         }
-      ]
+      ],
+      "comicExpression": "warm"
     },
     "plan_information": {
       "round": 5,
@@ -352,7 +385,8 @@
           "moveTags": [
             "health-questions",
             "clarifying"
-          ]
+          ],
+          "comicExpression": "asking"
         },
         {
           "label": "I'd like to look into a few things on my own first. I'm not ready to plan another conversation just yet.",
@@ -362,9 +396,11 @@
           "moveTags": [
             "health-questions",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         }
-      ]
+      ],
+      "comicExpression": "warm"
     },
     "decision_space": {
       "round": 6,
@@ -382,7 +418,8 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         },
         {
           "label": "I'd like to talk about this again sometime, when we're both ready.",
@@ -392,9 +429,11 @@
           "moveTags": [
             "listening",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "warm"
         }
-      ]
+      ],
+      "comicExpression": "explaining"
     },
     "decision_plan": {
       "round": 6,
@@ -412,7 +451,8 @@
           "moveTags": [
             "listening",
             "clarifying"
-          ]
+          ],
+          "comicExpression": "warm"
         },
         {
           "label": "Actually, I think I need a little more time before we talk about this again.",
@@ -422,9 +462,11 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "explaining"
         }
-      ]
+      ],
+      "comicExpression": "asking"
     },
     "decision_company": {
       "round": 6,
@@ -442,7 +484,8 @@
           "moveTags": [
             "naming-needs",
             "boundaries"
-          ]
+          ],
+          "comicExpression": "warm"
         },
         {
           "label": "That's kind of you. I think I'd feel better heading home after all, though.",
@@ -452,9 +495,11 @@
           "moveTags": [
             "naming-needs",
             "taking-time"
-          ]
+          ],
+          "comicExpression": "warm"
         }
-      ]
+      ],
+      "comicExpression": "warm"
     }
   },
   "endings": {

@@ -32,7 +32,8 @@
   function speech(who,line,cls=''){const d=el('div',undefined,'story-speech '+cls);d.append(el('span',who,'speaker-name'),el('p',line));return d;}
   function illustratedSpeech(node,choice=null){
     if(!window.ConversationComic)return speech(partner,choice?choice.response:node.partner);
-    return window.ConversationComic.render({slug:scenario.slug,story,node,choice,phase:choice?'feedback':'choice',relationship:path.read().relationship,selfName:speaker,partnerName:partner});
+    const settings=path.read();
+    return window.ConversationComic.render({slug:scenario.slug,story,node,choice,phase:choice?'feedback':'choice',relationship:settings.relationship,mixedRole:settings.mixedRole,selfName:speaker,partnerName:partner});
   }
   function feedback(title,body){const box=el('section',undefined,'feedback story-feedback');box.append(el('h4',title),el('p',body));return box;}
   function historyPanel(){
