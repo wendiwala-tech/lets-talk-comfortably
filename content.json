@@ -9,11 +9,11 @@
       "learn": [
         {
           "heading": "A boundary can be a complete sentence",
-          "text": "You can say what you want, what you do not want, or that you need more time. You do not need a perfect explanation to ask for a pause. If saying it in the moment feels difficult, a calm conversation beforehand can help you find words. Your boundary remains valid even if a partner feels disappointed or expected something different."
+          "text": "You can say what you want, what you do not want, or that you need more time. An 'I' statement such as 'I want to stop here' names your need directly. You do not need a perfect explanation or a particular tone to have your boundary respected. If speaking in the moment feels difficult, practicing beforehand can help you find words. Your boundary remains valid even if a partner feels disappointed."
         },
         {
           "heading": "Consent is an ongoing conversation",
-          "text": "Consent means freely agreeing to a specific activity. A previous yes, an existing relationship, or agreement to one activity does not answer every later question. Ask clearly, listen, and keep checking in. If an answer is uncertain, pause and clarify rather than assuming. When someone says no, asks to stop, or changes their mind, respect that choice without trying to talk them out of it."
+          "text": "Consent means freely agreeing to a specific activity. It must be voluntary, with room to decline without pressure, and revocable: either person can change their mind. A previous yes, an existing relationship, or agreement to one activity does not answer every later question. Ask clearly and keep checking in. Silence or uncertainty is a reason to pause and clarify. When someone says no or asks to stop, respect that choice immediately."
         }
       ],
       "practice": {
@@ -64,7 +64,8 @@
         "care",
         "uhs",
         "shep"
-      ]
+      ],
+      "courseConcept": "Voluntary and revocable consent; naming and reaffirming boundaries."
     },
     {
       "slug": "protection",
@@ -75,11 +76,11 @@
       "learn": [
         {
           "heading": "Start with your needs",
-          "text": "A conversation about protection can begin before a sexual situation. Pick a time when you both have room to think and ask questions. You might discuss what barrier protection you want, ask what your partner is comfortable with, and check whether you have what you need. Base the conversation on your needs and the activity being considered, rather than assumptions about either person's gender or anatomy. Barrier methods include condoms and dental dams; UHS information can help you explore options for the activity you are considering."
+          "text": "Choose a time when you both have room to think. An 'I' statement such as 'I feel comfortable having sex if we use barriers' makes your needs specific. Ask about your partner's needs too, then check what you have agreed to: 'So we're talking about using barriers and checking supplies first—is that right?' Base the discussion on the activity, rather than assumptions about gender or anatomy. UHS information can help you explore protection options."
         },
         {
           "heading": "Agreement includes the conditions",
-          "text": "If barrier protection is a condition of your consent, say so directly. You do not have to give up that boundary to keep the conversation comfortable. If you cannot agree or do not have what you need, pause or choose an activity that everyone freely wants. For questions about protection options, supplies, or your own health needs, use UHS or a trained SHEP peer educator."
+          "text": "If barrier protection is a condition of your consent, say so directly. You can listen to questions while keeping that boundary. If you cannot agree or do not have what you need, pause or choose an activity that everyone freely wants. A later check-in can give you time to seek information, without promising to have sex. For questions about protection options, supplies, or your own health needs, use UHS or a trained SHEP peer educator."
         }
       ],
       "practice": {
@@ -130,7 +131,8 @@
         "uhs",
         "shep",
         "care"
-      ]
+      ],
+      "courseConcept": "Naming conditions and checking shared understanding before making a plan."
     },
     {
       "slug": "preferences",
@@ -141,11 +143,11 @@
       "learn": [
         {
           "heading": "Use your own experience as the starting point",
-          "text": "You can talk about preferences with simple phrases such as 'I like,' 'I would prefer,' or 'I'm curious about.' This describes your experience without assuming what a partner should enjoy. You can also share what you do not want or do not yet know. A conversation can happen outside a sexual situation, when there is less pressure to make an immediate decision."
+          "text": "An 'I' statement begins with your experience: 'I like,' 'I would prefer,' or 'I feel more comfortable when…' It helps you name a preference without assuming what a partner should enjoy. You can also share what you do not want or do not yet know. Consider talking outside a sexual situation, when you both have more time to think and respond."
         },
         {
-          "heading": "Curiosity leaves space for no",
-          "text": "Ask your partner what feels comfortable and listen to the answer. Sharing a preference is an invitation to communicate, not an agreement to act on it. You may have different interests, and either person can decline without needing to defend that choice. Consent remains specific and ongoing: even something someone liked before should not be treated as an automatic yes today."
+          "heading": "Listen, then check your understanding",
+          "text": "Try an open-ended question such as 'What would feel comfortable for you?' Briefly restate what you heard and ask whether you understood it correctly. Sharing a preference invites a conversation; either person can decline an activity. Your interests may differ. You can pause and return to the discussion if you both want to. Consent remains specific and ongoing, including for something someone enjoyed before."
         }
       ],
       "practice": {
@@ -196,7 +198,8 @@
         "uhs",
         "shep",
         "care"
-      ]
+      ],
+      "courseConcept": "I statements, open-ended questions, and checking what a partner means."
     },
     {
       "slug": "sexual-health",
@@ -207,11 +210,11 @@
       "learn": [
         {
           "heading": "A health conversation can begin with honesty",
-          "text": "You can acknowledge that a topic feels awkward and still bring it up. Saying 'I'm nervous asking' or explaining that testing matters to your comfort can help state your intention clearly. You can ask about testing histories and questions without making assumptions about someone's health based on appearance, identity, or how well you know them."
+          "text": "You can acknowledge that a topic feels awkward and still bring it up. Check whether it is a good time to talk, then explain your own need: 'I'd feel more comfortable if we talked about STI testing.' This gives the question a clear purpose. Invite your partner's questions too, without making assumptions about their health based on appearance, identity, or how well you know them."
         },
         {
           "heading": "Make room for questions and a pause",
-          "text": "People may have different experiences with testing or may not know which questions to ask. UHS provides information about STI testing and access to care; a clinician can help with individual testing questions. Agreeing to discuss testing is only one part of a conversation about boundaries and protection. You can wait, seek information, or stop if you do not feel ready to continue."
+          "text": "People may have different experiences with testing or may not know what to ask. You can choose which details to share and identify questions to take to UHS or a clinician. If a question feels misunderstood, check what your partner heard before explaining your intention again. A pause or later check-in can give both people time. You can still wait or stop while making your own decisions about boundaries, protection, and sex."
         }
       ],
       "practice": {
@@ -262,7 +265,8 @@
         "uhs",
         "shep",
         "care"
-      ]
+      ],
+      "courseConcept": "Partner communication about STI testing; allowing time for questions and decisions."
     }
   ]
 }

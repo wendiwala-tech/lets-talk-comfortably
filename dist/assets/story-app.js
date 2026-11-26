@@ -76,13 +76,14 @@
     const node=story.nodes[state.node],ending=story.endings[state.node];if(!ending)levelBanner();root.append(progress(node));
     if(ending){
       path.complete(scenario.slug);title=el('h3','Story complete. Something to keep.','stage-title ending-title');root.append(title);
-      if(window.ConversationReward)root.append(window.ConversationReward.render({story,history:state.history,slug:scenario.slug}));
-      const endingNotes=more('Your ending: '+ending.title,el('p',ending.summary,'ending-summary'));
+      const endingNotes=el('section',undefined,'ending-overview');endingNotes.append(el('h4','Your ending: '+ending.title),el('p',ending.summary,'ending-summary'));
       const take=el('section',undefined,'ending-takeaways');take.append(el('h4','What to take from this conversation'));const ul=el('ul');ending.takeaways.forEach(t=>ul.append(el('li',t)));take.append(ul);
-      // Keep the original learning material and check-out available without stacking it all.
-      endingNotes.append(take,clickReflection(),afterCheckin());
+      // Put the outcome and learning in view before the optional keepsake and check-out.
+      root.append(endingNotes,take,clickReflection());
+      if(window.ConversationReward)root.append(window.ConversationReward.render({story,history:state.history,slug:scenario.slug}));
+      root.append(more('Optional check-out: notice how you feel',afterCheckin()));
       const next=el('section',undefined,'next-level-box');next.append(el('h4',currentLevel()<3?'Ready for a little less support?':'Keep the conversation going.'));next.append(el('p',currentLevel()<3?'Try the next level when you feel ready, or repeat this one. Finishing a story is practice, not a test of readiness.':'Try another topic, revisit a tricky turn, or return to a more guided level.'));
-      const a=el('a',currentLevel()<3?`Explore stories at Level ${currentLevel()+1}`:'Explore another story','button primary');a.href='/#scenarios';a.addEventListener('click',()=>{if(currentLevel()<3)path.setLevel(currentLevel()+1);});next.append(a);endingNotes.append(next);root.append(endingNotes);
+      const a=el('a',currentLevel()<3?`Explore stories at Level ${currentLevel()+1}`:'Explore another story','button primary');a.href='/#scenarios';a.addEventListener('click',()=>{if(currentLevel()<3)path.setLevel(currentLevel()+1);});next.append(a);root.append(next);
       const settings=more('Characters & practice support');settings.open=state.showRelationships||state.showLevels;levelBanner(settings);root.append(settings);
       const history=historyPanel();if(history)root.append(history);const actions=el('div',undefined,'exercise-actions');actions.append(btn('Try another ending',()=>rewind(state.history.length-1),'button secondary'),btn('Restart this story',restart,'button secondary'));const resources=el('a','Explore campus resources','button secondary');resources.href='#support';actions.append(resources);root.append(actions);focus(title,move);return;
     }
