@@ -26,7 +26,7 @@
         {
           "label": "I'd like that. I feel more at ease when we take things slowly. Could we talk about checking in with each other?",
           "response": "Sure. I'd like to understand what would help you feel comfortable.",
-          "explanation": "You describe your preference without claiming to know what Eli wants. In this conversation, Eli asks for details; the next step is making your request concrete.",
+          "explanation": "An 'I' statement explains your experience without assigning blame. You describe your preference and invite a conversation. Eli asks for details, so the next step is making your request concrete.",
           "next": "clarify",
           "moveTags": [
             "naming-needs",
@@ -67,7 +67,7 @@
         {
           "label": "What would feel comfortable for you? I'd like to hear that too.",
           "response": "I'm usually quiet when I feel close to someone. I'd rather not have to talk the whole time.",
-          "explanation": "You make room for Eli's preference before proposing a shared plan. Their comfort with quiet does not tell you what silence would mean for you.",
+          "explanation": "An open-ended question gives Eli room to describe their own preference. Their comfort with quiet does not tell you what silence would mean for you. Briefly restating what you heard can help you check that you understand each other.",
           "next": "silence",
           "moveTags": [
             "listening"
@@ -189,7 +189,7 @@
         {
           "label": "I think I'd need to hear from you a little more often right now. Maybe we could take some time to think about it.",
           "response": "Of course. I'd rather be honest with you than promise something I'm not sure I can do.",
-          "explanation": "You identify a difference that matters instead of disguising it as agreement. Taking time preserves both preferences without requiring an immediate compromise.",
+          "explanation": "A pause lets you acknowledge a difference without rushing into agreement. You explain which preference matters to you. Taking time preserves room for both people to decide what feels comfortable.",
           "next": "take_space",
           "moveTags": [
             "naming-needs",

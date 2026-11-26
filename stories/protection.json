@@ -56,7 +56,7 @@
         {
           "label": "I'd feel comfortable having sex if we use condoms or other barriers. How do you feel about that?",
           "response": "Can I ask—are you worried I might have an STI?",
-          "explanation": "You make your condition specific and personal. Sam's response introduces a misunderstanding about your intention, rather than changing your right to that boundary.",
+          "explanation": "An 'I' statement makes your condition specific and personal. Sam's response introduces a misunderstanding about your intention. You can clarify it while keeping the same boundary.",
           "next": "trust_misunderstanding",
           "moveTags": [
             "naming-needs",
@@ -127,7 +127,7 @@
         {
           "label": "It's about what helps me feel comfortable. I'm happy to talk it through, but I do need us to use barriers.",
           "response": "I'd like to talk it through too. I have a few questions about the options, and I'm not ready to decide yet.",
-          "explanation": "You make room for questions without making your condition optional. The next step can be getting information rather than reaching an immediate decision.",
+          "explanation": "You make room for questions while stating a condition of your consent. Before making a plan, check that you both understand that condition. The next step can be seeking information together.",
           "next": "different_information_needs",
           "moveTags": [
             "naming-needs",
@@ -292,7 +292,7 @@
         {
           "label": "We don't have to figure it all out tonight. I'd like a little time to think about my questions too.",
           "response": "Okay, let's not have sex tonight. Would you like a little space?",
-          "explanation": "You allow both people to be uncertain and choose time rather than a rushed answer. A pause can be useful even before you have a complete list of questions.",
+          "explanation": "A pause gives both people room for uncertainty. You choose time to think instead of a rushed answer. You can return to the conversation if and when you both want to.",
           "next": "plan_no_sex",
           "moveTags": [
             "naming-needs",
@@ -380,7 +380,7 @@
         {
           "label": "Maybe we could each think of our questions and check UHS or SHEP before we talk again?",
           "response": "I'd be happy to talk. Is there anything you'd like us to start with?",
-          "explanation": "You identify trustworthy starting points and give each person space to think. Information can support a choice without obligating either person to make the same choice.",
+          "explanation": "You prepare for a follow-up conversation by identifying questions and campus resources. Each person has room to think. Information can support a choice without obligating either person to make the same choice.",
           "next": "decision_plan",
           "moveTags": [
             "health-questions",

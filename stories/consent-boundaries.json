@@ -26,7 +26,7 @@
         {
           "label": "I like being close to you. Let's pause for a minute so I can check in with myself.",
           "response": "Of course. Let's take a moment. Is everything okay?",
-          "explanation": "You state what needs to happen now and leave room to explain later. Alex may still need help understanding what the pause means.",
+          "explanation": "You name your own need and ask for a pause. Preparing a short 'I' statement can make the first words easier to find. Alex may still need clarification about what comes next; the pause should already be respected.",
           "next": "clear_checkin",
           "moveTags": [
             "naming-needs",
@@ -116,7 +116,7 @@
         {
           "label": "I was enjoying kissing you earlier, but I'd like to stop now.",
           "response": "Okay, we can stop. I was hoping for more tonight, so I might need a moment to adjust.",
-          "explanation": "You distinguish a previous choice from your present one. Your partner's feelings do not create an obligation to continue.",
+          "explanation": "Consent is revocable: your earlier choice can change. You clearly state that you want to stop now. Your partner's feelings do not create an obligation to continue.",
           "next": "different_expectations",
           "moveTags": [
             "boundaries",
@@ -215,7 +215,7 @@
         {
           "label": "I hear you. I'd still like to stop, and I think a little space would help.",
           "response": "Of course. Would you rather leave things here for now, or check in another day?",
-          "explanation": "You acknowledge Alex while maintaining your decision. Asking for space is an option even when nobody has done anything wrong.",
+          "explanation": "You acknowledge Alex's feelings and reaffirm your own boundary. Listening does not require changing your decision. Asking for space is an option even when nobody has done anything wrong.",
           "next": "plan_space",
           "moveTags": [
             "listening",
@@ -325,7 +325,7 @@
         {
           "label": "I'd like to head home now. Could we check in tomorrow about how we talk about this?",
           "response": "Sure, we can talk tomorrow. Is there anything you'd like us to focus on?",
-          "explanation": "You propose a future conversation rather than a future sexual activity. Either person can revisit whether and when that conversation works.",
+          "explanation": "A future check-in gives you time to return to the conversation. You propose talking about communication, without promising a sexual activity. Either person can revisit whether and when that conversation works.",
           "next": "decision_later",
           "moveTags": [
             "naming-needs",

@@ -26,7 +26,7 @@
         {
           "label": "There's something a little awkward I'd like to talk about—STI testing. Is now an okay time?",
           "response": "Of course. What's on your mind?",
-          "explanation": "You name the topic and acknowledge your nervousness without blaming Jordan. In this conversation, Jordan is willing to listen; you still need to explain what you are asking for.",
+          "explanation": "You name the topic and check whether this is a good time to talk. Acknowledging your nervousness explains your experience without blaming Jordan. Jordan is willing to listen; you still need to explain what you are asking for.",
           "next": "willing",
           "moveTags": [
             "naming-needs",
@@ -91,7 +91,7 @@
         {
           "label": "I can see why it landed that way. I'm nervous about my own health, and talking would help.",
           "response": "I get that. I'd just like to keep my medical records private.",
-          "explanation": "You acknowledge how the question landed and explain your own nervousness. Jordan's concern now becomes more specific: which information they feel comfortable sharing.",
+          "explanation": "You acknowledge Jordan's reaction and explain your own need. This keeps the focus on understanding each other. Jordan's concern becomes more specific: which information they feel comfortable sharing.",
           "next": "privacy",
           "moveTags": [
             "naming-needs",
@@ -151,7 +151,7 @@
         {
           "label": "Just talking for now. Neither of us has to promise a test or sex. I'd still like to wait while I figure out my questions.",
           "response": "That helps. I'd be okay looking things up, but I'm not deciding about a test tonight.",
-          "explanation": "You clarify that one conversation does not commit either person to a health procedure or sexual activity. Your own choice to wait can remain in place while Jordan considers their separate decisions.",
+          "explanation": "You clarify the scope of the conversation before either person makes a decision. Talking does not commit anyone to a test or sexual activity. Your choice to wait can remain in place while Jordan considers their own decisions.",
           "next": "different_choices",
           "moveTags": [
             "clarifying",

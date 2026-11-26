@@ -53,7 +53,8 @@
 .exercise>.plain-button{min-height:40px;font-size:.875rem;padding:.4rem 0}
 .exercise .completed{font-size:.88rem;margin:0 0 .45rem}
 .exercise[data-stage="complete"] .ending-summary{font-size:.97rem;line-height:1.55;margin:.7rem 0}
-.exercise[data-stage="complete"] .ending-title{font-size:1.2rem;margin-bottom:.4rem}
+.exercise[data-stage="complete"] .ending-title{font-size:1.5rem;margin-bottom:1rem}
+.exercise[data-stage="complete"] .ending-overview>h4{font-size:1rem;line-height:1.45;margin:0;color:var(--accent)}
 .exercise[data-stage="complete"] .ending-takeaways{margin:.8rem 0}
 .exercise[data-stage="complete"] .next-level-box{margin:.8rem 0;padding:1rem}
 .exercise[data-stage="complete"] .click-reflection,.exercise[data-stage="complete"] .after-checkin{margin:.8rem 0}
